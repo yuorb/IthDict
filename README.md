@@ -1,8 +1,6 @@
 # IthDict
 New Ithkuil Dictionary (ITH-ENG) in [XDXF](https://github.com/soshial/xdxf_makedict) format.
 
-**IN PROGRESS**
-
 ![state](https://img.shields.io/badge/STATE-In%20Progress-green)
 ![version](https://img.shields.io/badge/VERSION-0.0.1-red)
 ![root](https://img.shields.io/badge/ROOT-v0.7.5-informational)
