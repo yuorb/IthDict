@@ -3,7 +3,7 @@ New Ithkuil Dictionary (ITH-ENG) in [XDXF](https://github.com/soshial/xdxf_maked
 
 ![state](https://img.shields.io/badge/STATE-In%20Progress-green)
 ![version](https://img.shields.io/badge/VERSION-0.0.1-red)
-![root](https://img.shields.io/badge/ROOT-v0.7.5-informational)
+![root](https://img.shields.io/badge/ROOT-v0.5.1-informational)
 ![affix](https://img.shields.io/badge/AFFIX-v1.0-informational)
 ![grammar](https://img.shields.io/badge/GRAMMAR-v1.2-informational)
 
