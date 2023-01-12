@@ -9,3 +9,7 @@ TODO:
 - [ ] Grammatical Categories and Definitions 
 
 feel free to pull requests :3
+
+# Usage
+
+Place the folder `ithdict2023` under the dictionary folder of GoldenDict or other compatible software.
