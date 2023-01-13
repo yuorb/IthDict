@@ -152,7 +152,7 @@ An article for a normal affix may include the following parts:
             <k>the affix's abbr.</k>
             <def>
                 <gr>Gradient Type XX</gr>
-                <deftext>Degree Of Similarity</deftext>
+                <deftext>the affix's semantic notion</deftext>
                 <def>
                     <deftext>Degree 1 definition</deftext>
                     <!-- if need, insert <abbr>T+number</abbr> for affix-type -->
