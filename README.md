@@ -59,6 +59,8 @@ Equivalent of Wiktionary categories
 
 # For Developers
 
+Refer to [XDXF Format Standard](https://github.com/soshial/xdxf_makedict/tree/master/format_standard)
+
 ## Templates
 
 Each lexical item is within the `<ar>…</ar>` tags.
