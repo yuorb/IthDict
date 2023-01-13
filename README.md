@@ -57,7 +57,19 @@ Equivalent of Wiktionary categories
 
 ![image](https://user-images.githubusercontent.com/12672523/212418132-90fe6d76-40c4-44f6-b87b-b05aedac9da5.png)
 
-#Template
+# For Developers
+
+## Templates
+
+Each lexical item is within the <ar>…</ar> tags.
+
+At least these three parts are included in each article：
+
+1. <k>key</k>
+2. <def>definition</def>
+3. <categ>category</categ>
+
+Other parts are optional.
 
 An article for a normal root may include the following parts:
 
@@ -125,6 +137,58 @@ An article for a normal root may include the following parts:
             </def>
             <categ>
                 <kref>input the root's category</kref>
+            </categ>
+        </ar>
+```
+
+An article for a normal affix may include the following parts:
+
+```
+        <ar>
+            <k>
+                <opt>-</opt>
+                the affix's value
+            </k>
+            <k>the affix's abbr.</k>
+            <def>
+                <gr>Gradient Type XX</gr>
+                <deftext>Degree Of Similarity</deftext>
+                <def>
+                    <deftext>Degree 1 definition</deftext>
+                    <!-- if need, insert <abbr>T+number</abbr> for affix-type -->
+                </def>
+                <def>
+                    <deftext>Degree 2 definition</deftext>
+                </def>
+                <def>
+                    <deftext>Degree 3 definition</deftext>
+                </def>
+                <def>
+                    <deftext>Degree 4 definition</deftext>
+                </def>
+                <def>
+                    <deftext>Degree 5 definition</deftext>
+                </def>
+                <def>
+                    <deftext>Degree 6 definition</deftext>
+                </def>
+                <def>
+                    <deftext>Degree 7 definition</deftext>
+                </def>
+                <def>
+                    <deftext>Degree 8 definition</deftext>
+                </def>
+                <def>
+                    <deftext>Degree 9 definition</deftext>
+                </def>
+            </def>
+            <def>
+                <sr>
+                    Associated Root: -<kref type="rel">the root's value</kref>-
+                </sr>
+            </def>
+            <categ>
+                <kref>input the affix's category</kref>
             </categ>
         </ar>
 ```
