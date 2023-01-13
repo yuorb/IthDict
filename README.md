@@ -1,6 +1,8 @@
 # IthDict
 New Ithkuil Dictionary (ITH-ENG) in [XDXF](https://github.com/soshial/xdxf_makedict) format.
 
+XDXF specifies a semantic format for storing dictionaries.
+
 ![state](https://img.shields.io/badge/STATE-In%20Progress-green)
 ![version](https://img.shields.io/badge/VERSION-0.0.1-red)
 ![root](https://img.shields.io/badge/ROOT-v0.5.1-informational)
@@ -42,3 +44,17 @@ feel free to pull requests :3
 # Usage
 
 Place the folder `ithdict2023` under the dictionary folder of [GoldenDict](https://github.com/xiaoyifang/goldendict/releases) or other compatible software.
+
+Search `contents` for a catalog
+
+![image](https://user-images.githubusercontent.com/12672523/212417016-2e77cfa5-f8f3-4574-9a28-5795e8a328a1.png)
+
+Info is obtained by entering keywords (letters or abbreviations) in black. 
+
+![image](https://user-images.githubusercontent.com/12672523/212417506-a2a70334-3fb0-4b89-8bf4-46b8c00b4a3f.png)
+
+Equivalent of Wiktionary categories
+
+![image](https://user-images.githubusercontent.com/12672523/212418132-90fe6d76-40c4-44f6-b87b-b05aedac9da5.png)
+
+
