@@ -57,4 +57,76 @@ Equivalent of Wiktionary categories
 
 ![image](https://user-images.githubusercontent.com/12672523/212418132-90fe6d76-40c4-44f6-b87b-b05aedac9da5.png)
 
+#Template
+
+An article for a normal root may include the following parts:
+
+```
+        <ar>
+            <k>
+                <opt>-</opt>
+                the root's value
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>the root's semantic notion</gr>
+                    <def>
+                        <gr>
+                            <abbr>BSC</abbr>
+                        </gr>
+                        <deftext>...</deftext>
+                    </def>
+                    <def>
+                        <gr>
+                            <abbr>CTE</abbr>
+                        </gr>
+                        <deftext>...</deftext>
+                    </def>
+                    <def>
+                        <gr>
+                            <abbr>CSV</abbr>
+                        </gr>
+                        <deftext>...</deftext>
+                    </def>
+                    <def>
+                        <gr>
+                            <abbr>OBJ</abbr>
+                        </gr>
+                        <deftext>...</deftext>
+                    </def>
+                </def>
+                <def>
+                    <gr>
+                        <abbr>S1</abbr>
+                    </gr>
+                    ...
+                </def>
+                <def>
+                    <gr>
+                        <abbr>S2</abbr>
+                    </gr>
+                    ...
+                </def>
+                <def>
+                    <gr>
+                        <abbr>S3</abbr>
+                    </gr>
+                    ...
+                </def>
+            </def>
+            <def>
+                <sr>
+                    Associated Affix: <kref type="rel">XXX</kref>
+                </sr>
+            </def>
+            <categ>
+                <kref>input the root's category</kref>
+            </categ>
+        </ar>
+```
+
 
