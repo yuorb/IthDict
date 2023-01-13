@@ -61,13 +61,13 @@ Equivalent of Wiktionary categories
 
 ## Templates
 
-Each lexical item is within the <ar>…</ar> tags.
+Each lexical item is within the `<ar>…</ar>` tags.
 
 At least these three parts are included in each article：
 
-1. <k>key</k>
-2. <def>definition</def>
-3. <categ>category</categ>
+1. `<k>key</k>`
+2. `<def>definition</def>`
+3. `<categ>category</categ>`
 
 Other parts are optional.
 
