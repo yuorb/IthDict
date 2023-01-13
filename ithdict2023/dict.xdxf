@@ -1,1737 +1,3624 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xdxf SYSTEM "https://raw.github.com/soshial/xdxf_makedict/master/format_standard/xdxf_strict.dtd">
+<xdxf format="logical" revision="34">
+    <meta_info>
+        <title>New Ithkuil Dictionary (ITH-ENG)</title>
+        <full_title>New Ithkuil Lexical Roots, Affixes, and Morphemes (Ithkuil-English)</full_title>
+        <authors>
+            <author role="programmer">Lucifer Caelius Delicatus</author>
+        </authors>
+        <description>A compilation of New Ithkuil Lexical Roots, Affixes, and Morphemes that have been created by John Q.</description>
+        <abbreviations>
+            <abbr_def type="grm">
+                <abbr_k>S0</abbr_k>
+                <abbr_v>Stem 0</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>S1</abbr_k>
+                <abbr_v>Stem 1</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>S2</abbr_k>
+                <abbr_v>Stem 2</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>S3</abbr_k>
+                <abbr_v>Stem 3</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>BSC</abbr_k>
+                <abbr_v>BASIC Specification</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>CTE</abbr_k>
+                <abbr_v>CONTENTIAL Specification</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>CSV</abbr_k>
+                <abbr_v>CONSTITUTIVE Specification</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>OBJ</abbr_k>
+                <abbr_v>OBJECTIVE Specification</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>PRC</abbr_k>
+                <abbr_v>PROCESSUAL Version</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>CPT</abbr_k>
+                <abbr_v>COMPLETIVE Version</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>STA</abbr_k>
+                <abbr_v>STATIVE Function</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>DYN</abbr_k>
+                <abbr_v>DYNAMIC Function</abbr_v>
+            </abbr_def>
+        </abbreviations>
+        <file_ver>0.0.1</file_ver>
+        <creation_date>12-01-2023</creation_date>
+        <dict_src_url>http://ithkuil.net</dict_src_url>
+        <languages>
+            <from xml:lang="art-Latn-n-Ithkuil-v-iv" />
+            <to xml:lang="en" />
+        </languages>
+    </meta_info>
+    <lexicon>
+        <!-- CONTENTS -->
+        <ar>
+            <k>CONTENTS</k>
+            <def>
+                <def>
+                    <kref>CATEGORIZED ROOTS</kref>
+                </def>
+                <def>
+                    <kref>CLASSIFIED AFFIXES</kref>
+                </def>
+                <def>
+                    <kref>GRAMMATICAL MORPHEMES</kref>
+                </def>
+            </def>
+        </ar>
+        <!-- CATEGORIZED ROOTS -->
+        <ar>
+            <k>CATEGORIZED ROOTS</k>
+            <def>
+                <def>
+                    <kref>ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+                    <def>
+                        <kref>The Carrier Root</kref>
+                    </def>
+                    <def>
+                        <kref>General Demonstrative Root</kref>
+                    </def>
+                    <def>
+                        <kref>The Copular Root</kref>
+                    </def>
+                    <def>
+                        <kref>Grammatical Terminology</kref>
+                    </def>
+                </def>
+                <def>
+                    <kref>COMMON STATES AND ACTS</kref>
+                    <def>
+                        <kref>Tool Use</kref>
+                        <def>
+                            <kref>Acts/Processes Accomplished by Means of Tools/Implements</kref>
+                        </def>
+                        <def>
+                            <kref>Implements/Materials/Substances Used To Maintain Completed States Created via Tools/Devices/Machines/Manual Processes</kref>
+                        </def>
+                        <def>
+                            <kref>Objects/Implements Used to Hold/Contain Foodstuffs During Preparation, Cooking, and Serving</kref>
+                        </def>
+                        <def>
+                            <kref>Fixtures Used To Facilitate/Maintain States Created via Tools/Devices/Machines/Manual Processes/Powered Processes</kref>
+                        </def>
+                        <def>
+                            <kref>Furniture</kref>
+                        </def>
+                        <def>
+                            <kref>Building</kref>
+                        </def>
+                    </def>
+                </def>
+                <def>
+                    <kref>SPACETIME and MOTION</kref>
+                    <def>
+                        <kref>Spatio-Temporal Dimensions</kref>
+                    </def>
+                    <def>
+                        <kref>Motion And Spatial Position</kref>
+                    </def>
+                    <def>
+                        <kref>Translative Motion Roots</kref>
+                    </def>
+                    <def>
+                        <kref>Spatial Position/Location Roots</kref>
+                    </def>
+                    <def>
+                        <kref>Positionally-Defined Componential Parts Of A Whole</kref>
+                    </def>
+                    <def>
+                        <kref>Additional Roots Related to Spatio-Temporal Motion</kref>
+                    </def>
+                    <def>
+                        <kref>Temporal Concepts</kref>
+                    </def>
+                </def>
+                <def>
+                    <kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref>
+                    <def>
+                        <kref>Communication and Social Interaction</kref>
+                    </def>
+                    <def>
+                        <kref>Kinship Terms</kref>
+                    </def>
+                    <def>
+                        <kref>Character Traits &amp; Socio-Psychological States</kref>
+                    </def>
+                    <def>
+                        <kref>Complementary Interpersonal Relationships/Interactions</kref>
+                    </def>
+                    <def>
+                        <kref>Sensory Phenomena</kref>
+                        <def>
+                            <kref>Auditory/Aural Sense</kref>
+                            <def>
+                                <kref>Various Types of Sounds</kref>
+                            </def>
+                            <def>
+                                <kref>General Sound Parameters and Reaction To Sound</kref>
+                            </def>
+                            <def>
+                                <kref>Music</kref>
+                                <def>
+                                    <kref>Musical Instruments</kref>
+                                </def>
+                            </def>
+                        </def>
+                        <def>
+                            <kref>Olfactory Sense</kref>
+                        </def>
+                        <def>
+                            <kref>Gustatory Sense</kref>
+                        </def>
+                        <def>
+                            <kref>Visual Sense</kref>
+                        </def>
+                        <def>
+                            <kref>Tactile Sense</kref>
+                        </def>
+                        <def>
+                            <kref>Affective Sensory States (i.e., Proprioceptive, Interoceptive, and Vestibular-Sensory States)</kref>
+                        </def>
+                        <def>
+                            <kref>Affective Mental/Psychological States</kref>
+                        </def>
+                        <def>
+                            <kref>Affective Unconscious/Semi-Conscious Autonomic States/Acts</kref>
+                        </def>
+                        <def>
+                            <kref>Semi-Conscious Habitual Acts</kref>
+                        </def>
+                        <def>
+                            <kref>Emotional States</kref>
+                            <def>
+                                <kref>Desirable/Positive Emotions</kref>
+                            </def>
+                            <def>
+                                <kref>Emotions Associated With Personal Relationships/Intimacy</kref>
+                            </def>
+                            <def>
+                                <kref>Ambivalent Emotions</kref>
+                            </def>
+                            <def>
+                                <kref>Undesirable/Negative Emotions</kref>
+                            </def>
+                        </def>
+                    </def>
+                </def>
+                <def>
+                    <kref>MISCELLANEOUS ENTITIES AND OBJECTS</kref>
+                    <def>
+                        <kref>Clothing</kref>
+                    </def>
+                    <def>
+                        <kref>Weapons</kref>
+                    </def>
+                    <def>
+                        <kref>Games and Sports</kref>
+                    </def>
+                </def>
+                <def>
+                    <kref>NATURE AND NATURAL PHENOMENA (Non-Biological)</kref>
+                    <def>
+                        <kref>The Quality Or Property Of Matter</kref>
+                    </def>
+                    <def>
+                        <kref>Measurement of Natural Phenomena</kref>
+                    </def>
+                    <def>
+                        <kref>Physics and Cosmological/Astronomical Phenomena</kref>
+                    </def>
+                    <def>
+                        <kref>Mathematical Concepts</kref>
+                        <def>
+                            <kref>The Basic Number Roots</kref>
+                        </def>
+                        <def>
+                            <kref>Shapes and Forms</kref>
+                        </def>
+                        <def>
+                            <kref>Chemical Elements, Compounds and Substances</kref>
+                        </def>
+                    </def>
+                </def>
+                <def>
+                    <kref>NATURAL PHENOMENA (BIOLOGICAL/ZOOLOGICAL)</kref>
+                    <def>
+                        <kref>Food/Eating/Ingestion</kref>
+                        <def>
+                            <kref>Some Common Food Plants</kref>
+                        </def>
+                    </def>
+                    <def>
+                        <kref>The Body</kref>
+                        <def>
+                            <kref>Parts of the Body</kref>
+                        </def>
+                        <def>
+                            <kref>Bodily Fluids, Secretions, Excretia</kref>
+                        </def>
+                        <def>
+                            <kref>Disability/Disease/Sickness/Illness/Malady</kref>
+                        </def>
+                        <def>
+                            <kref>Parasitic/Microbial Diseases</kref>
+                        </def>
+                        <def>
+                            <kref>Non-Genetic Metabolic Disorders</kref>
+                        </def>
+                        <def>
+                            <kref>Genetic Disorders/Diseases</kref>
+                        </def>
+                        <def>
+                            <kref>Autoimmune Diseases/Disorder</kref>
+                        </def>
+                        <def>
+                            <kref>Idiopathic Diseases/Disorders, Non-Genetic Congenital Disorders, or Diseases/Disorders of Unknown/Uncertain Etiology</kref>
+                        </def>
+                        <def>
+                            <kref>Psychological/Behavioral Disorders</kref>
+                        </def>
+                        <def>
+                            <kref>Miscellaneous Roots Related to Illness</kref>
+                        </def>
+                    </def>
+                    <def>
+                        <kref>Biological Life-Forms</kref>
+                        <def>
+                            <kref>Animals</kref>
+                            <def>
+                                <kref>Mammals</kref>
+                            </def>
+                            <def>
+                                <kref>Reptiles</kref>
+                            </def>
+                            <def>
+                                <kref>Amphibians</kref>
+                            </def>
+                            <def>
+                                <kref>Birds</kref>
+                            </def>
+                            <def>
+                                <kref>Fish, Tunicates and Lancelets</kref>
+                            </def>
+                            <def>
+                                <kref>Echinoderms, Hemichordates, and Xenacoelomorphs</kref>
+                            </def>
+                            <def>
+                                <kref>Protostomes (other than Arthropods)</kref>
+                            </def>
+                            <def>
+                                <kref>Porifera, Cteophora, Placozoa, and Cnidaria</kref>
+                            </def>
+                            <def>
+                                <kref>Arthropods (including Arachnids, Crustaceans, Myriapods, and Insects)</kref>
+                            </def>
+                        </def>
+                        <def>
+                            <kref>Plants</kref>
+                            <def>
+                                <kref>Bryophytes</kref>
+                            </def>
+                            <def>
+                                <kref>Tracheophytes</kref>
+                            </def>
+                        </def>
+                        <def>
+                            <kref>Holomycota (Fungi, Yeast and Cristidiscoidea)</kref>
+                        </def>
+                        <def>
+                            <kref>Unicellular Eukaryotes &amp; Multicellular Algae</kref>
+                        </def>
+                        <def>
+                            <kref>Bacteria and Archaea</kref>
+                        </def>
+                        <def>
+                            <kref>Viruses &amp; Viroids</kref>
+                        </def>
+                    </def>
+                </def>
+            </def>
+            <categ>
+                <kref>CONTENTS</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</k>
+            <def>
+                <def>
+                    <kref>The Carrier Root</kref>
+                </def>
+                <def>
+                    <kref>General Demonstrative Root</kref>
+                </def>
+                <def>
+                    <kref>The Copular Root</kref>
+                </def>
+                <def>
+                    <kref>Grammatical Terminology</kref>
+                </def>
+            </def>
+            <categ>
+                <kref>CATEGORIZED ROOTS</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>The Carrier Root</k>
+            <def>
+                <deftext>
+                    see -
+                    <kref>S</kref>
+                    -
+                </deftext>
+            </def>
+            <categ>
+                <kref>ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>General Demonstrative Root</k>
+            <def>
+                <deftext>
+                    see -
+                    <kref>T</kref>
+                    -
+                </deftext>
+            </def>
+            <categ>
+                <kref>ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>The Copular Root</k>
+            <def>
+                <deftext>The scope of this root’s usage is narrow. It is used only in contexts requiring ontological or epistemic equivalence/identity. e.g.,</deftext>
+                <ex>“I am your father.”</ex>
+                <deftext>It is not to be used in the following circumstances:</deftext>
+                <def>
+                    <deftext>when “be” means “be named/called”, e.g.,</deftext>
+                    <ex>“My dog is [named/called] Toto.”</ex>
+                    <co>Use stem meaning “be named; be called; have an appellation”</co>
+                </def>
+                <def>
+                    <deftext>when “be” initiates an adjectival phrase, e.g.,</deftext>
+                    <ex>“Rain is beneficial.”</ex>
+                    <co>Use adjectival case or an appropriate verbal stem, e.g., “to (be of) benefit”</co>
+                </def>
+                <def>
+                    <deftext>when “be” indicates a spatio-temporal relation, e.g.,</deftext>
+                    <ex>“The box is on the table”</ex>
+                    <co>Use stem signifying the specific relation, e.g., “be on the top surface of”</co>
+                </def>
+                <def>
+                    <deftext>when “be” means “occur / happen / take place”, e.g.,</deftext>
+                    <ex>“Wednesday is the best day for shopping.”</ex>
+                    <co>Use stem meaning “occur, take place, happen”</co>
+                </def>
+                <def>
+                    <deftext>when “be” means “exist (ontologically)”, e.g.,</deftext>
+                    <ex>
+                        “Such is life”,
+                        <br />
+                        “I think, therefore I am.”
+                    </ex>
+                    <co>Use stem meaning “existent entity; to ontologically exist”)</co>
+                </def>
+                <def>
+                    <deftext>when “be” indicates exemplary membership in a set, e.g.,</deftext>
+                    <ex>“A hammer is a tool.”</ex>
+                    <co>Use stem meaning “exemplify; be an example of” or “be a type of”</co>
+                </def>
+                <def>
+                    <deftext>when “be” indicates composition, e.g.,</deftext>
+                    <ex>“Rain is water.”</ex>
+                    <co>Use stem meaning “to consist of”</co>
+                </def>
+            </def>
+            <def>
+                <deftext>
+                    see -
+                    <kref>Č</kref>
+                    -
+                </deftext>
+            </def>
+            <categ>
+                <kref>ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Grammatical Terminology</k>
+            <def>
+                -
+                <kref>MPW</kref>
+                - ‘PHONOLOGICAL COMPONENT OF A SPOKEN LANGUAGE’
+                <br />
+                -
+                <kref>MPY</kref>
+                - ‘MORPHEME’
+                <br />
+                -
+                <kref>MPM</kref>
+                - ‘LEXEME / WORD’
+                <br />
+                -
+                <kref>MPH</kref>
+                - ‘GRAMMATICAL/MORPHOLOGICAL CATEGORY/FORM OF A LANGUAGE’
+                <br />
+                -
+                <kref>MPÇ</kref>
+                - lexical root
+                <br />
+                -
+                <kref>MPŘ</kref>
+                - lexical stem
+                <br />
+                -
+                <kref>MPM</kref>
+                - concatenated root
+                <br />
+                -
+                <kref>MPN</kref>
+                - concatenated stem
+                <br />
+                -
+                <kref>RMP</kref>
+                - noun case or verbal format
+                <br />
+                -
+                <kref>RMPW</kref>
+                - case-accessor affix
+                <br />
+                -
+                <kref>RMPY</kref>
+                - bias category
+                <br />
+                -
+                <kref>RMPL</kref>
+                - expectation category
+                <br />
+                -
+                <kref>MŢP</kref>
+                - level category
+                <br />
+                -
+                <kref>MŢPW</kref>
+                - phase category
+                <br />
+                -
+                <kref>MŢPY</kref>
+                - valence category
+                <br />
+                -
+                <kref>MŢPL</kref>
+                - essence category
+                <br />
+                -
+                <kref>LMP</kref>
+                - V
+                <sub>X</sub>
+                C
+                <sub>S</sub>
+                 
+                affix
+                <br />
+                -
+                <kref>LMPW</kref>
+                - V
+                <sub>X</sub>
+                C
+                <sub>S</sub>
+                 
+                affix-type
+                <br />
+                -
+                <kref>LMPY</kref>
+                - V
+                <sub>X</sub>
+                C
+                <sub>S</sub>
+                 
+                affix-degree
+                <br />
+                -
+                <kref>LMPL</kref>
+                - formative (part of speech)
+                <br />
+                -
+                <kref>LMPR</kref>
+                - adjunct (part of speech)
+                <br />
+                -
+                <kref>LMPŘ</kref>
+                - referential (part of speech)
+                <br />
+                -
+                <kref>RMPŘ</kref>
+                - illocution category
+                <br />
+                -
+                <kref>RMPÇ</kref>
+                - validation category
+                <br />
+                -
+                <kref>RMPĻ</kref>
+                - mood category
+                <br />
+                -
+                <kref>RMPM</kref>
+                - context category
+                <br />
+                -
+                <kref>RMPN</kref>
+                - aspect category
+                <br />
+                -
+                <kref>RMPH</kref>
+                - effect category
+                <br />
+                -
+                <kref>MŢPR</kref>
+                - perspective category
+                <br />
+                -
+                <kref>MŢPŘ</kref>
+                - extension category
+                <br />
+                -
+                <kref>MŢPF</kref>
+                - plexity category
+                <br />
+                -
+                <kref>MŢPŢ</kref>
+                - similarity catetgory
+                <br />
+                -
+                <kref>MŢPÇ</kref>
+                - separability category
+                <br />
+                -
+                <kref>MŢPS</kref>
+                - version category
+                <br />
+                -
+                <kref>MŢPŠ</kref>
+                - function category
+                <br />
+                -
+                <kref>MŢPH</kref>
+                - specification category
+                <br />
+            </def>
+            <categ>
+                <kref>ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>COMMON STATES AND ACTS</k>
+            <def>
+                <kref>Tool Use</kref>
+            </def>
+            <categ>
+                <kref>CATEGORIZED ROOTS</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Tool Use</k>
+            <def>
+                <kref>Acts/Processes Accomplished by Means of Tools/Implements</kref>
+            </def>
+            <def>
+                <kref>Implements/Materials/Substances Used To Maintain Completed States Created via Tools/Devices/Machines/Manual Processes</kref>
+            </def>
+            <def>
+                <kref>Objects/Implements Used to Hold/Contain Foodstuffs During Preparation, Cooking, and Serving</kref>
+            </def>
+            <def>
+                <kref>Fixtures Used To Facilitate/Maintain States Created via Tools/Devices/Machines/Manual Processes/Powered Processes</kref>
+            </def>
+            <def>
+                <kref>Furniture</kref>
+            </def>
+            <def>
+                <kref>Building</kref>
+            </def>
+            <categ>
+                <kref>COMMON STATES AND ACTS</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Acts/Processes Accomplished by Means of Tools/Implements</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>Tool Use</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Implements/Materials/Substances Used To Maintain Completed States Created via Tools/Devices/Machines/Manual Processes</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>Tool Use</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Objects/Implements Used to Hold/Contain Foodstuffs During Preparation, Cooking, and Serving</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>Tool Use</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Fixtures Used To Facilitate/Maintain States Created via Tools/Devices/Machines/Manual Processes/Powered Processes</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>Tool Use</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Furniture</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>Tool Use</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Building</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>Tool Use</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>SPACETIME and MOTION</k>
+            <def>
+                <def>
+                    <kref>Spatio-Temporal Dimensions</kref>
+                </def>
+                <def>
+                    <kref>Motion And Spatial Position</kref>
+                </def>
+                <def>
+                    <kref>Translative Motion Roots</kref>
+                </def>
+                <def>
+                    <kref>Spatial Position/Location Roots</kref>
+                </def>
+                <def>
+                    <kref>Positionally-Defined Componential Parts Of A Whole</kref>
+                </def>
+                <def>
+                    <kref>Additional Roots Related to Spatio-Temporal Motion</kref>
+                </def>
+                <def>
+                    <kref>Temporal Concepts</kref>
+                </def>
+            </def>
+            <categ>
+                <kref>CATEGORIZED ROOTS</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Spatio-Temporal Dimensions</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>SPACETIME and MOTION</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Motion And Spatial Position</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>SPACETIME and MOTION</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Translative Motion Roots</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>SPACETIME and MOTION</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Spatial Position/Location Roots</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>SPACETIME and MOTION</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Positionally-Defined Componential Parts Of A Whole</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>SPACETIME and MOTION</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Additional Roots Related to Spatio-Temporal Motion</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>SPACETIME and MOTION</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Temporal Concepts</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>SPACETIME and MOTION</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</k>
+            <def>
+                <def>
+                    <kref>Communication and Social Interaction</kref>
+                </def>
+                <def>
+                    <kref>Kinship Terms</kref>
+                </def>
+                <def>
+                    <kref>Character Traits &amp; Socio-Psychological States</kref>
+                </def>
+                <def>
+                    <kref>Complementary Interpersonal Relationships/Interactions</kref>
+                </def>
+                <def>
+                    <kref>Sensory Phenomena</kref>
+                </def>
+            </def>
+            <categ>
+                <kref>CATEGORIZED ROOTS</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Communication and Social Interaction</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Kinship Terms</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Character Traits &amp; Socio-Psychological States</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Complementary Interpersonal Relationships/Interactions</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Sensory Phenomena</k>
+            <def>
+                <def>
+                    <kref>Auditory/Aural Sense</kref>
+                </def>
+                <def>
+                    <kref>Olfactory Sense</kref>
+                </def>
+                <def>
+                    <kref>Gustatory Sense</kref>
+                </def>
+                <def>
+                    <kref>Visual Sense</kref>
+                </def>
+                <def>
+                    <kref>Tactile Sense</kref>
+                </def>
+                <def>
+                    <kref>Affective Sensory States (i.e., Proprioceptive, Interoceptive, and Vestibular-Sensory States)</kref>
+                </def>
+                <def>
+                    <kref>Affective Mental/Psychological States</kref>
+                </def>
+                <def>
+                    <kref>Affective Unconscious/Semi-Conscious Autonomic States/Acts</kref>
+                </def>
+                <def>
+                    <kref>Semi-Conscious Habitual Acts</kref>
+                </def>
+                <def>
+                    <kref>Emotional States</kref>
+                </def>
+            </def>
+            <categ>
+                <kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Auditory/Aural Sense</k>
+            <def>
+                <def>
+                    <kref>Various Types of Sounds</kref>
+                </def>
+                <def>
+                    <kref>General Sound Parameters and Reaction To Sound</kref>
+                </def>
+                <def>
+                    <kref>Music</kref>
+                </def>
+            </def>
+            <categ>
+                <kref>Sensory Phenomena</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Various Types of Sounds</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>Auditory/Aural Sense</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>General Sound Parameters and Reaction To Sound</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>Auditory/Aural Sense</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Music</k>
+            <def>
+                <kref>Musical Instruments</kref>
+            </def>
+            <categ>
+                <kref>Auditory/Aural Sense</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Musical Instruments</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>Music</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Olfactory Sense</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Gustatory Sense</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Visual Sense</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Tactile Sense</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Affective Sensory States (i.e., Proprioceptive, Interoceptive, and Vestibular-Sensory States)</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Affective Mental/Psychological States</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Affective Unconscious/Semi-Conscious Autonomic States/Acts</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Semi-Conscious Habitual Acts</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Emotional States</k>
+            <def>
+                <def>
+                    <kref>Desirable/Positive Emotions</kref>
+                </def>
+                <def>
+                    <kref>Emotions Associated With Personal Relationships/Intimacy</kref>
+                </def>
+                <def>
+                    <kref>Ambivalent Emotions</kref>
+                </def>
+                <def>
+                    <kref>Undesirable/Negative Emotions</kref>
+                </def>
+            </def>
+            <categ>
+                <kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Desirable/Positive Emotions</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>Emotional States</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Emotions Associated With Personal Relationships/Intimacy</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>Emotional States</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Ambivalent Emotions</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Undesirable/Negative Emotions</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>MISCELLANEOUS ENTITIES AND OBJECTS</k>
+            <def>
+                <def>
+                    <kref>Clothing</kref>
+                </def>
+                <def>
+                    <kref>Weapons</kref>
+                </def>
+                <def>
+                    <kref>Games and Sports</kref>
+                </def>
+            </def>
+            <categ>
+                <kref>CATEGORIZED ROOTS</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Clothing</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>MISCELLANEOUS ENTITIES AND OBJECTS</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Weapons</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>MISCELLANEOUS ENTITIES AND OBJECTS</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Games and Sports</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>MISCELLANEOUS ENTITIES AND OBJECTS</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>NATURE AND NATURAL PHENOMENA (Non-Biological)</k>
+            <def>
+                <def>
+                    <kref>The Quality Or Property Of Matter</kref>
+                </def>
+                <def>
+                    <kref>Measurement of Natural Phenomena</kref>
+                </def>
+                <def>
+                    <kref>Physics and Cosmological/Astronomical Phenomena</kref>
+                </def>
+                <def>
+                    <kref>Mathematical Concepts</kref>
+                </def>
+            </def>
+            <categ>
+                <kref>CATEGORIZED ROOTS</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>The Quality Or Property Of Matter</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>NATURE AND NATURAL PHENOMENA (Non-Biological)</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Measurement of Natural Phenomena</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>NATURE AND NATURAL PHENOMENA (Non-Biological)</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Physics and Cosmological/Astronomical Phenomena</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>NATURE AND NATURAL PHENOMENA (Non-Biological)</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Mathematical Concepts</k>
+            <def>
+                <def>
+                    <kref>The Basic Number Roots</kref>
+                </def>
+                <def>
+                    <kref>Shapes and Forms</kref>
+                </def>
+                <def>
+                    <kref>Physics and Cosmological/Astronomical Phenomena</kref>
+                </def>
+                <def>
+                    <kref>Chemical Elements, Compounds and Substances</kref>
+                </def>
+            </def>
+            <categ>
+                <kref>NATURE AND NATURAL PHENOMENA (Non-Biological)</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>The Basic Number Roots</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>Mathematical Concepts</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Shapes and Forms</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>Mathematical Concepts</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Chemical Elements, Compounds and Substances</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>Mathematical Concepts</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>NATURAL PHENOMENA (BIOLOGICAL/ZOOLOGICAL)</k>
+            <def>
+                <def>
+                    <kref>Food/Eating/Ingestion</kref>
+                </def>
+                <def>
+                    <kref>The Body</kref>
+                </def>
+            </def>
+            <categ>
+                <kref>CATEGORIZED ROOTS</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Food/Eating/Ingestion</k>
+            <def>
+                <kref>Some Common Food Plants</kref>
+            </def>
+            <categ>
+                <kref>NATURAL PHENOMENA (BIOLOGICAL/ZOOLOGICAL)</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Some Common Food Plants</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>Food/Eating/Ingestion</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>The Body</k>
+            <def>
+                <def>
+                    <kref>Parts of the Body</kref>
+                </def>
+                <def>
+                    <kref>Bodily Fluids, Secretions, Excretia</kref>
+                </def>
+                <def>
+                    <kref>Disability/Disease/Sickness/Illness/Malady</kref>
+                </def>
+                <def>
+                    <kref>Parasitic/Microbial Diseases</kref>
+                </def>
+                <def>
+                    <kref>Non-Genetic Metabolic Disorders</kref>
+                </def>
+                <def>
+                    <kref>Genetic Disorders/Diseases</kref>
+                </def>
+                <def>
+                    <kref>Autoimmune Diseases/Disorder</kref>
+                </def>
+                <def>
+                    <kref>Idiopathic Diseases/Disorders, Non-Genetic Congenital Disorders, or Diseases/Disorders of Unknown/Uncertain Etiology</kref>
+                </def>
+                <def>
+                    <kref>Psychological/Behavioral Disorders</kref>
+                </def>
+                <def>
+                    <kref>Miscellaneous Roots Related to Illness</kref>
+                </def>
+            </def>
+            <categ>
+                <kref>NATURAL PHENOMENA (BIOLOGICAL/ZOOLOGICAL)</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Parts of the Body</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>The Body</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Bodily Fluids, Secretions, Excretia</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>The Body</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Disability/Disease/Sickness/Illness/Malady</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>The Body</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Parasitic/Microbial Diseases</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>The Body</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Non-Genetic Metabolic Disorders</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>The Body</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Genetic Disorders/Diseases</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>The Body</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Autoimmune Diseases/Disorder</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>The Body</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Idiopathic Diseases/Disorders, Non-Genetic Congenital Disorders, or Diseases/Disorders of Unknown/Uncertain Etiology</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>The Body</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Psychological/Behavioral Disorders</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>The Body</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Miscellaneous Roots Related to Illness</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>The Body</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Biological Life-Forms</k>
+            <def>
+                <def>
+                    <kref>Animals</kref>
+                </def>
+                <def>
+                    <kref>Plants</kref>
+                </def>
+                <def>
+                    <kref>Holomycota (Fungi, Yeast and Cristidiscoidea)</kref>
+                </def>
+                <def>
+                    <kref>Unicellular Eukaryotes &amp; Multicellular Algae</kref>
+                </def>
+                <def>
+                    <kref>Bacteria and Archaea</kref>
+                </def>
+                <def>
+                    <kref>Viruses &amp; Viroids</kref>
+                </def>
+            </def>
+            <categ>
+                <kref>CATEGORIZED ROOTS</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Animals</k>
+            <def>
+                <def>
+                    <kref>Mammals</kref>
+                </def>
+                <def>
+                    <kref>Reptiles</kref>
+                </def>
+                <def>
+                    <kref>Amphibians</kref>
+                </def>
+                <def>
+                    <kref>Birds</kref>
+                </def>
+                <def>
+                    <kref>Fish, Tunicates and Lancelets</kref>
+                </def>
+                <def>
+                    <kref>Echinoderms, Hemichordates, and Xenacoelomorphs</kref>
+                </def>
+                <def>
+                    <kref>Protostomes (other than Arthropods)</kref>
+                </def>
+                <def>
+                    <kref>Porifera, Cteophora, Placozoa, and Cnidaria</kref>
+                </def>
+                <def>
+                    <kref>Arthropods (including Arachnids, Crustaceans, Myriapods, and Insects)</kref>
+                </def>
+            </def>
+            <categ>
+                <kref>CATEGORIZED ROOTS</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Mammals</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>Animals</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Reptiles</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>Animals</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Amphibians</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>Animals</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Birds</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>Animals</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Fish, Tunicates and Lancelets</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>Animals</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Echinoderms, Hemichordates, and Xenacoelomorphs</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>Animals</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Protostomes (other than Arthropods)</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>Animals</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Porifera, Cteophora, Placozoa, and Cnidaria</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>Animals</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Arthropods (including Arachnids, Crustaceans, Myriapods, and Insects)</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>Animals</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Bryophytes</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>Plants</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Tracheophytes</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>Plants</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Holomycota (Fungi, Yeast and Cristidiscoidea)</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>Biological Life-Forms</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Unicellular Eukaryotes &amp; Multicellular Algae</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>Biological Life-Forms</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Bacteria and Archaea</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>Biological Life-Forms</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Viruses &amp; Viroids</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>Biological Life-Forms</kref>
+            </categ>
+        </ar>
+        <!-- RADACAL ITEMS -->
+        <!-- ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS -->
+        <ar>
+            <k>
+                <opt>-</opt>
+                S
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>[the “carrier” root]</gr>
+                </def>
+                <def>
+                    <gr>
+                        <abbr>S1</abbr>
+                    </gr>
+                    <def>
+                        <gr>
+                            <abbr>BSC</abbr>
+                        </gr>
+                        <deftext>[carrier stem representing an animate being named by the succeeding foreign or proper name/phrase]</deftext>
+                    </def>
+                    <def>
+                        <gr>
+                            <abbr>CTE</abbr>
+                        </gr>
+                        <deftext>[carrier stem representing the identity of the animate being named by the succeeding foreign or proper name/phrase]</deftext>
+                    </def>
+                    <def>
+                        <gr>
+                            <abbr>CSV</abbr>
+                        </gr>
+                        <deftext>[carrier stem representing the physical presence/body of the animate being named by the succeeding foreign or proper name/phrase]</deftext>
+                    </def>
+                    <def>
+                        <gr>
+                            <abbr>OBJ</abbr>
+                        </gr>
+                        <deftext>that which is impacted/targeted or a patient of the animate being named named by the succeeding foreign or proper name/phrase</deftext>
+                    </def>
+                </def>
+                <def>
+                    <gr>
+                        <abbr>S2</abbr>
+                    </gr>
+                    <def>
+                        <gr>
+                            <abbr>BSC</abbr>
+                        </gr>
+                        <deftext>[stem representing inanimate object or abstract entity named by the succeeding foreign or proper name/phrase]</deftext>
+                    </def>
+                    <def>
+                        <gr>
+                            <abbr>CTE</abbr>
+                        </gr>
+                        <deftext>[stem representing the identity of the inanimate object or abstract entity named by the succeeding foreign or proper name/phrase]</deftext>
+                    </def>
+                    <def>
+                        <gr>
+                            <abbr>CSV</abbr>
+                        </gr>
+                        <deftext>[stem representing the physical presence or body of the inanimate entity or tangible manifestation/effect of the abstract entity named by the succeeding foreign or proper name/phrase]</deftext>
+                    </def>
+                    <def>
+                        <gr>
+                            <abbr>OBJ</abbr>
+                        </gr>
+                        <deftext>that which is impacted/targeted or a patient of the inanimate or abstract entity named by the succeeding foreign or proper name/phrase</deftext>
+                    </def>
+                </def>
+                <def>
+                    <gr>
+                        <abbr>S3</abbr>
+                    </gr>
+                    <def>
+                        <gr>
+                            <abbr>BSC</abbr>
+                        </gr>
+                        <deftext>[stem representing geographical or geo-demographic place/location named by the succeeding foreign or proper name/phrase]</deftext>
+                    </def>
+                    <def>
+                        <gr>
+                            <abbr>CTE</abbr>
+                        </gr>
+                        <deftext>[stem representing the identity of the geographical or geo-demographic place/location named by the succeeding foreign or proper name/phrase]</deftext>
+                    </def>
+                    <def>
+                        <gr>
+                            <abbr>CSV</abbr>
+                        </gr>
+                        <deftext>[stem representing the physical/tangible praxes and/or tangible infrastructure of the geographical or geo-demographic place/location named by the succeeding foreign or proper name/phrase]</deftext>
+                    </def>
+                    <def>
+                        <gr>
+                            <abbr>OBJ</abbr>
+                        </gr>
+                        <deftext>that which is impacted/targeted or a patient of the geographical or geo-demographic place/location named by the succeeding foreign or proper name/phrase</deftext>
+                    </def>
+                </def>
+            </def>
+            <categ>
+                <kref>The Carrier Root</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                T
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>[General Demonstrative Root]</gr>
+                    <def>
+                        <gr>
+                            <abbr>BSC</abbr>
+                        </gr>
+                        <deftext>
+                            (to be) ‘this / the one at-hand / the one in question’ referring to entities, situations, abstract notions, etc. (depending on the C
+                            <sub>A</sub>&#160; complex);
+                            <br />
+                            <abbr>STA</abbr>
+                            : to be this/what is under discussion
+                            <br />
+                            <abbr>DYN</abbr>
+                            : to do this/what is under discussion
+                        </deftext>
+                    </def>
+                    <def>
+                        <gr>
+                            <abbr>CTE</abbr>
+                        </gr>
+                        <deftext>(to be) that which is the essence or essential point or meaning of this/what is at-hand</deftext>
+                    </def>
+                    <def>
+                        <gr>
+                            <abbr>CSV</abbr>
+                        </gr>
+                        <deftext>(to be) that which is the form/structure or physical manifestation of this/what is at-hand</deftext>
+                    </def>
+                    <def>
+                        <gr>
+                            <abbr>OBJ</abbr>
+                        </gr>
+                        <deftext>(to be) the object/entity/situation/idea, etc. being referred to by this/what is under discussion or at-hand</deftext>
+                    </def>
+                </def>
+                <def>
+                    <gr>
+                        <abbr>S1</abbr>
+                    </gr>
+                    <deftext>this (one) near, at, by, or associated w/ speaker</deftext>
+                </def>
+                <def>
+                    <gr>
+                        <abbr>S2</abbr>
+                    </gr>
+                    <deftext>that (one), near, at, by or associated w/ addressee</deftext>
+                </def>
+                <def>
+                    <gr>
+                        <abbr>S3</abbr>
+                    </gr>
+                    <deftext>that (one yonder), not near, at, by or associated with either speaker or addressee</deftext>
+                </def>
+                <co>Using cases, the above root provides translations for phrases such as “thus”/”in this/that manner”, “there”/”in that place/location”, “Yes”/”It is that”, “No”/”It is not that”, “some / some of that”, etc.</co>
+            </def>
+            <def>
+                <sr>
+                    Associated Affix: <kref type="rel">DCD</kref>
+                </sr>
+            </def>
+            <categ>
+                <kref>General Demonstrative Root</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                Č
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>‘BE (i.e., copular identification only) / EQUIVALENCE / IDENTIFICATION’</gr>
+                </def>
+                <def>
+                    <gr>
+                        <abbr>S1</abbr>
+                    </gr>
+                    <def>
+                        <gr>
+                            <abbr>BSC</abbr>
+                        </gr>
+                        <deftext>(to be ontologically the) self-same entity (as) (i.e., [to be] simply another name for the self-same entity)</deftext>
+                    </def>
+                    <def>
+                        <gr>
+                            <abbr>CTE</abbr>
+                        </gr>
+                        <deftext>(to be ontologically the) self-same entity (as) in terms of essence, sense of identity, behavior, personality, mind, etc.</deftext>
+                    </def>
+                    <def>
+                        <gr>
+                            <abbr>CSV</abbr>
+                        </gr>
+                        <deftext>(to be ontologically) the self-same entity (as) in terms of appearance, physical manifestation or construction</deftext>
+                    </def>
+                    <def>
+                        <gr>
+                            <abbr>OBJ</abbr>
+                        </gr>
+                        <deftext>what X ontologically is (as opposed to being something else), X’s natural identity, X’s existence as X; to be X as itself (as opposed to something else)</deftext>
+                    </def>
+                </def>
+                <def>
+                    <gr>
+                        <abbr>S2</abbr>
+                    </gr>
+                    <def>
+                        <gr>
+                            <abbr>BSC</abbr>
+                        </gr>
+                        <deftext>to be epistemologically equivalent to or (functionally) identified/identifiable as; be (functionally) the same as; be equal to</deftext>
+                    </def>
+                    <def>
+                        <gr>
+                            <abbr>CTE</abbr>
+                        </gr>
+                        <deftext>to be epistemologically equivalent to or (functionally) identif(ied/-iable) as in terms of essence, sense of identity, behavior, personality, mind, etc.</deftext>
+                    </def>
+                    <def>
+                        <gr>
+                            <abbr>CSV</abbr>
+                        </gr>
+                        <deftext>to be epistemologically equivalent to or (functionally) identif(ied/-iable) as in terms of appearance, physical manifestation or construction</deftext>
+                    </def>
+                    <def>
+                        <gr>
+                            <abbr>OBJ</abbr>
+                        </gr>
+                        <deftext>what X is epistemologically equivalent to (as opposed to something else), X’s natural identity, X’s existence as X; to be X as itself (as opposed to something else)</deftext>
+                    </def>
+                </def>
+                <def>
+                    <gr>
+                        <abbr>S3</abbr>
+                    </gr>
+                    <def>
+                        <gr>
+                            <abbr>BSC</abbr>
+                        </gr>
+                        <deftext>to be epistemologically synonymous/tantamount/convertible to</deftext>
+                    </def>
+                    <def>
+                        <gr>
+                            <abbr>CTE</abbr>
+                        </gr>
+                        <deftext>to be epistemologically synonymous/tantamount/convertible in terms of essence, sense of identity, behavior, personality, mind, etc.</deftext>
+                    </def>
+                    <def>
+                        <gr>
+                            <abbr>CSV</abbr>
+                        </gr>
+                        <deftext>to be epistemologically synonymous/tantamount/convertible to in terms of appearance or outward physical manifestation</deftext>
+                    </def>
+                    <def>
+                        <gr>
+                            <abbr>OBJ</abbr>
+                        </gr>
+                        <deftext>(to be )what X is epistemologically synonymous, tantamount, or convertible to (as opposed to something else), X’s convertibility to</deftext>
+                    </def>
+                </def>
+            </def>
+            <categ>
+                <kref>The Copular Root</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                MPW
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>‘PHONOLOGICAL COMPONENT OF A SPOKEN LANGUAGE’</gr>
+                </def>
+                <def>
+                    <gr>
+                        <abbr>S1</abbr>
+                    </gr>
+                    <def>
+                        <gr>
+                            <abbr>BSC</abbr>
+                        </gr>
+                        <deftext>(to be) a phoneme [i.e., the smallest meaningful/salient sonic unit, whether consonantal or vocalic, pronounceable/articulable by the human vocal apparatus, that is cognitively distinct from other such sonic units in a particular human language as heard/distinguished by its native speakers]</deftext>
+                    </def>
+                    <def>
+                        <gr>
+                            <abbr>CTE</abbr>
+                        </gr>
+                        <deftext>(to be) a state/process of hearing/understanding/identifying a spoken phoneme (or graphic/written representation thereof)</deftext>
+                    </def>
+                    <def>
+                        <gr>
+                            <abbr>CSV</abbr>
+                        </gr>
+                        <deftext>(to be) an act of pronouncing/articulating a phoneme; to pronounce/articulate a phoneme (or producing a written representation thereof)</deftext>
+                    </def>
+                    <def>
+                        <gr>
+                            <abbr>OBJ</abbr>
+                        </gr>
+                        <deftext>(to be) the particular place and manner of oral/vocal articulation of a particular phoneme</deftext>
+                    </def>
+                </def>
+                <def>
+                    <gr>
+                        <abbr>S2</abbr>
+                    </gr>
+                    <deftext>(to be) a phone [i.e., a sound pronounceable/articulable by the human vocal apparatus, regardless of whether it functions meaningfully as part of a phonology in a human language]</deftext>
+                </def>
+                <def>
+                    <gr>
+                        <abbr>S3</abbr>
+                    </gr>
+                    <deftext>(to be) an allophone [i.e., a particular sonic variation on a archetypal phone identified by native speakers of a language as being a phoneme in that language, the variation being predictable based on the structure of the phonetic environment in which the sound occurs]</deftext>
+                </def>
+            </def>
+            <def>
+                <sr>
+                    The “-emic”, “-etic”, “allo-” disinction of the three stems of the above root, along with its Specification pattern, apply to the following roots as well:
+                    <def>
+                    -
+                    <kref type="rel">MPY</kref>
+                    - ‘MORPHEME’
+                    <br />
+                    -
+                    <kref type="rel">MPŘ</kref>
+                    - ‘LEXEME / WORD’
+                    </def>
+                </sr>
+            </def>
+            <categ>
+                <kref>Grammatical Terminology</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                MPY
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>‘MORPHEME’</gr>
+                </def>
+                <def>
+                    <deftext>
+                        The stems follow the same Specification pattern of the root -
+                        <kref type="rel">MPW</kref>
+                        -
+                    </deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Grammatical Terminology</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                MPŘ
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>‘LEXEME / WORD’</gr>
+                </def>
+                <def>
+                    <deftext>
+                        The stems follow the same Specification pattern of the root -
+                        <kref type="rel">MPW</kref>
+                        -
+                    </deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Grammatical Terminology</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                MPH
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>‘GRAMMATICAL/MORPHOLOGICAL CATEGORY/FORM OF A LANGUAGE’</gr>
+                </def>
+                <def>
+                    <gr>
+                        <abbr>S1</abbr>
+                    </gr>
+                    <def>
+                        <gr>
+                            <abbr>BSC</abbr>
+                        </gr>
+                        <deftext>(to be) a grammatical/morphological category in a spoken/written language</deftext>
+                    </def>
+                    <def>
+                        <gr>
+                            <abbr>CTE</abbr>
+                        </gr>
+                        <deftext>(to be) a state/process of hearing/understanding/identifying a grammatical/morphological category in a spoken/written language</deftext>
+                    </def>
+                    <def>
+                        <gr>
+                            <abbr>CSV</abbr>
+                        </gr>
+                        <deftext>(to be) an act of using/speaking/writing a grammatical/morphological category in a spoken/written language</deftext>
+                    </def>
+                    <def>
+                        <gr>
+                            <abbr>OBJ</abbr>
+                        </gr>
+                        <deftext>(to be) the particular phonological form of a grammatical/morphological category in a spoken/written language</deftext>
+                    </def>
+                </def>
+                <def>
+                    <gr>
+                        <abbr>S2</abbr>
+                    </gr>
+                    <deftext>(to be) the function/purpose/meaning/signification of a particular grammatical/morphological category in a spoken/written language</deftext>
+                </def>
+                <def>
+                    <gr>
+                        <abbr>S3</abbr>
+                    </gr>
+                    <deftext>(to be) an allomorphic/alternative way of expressing a grammatical/morphological category in a spoken/written language</deftext>
+                </def>
+            </def>
+            <def>
+                <sr>
+                    The following stems for Ithkuil grammatical categories follow the same Specification pattern of the root above:
+                    <def>
+                        -
+                        <kref type="rel">MPÇ</kref>
+                        - lexical root
+                        <br />
+                        -
+                        <kref type="rel">MPŘ</kref>
+                        - lexical stem
+                        <br />
+                        -
+                        <kref type="rel">MPM</kref>
+                        - concatenated root
+                        <br />
+                        -
+                        <kref type="rel">MPN</kref>
+                        - concatenated stem
+                        <br />
+                        -
+                        <kref type="rel">RMP</kref>
+                        - noun case or verbal format
+                        <br />
+                        -
+                        <kref type="rel">RMPW</kref>
+                        - case-accessor affix
+                        <br />
+                        -
+                        <kref type="rel">RMPY</kref>
+                        - bias category
+                        <br />
+                        -
+                        <kref type="rel">RMPL</kref>
+                        - expectation category
+                        <br />
+                        -
+                        <kref type="rel">MŢP</kref>
+                        - level category
+                        <br />
+                        -
+                        <kref type="rel">MŢPW</kref>
+                        - phase category
+                        <br />
+                        -
+                        <kref type="rel">MŢPY</kref>
+                        - valence category
+                        <br />
+                        -
+                        <kref type="rel">MŢPL</kref>
+                        - essence category
+                        <br />
+                        -
+                        <kref type="rel">LMP</kref>
+                        - V<sub>X</sub>C<sub>S</sub>&#160;affix
+                        <br />
+                        -
+                        <kref type="rel">LMPW</kref>
+                        - V<sub>X</sub>C<sub>S</sub>&#160;affix-type
+                        <br />
+                        -
+                        <kref type="rel">LMPY</kref>
+                        - V<sub>X</sub>C<sub>S</sub>&#160;affix-degree
+                        <br />
+                        -
+                        <kref type="rel">LMPL</kref>
+                        - formative (part of speech)
+                        <br />
+                        -
+                        <kref type="rel">LMPR</kref>
+                        - adjunct (part of speech)
+                        <br />
+                        -
+                        <kref type="rel">LMPŘ</kref>
+                        - referential (part of speech)
+                        <br />
+                        -
+                        <kref type="rel">RMPŘ</kref>
+                        - illocution category
+                        <br />
+                        -
+                        <kref type="rel">RMPÇ</kref>
+                        - validation category
+                        <br />
+                        -
+                        <kref type="rel">RMPĻ</kref>
+                        - mood category
+                        <br />
+                        -
+                        <kref type="rel">RMPM</kref>
+                        - context category
+                        <br />
+                        -
+                        <kref type="rel">RMPN</kref>
+                        - aspect category
+                        <br />
+                        -
+                        <kref type="rel">RMPH</kref>
+                        - effect category
+                        <br />
+                        -
+                        <kref type="rel">MŢPR</kref>
+                        - perspective category
+                        <br />
+                        -
+                        <kref type="rel">MŢPŘ</kref>
+                        - extension category
+                        <br />
+                        -
+                        <kref type="rel">MŢPF</kref>
+                        - plexity category
+                        <br />
+                        -
+                        <kref type="rel">MŢPŢ</kref>
+                        - similarity catetgory
+                        <br />
+                        -
+                        <kref type="rel">MŢPÇ</kref>
+                        - separability category
+                        <br />
+                        -
+                        <kref type="rel">MŢPS</kref>
+                        - version category
+                        <br />
+                        -
+                        <kref type="rel">MŢPŠ</kref>
+                        - function category
+                        <br />
+                        -
+                        <kref type="rel">MŢPH</kref>
+                        - specification category
+                    </def>
+                </sr>
+            </def>
+            <def>
+                <deftext>To name a particular grammatical sub-category (e.g., comitative case), use the appropriate root/stem above in conjunction with one of the following rules:</deftext>
+                <def>
+                    <deftext>
+                        To name a noun case or verbal format, use the stem -- above in conjunction with the specialized C
+                        <sub>S</sub>
+                        -root (see Sec. 4.2 of the Design Document) of the Type-2 case-accessor affix for the case in question. For example, the COMITATIVE case would be named
+                        <i>
+                            <b>warmpa ëizyi’ve</b>&#160;‘grammatical case/format associated with that which accompanies’
+                        </i>
+                        .
+                    </deftext>
+                </def>
+                <def>
+                    <deftext>
+                        For categories other than noun cases or verbal formats, use the appropriate root/stem from the list above in conjunction with one of the following stems as appropriate, where that stem in turn manifests (i.e., is declined into) the particular morphological category: -
+                        <kref>PS</kref>
+                        - Stem 1: ‘to happen/occur’; -
+                        <kref>PS</kref>
+                        - Stem 2: ‘to be/manifest’. For example, the Ithkuil term for the subjunctive mood would be
+                        <i>
+                            <b>warmpļa hre psi’ve</b>&#160;‘grammatical mood associated with what may happen’
+                        </i>
+                        .
+                    </deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Grammatical Terminology</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                MPÇ
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>lexical root</gr>
+                </def>
+                <def>
+                    <deftext>
+                        The stems follow the same Specification pattern of the root -
+                        <kref type="rel">MPH</kref>
+                        -
+                    </deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Grammatical Terminology</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                MPĻ
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>lexical stem</gr>
+                </def>
+                <def>
+                    <deftext>
+                        The stems follow the same Specification pattern of the root -
+                        <kref type="rel">MPH</kref>
+                        -
+                    </deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Grammatical Terminology</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                MPM
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>concatenated root</gr>
+                </def>
+                <def>
+                    <deftext>
+                        The stems follow the same Specification pattern of the root -
+                        <kref type="rel">MPH</kref>
+                        -
+                    </deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Grammatical Terminology</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                MPN
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>concatenated stem</gr>
+                </def>
+                <def>
+                    <deftext>
+                        The stems follow the same Specification pattern of the root -
+                        <kref type="rel">MPH</kref>
+                        -
+                    </deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Grammatical Terminology</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                RMP
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>noun case or verbal format</gr>
+                </def>
+                <def>
+                    <deftext>
+                        The stems follow the same Specification pattern of the root -
+                        <kref type="rel">MPH</kref>
+                        -
+                    </deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Grammatical Terminology</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                RMPW
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>case-accessor affix</gr>
+                </def>
+                <def>
+                    <deftext>
+                        The stems follow the same Specification pattern of the root -
+                        <kref type="rel">MPH</kref>
+                        -
+                    </deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Grammatical Terminology</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                RMPY
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>bias category</gr>
+                </def>
+                <def>
+                    <deftext>
+                        The stems follow the same Specification pattern of the root -
+                        <kref type="rel">MPH</kref>
+                        -
+                    </deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Grammatical Terminology</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                RMPL
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>expectation category</gr>
+                </def>
+                <def>
+                    <deftext>
+                        The stems follow the same Specification pattern of the root -
+                        <kref type="rel">MPH</kref>
+                        -
+                    </deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Grammatical Terminology</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                MŢP
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>level category</gr>
+                </def>
+                <def>
+                    <deftext>
+                        The stems follow the same Specification pattern of the root -
+                        <kref type="rel">MPH</kref>
+                        -
+                    </deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Grammatical Terminology</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                MŢPW
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>phase category</gr>
+                </def>
+                <def>
+                    <deftext>
+                        The stems follow the same Specification pattern of the root -
+                        <kref type="rel">MPH</kref>
+                        -
+                    </deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Grammatical Terminology</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                MŢPY
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>valence category</gr>
+                </def>
+                <def>
+                    <deftext>
+                        The stems follow the same Specification pattern of the root -
+                        <kref type="rel">MPH</kref>
+                        -
+                    </deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Grammatical Terminology</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                MŢPL
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>essence category</gr>
+                </def>
+                <def>
+                    <deftext>
+                        The stems follow the same Specification pattern of the root -
+                        <kref type="rel">MPH</kref>
+                        -
+                    </deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Grammatical Terminology</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                LMP
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>
+                        V<sub>X</sub>C<sub>S</sub>&#160;affix
+                    </gr>
+                </def>
+                <def>
+                    <deftext>
+                        The stems follow the same Specification pattern of the root -
+                        <kref type="rel">MPH</kref>
+                        -
+                    </deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Grammatical Terminology</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                LMPW
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>
+                        V<sub>X</sub>C<sub>S</sub>&#160;affix-type
+                    </gr>
+                </def>
+                <def>
+                    <deftext>
+                        The stems follow the same Specification pattern of the root -
+                        <kref type="rel">MPH</kref>
+                        -
+                    </deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Grammatical Terminology</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                LMPY
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>
+                        V<sub>X</sub>C<sub>S</sub>&#160;affix-degree
+                    </gr>
+                </def>
+                <def>
+                    <deftext>
+                        The stems follow the same Specification pattern of the root -
+                        <kref type="rel">MPH</kref>
+                        -
+                    </deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Grammatical Terminology</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                LMPL
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>formative (part of speech)</gr>
+                </def>
+                <def>
+                    <deftext>
+                        The stems follow the same Specification pattern of the root -
+                        <kref type="rel">MPH</kref>
+                        -
+                    </deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Grammatical Terminology</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                LMPR
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>adjunct (part of speech)</gr>
+                </def>
+                <def>
+                    <deftext>
+                        The stems follow the same Specification pattern of the root -
+                        <kref type="rel">MPH</kref>
+                        -
+                    </deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Grammatical Terminology</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                LMPŘ
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>referential (part of speech)</gr>
+                </def>
+                <def>
+                    <deftext>
+                        The stems follow the same Specification pattern of the root -
+                        <kref type="rel">MPH</kref>
+                        -
+                    </deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Grammatical Terminology</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                RMPŘ
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>illocution category</gr>
+                </def>
+                <def>
+                    <deftext>
+                        The stems follow the same Specification pattern of the root -
+                        <kref type="rel">MPH</kref>
+                        -
+                    </deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Grammatical Terminology</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                RMPÇ
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>validation category</gr>
+                </def>
+                <def>
+                    <deftext>
+                        The stems follow the same Specification pattern of the root -
+                        <kref type="rel">MPH</kref>
+                        -
+                    </deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Grammatical Terminology</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                RMPĻ
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>mood category</gr>
+                </def>
+                <def>
+                    <deftext>
+                        The stems follow the same Specification pattern of the root -
+                        <kref type="rel">MPH</kref>
+                        -
+                    </deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Grammatical Terminology</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                RMPM
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>context category</gr>
+                </def>
+                <def>
+                    <deftext>
+                        The stems follow the same Specification pattern of the root -
+                        <kref type="rel">MPH</kref>
+                        -
+                    </deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Grammatical Terminology</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                RMPN
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>aspect category</gr>
+                </def>
+                <def>
+                    <deftext>
+                        The stems follow the same Specification pattern of the root -
+                        <kref type="rel">MPH</kref>
+                        -
+                    </deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Grammatical Terminology</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                RMPH
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>effect category</gr>
+                </def>
+                <def>
+                    <deftext>
+                        The stems follow the same Specification pattern of the root -
+                        <kref type="rel">MPH</kref>
+                        -
+                    </deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Grammatical Terminology</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                MŢPR
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>perspective category</gr>
+                </def>
+                <def>
+                    <deftext>
+                        The stems follow the same Specification pattern of the root -
+                        <kref type="rel">MPH</kref>
+                        -
+                    </deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Grammatical Terminology</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                MŢPŘ
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>extension category</gr>
+                </def>
+                <def>
+                    <deftext>
+                        The stems follow the same Specification pattern of the root -
+                        <kref type="rel">MPH</kref>
+                        -
+                    </deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Grammatical Terminology</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                MŢPF
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>plexity category</gr>
+                </def>
+                <def>
+                    <deftext>
+                        The stems follow the same Specification pattern of the root -
+                        <kref type="rel">MPH</kref>
+                        -
+                    </deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Grammatical Terminology</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                MŢPŢ
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>similarity catetgory</gr>
+                </def>
+                <def>
+                    <deftext>
+                        The stems follow the same Specification pattern of the root -
+                        <kref type="rel">MPH</kref>
+                        -
+                    </deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Grammatical Terminology</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                MŢPÇ
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>separability category</gr>
+                </def>
+                <def>
+                    <deftext>
+                        The stems follow the same Specification pattern of the root -
+                        <kref type="rel">MPH</kref>
+                        -
+                    </deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Grammatical Terminology</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                MŢPS
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>version category</gr>
+                </def>
+                <def>
+                    <deftext>
+                        The stems follow the same Specification pattern of the root -
+                        <kref type="rel">MPH</kref>
+                        -
+                    </deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Grammatical Terminology</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                MŢPŠ
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>function category</gr>
+                </def>
+                <def>
+                    <deftext>
+                        The stems follow the same Specification pattern of the root -
+                        <kref type="rel">MPH</kref>
+                        -
+                    </deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Grammatical Terminology</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                MŢPH
+                <opt>-</opt>
+            </k>
+            <def>
+                <def>
+                    <gr>
+                        <abbr>S0</abbr>
+                    </gr>
+                    <gr>specification category</gr>
+                </def>
+                <def>
+                    <deftext>
+                        The stems follow the same Specification pattern of the root -
+                        <kref type="rel">MPH</kref>
+                        -
+                    </deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Grammatical Terminology</kref>
+            </categ>
+        </ar>
 
-<xdxf format="logical" revision="34"> 
-  <meta_info> 
-    <title>New Ithkuil Dictionary (ITH-ENG)</title>  
-    <full_title>New Ithkuil Lexical Roots, Affixes, and Morphemes (Ithkuil-English)</full_title>  
-    <authors> 
-      <author role="programmer">Lucifer Caelius Delicatus</author> 
-    </authors>  
-    <description>A compilation of New Ithkuil Lexical Roots, Affixes, and Morphemes that have been created by John Q.</description>  
-    <abbreviations> 
-      <abbr_def type="grm"> 
-        <abbr_k>S0</abbr_k>  
-        <abbr_v>Stem 0</abbr_v> 
-      </abbr_def>  
-      <abbr_def type="grm"> 
-        <abbr_k>S1</abbr_k>  
-        <abbr_v>Stem 1</abbr_v> 
-      </abbr_def>  
-      <abbr_def type="grm"> 
-        <abbr_k>S2</abbr_k>  
-        <abbr_v>Stem 2</abbr_v> 
-      </abbr_def>  
-      <abbr_def type="grm"> 
-        <abbr_k>S3</abbr_k>  
-        <abbr_v>Stem 3</abbr_v> 
-      </abbr_def>  
-      <abbr_def type="grm"> 
-        <abbr_k>BSC</abbr_k>  
-        <abbr_v>BASIC Specification</abbr_v> 
-      </abbr_def>  
-      <abbr_def type="grm"> 
-        <abbr_k>CTE</abbr_k>  
-        <abbr_v>CONTENTIAL Specification</abbr_v> 
-      </abbr_def>  
-      <abbr_def type="grm"> 
-        <abbr_k>CSV</abbr_k>  
-        <abbr_v>CONSTITUTIVE Specification</abbr_v> 
-      </abbr_def>  
-      <abbr_def type="grm"> 
-        <abbr_k>OBJ</abbr_k>  
-        <abbr_v>OBJECTIVE Specification</abbr_v> 
-      </abbr_def>  
-      <abbr_def type="grm"> 
-        <abbr_k>PRC</abbr_k>  
-        <abbr_v>PROCESSUAL Version</abbr_v> 
-      </abbr_def>  
-      <abbr_def type="grm"> 
-        <abbr_k>CPT</abbr_k>  
-        <abbr_v>COMPLETIVE Version</abbr_v> 
-      </abbr_def> 
-    </abbreviations>  
-    <file_ver>0.0.1</file_ver>  
-    <creation_date>12-01-2023</creation_date>  
-    <dict_src_url>http://ithkuil.net</dict_src_url>  
-    <languages> 
-      <from xml:lang="art-Latn-n-Ithkuil-v-iv"/>  
-      <to xml:lang="en"/> 
-    </languages> 
-  </meta_info>  
-  <lexicon> 
-    <!-- CONTENTS -->  
-    <ar> 
-      <k>CONTENTS</k>  
-      <def> 
-        <def> 
-          <kref>CATEGORIZED ROOTS</kref> 
-        </def>  
-        <def> 
-          <kref>CLASSIFIED AFFIXES</kref> 
-        </def>  
-        <def> 
-          <kref>GRAMMATICAL MORPHEMES</kref> 
-        </def> 
-      </def> 
-    </ar>  
-    <!-- CATEGORIZED ROOTS -->  
-    <ar> 
-      <k>CATEGORIZED ROOTS</k>  
-      <def> 
-        <def> 
-          <kref>ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>  
-          <def> 
-            <kref>The Carrier Root</kref> 
-          </def>  
-          <def> 
-            <kref>General Demonstrative Root</kref> 
-          </def>  
-          <def> 
-            <kref>The Copular Root</kref> 
-          </def>  
-          <def> 
-            <kref>Grammatical Terminology</kref> 
-          </def> 
-        </def>  
-        <def> 
-          <kref>COMMON STATES AND ACTS</kref>  
-          <def> 
-            <kref>Tool Use</kref>  
-            <def> 
-              <kref>Acts/Processes Accomplished by Means of Tools/Implements</kref> 
-            </def>  
-            <def> 
-              <kref>Implements/Materials/Substances Used To Maintain Completed States Created via Tools/Devices/Machines/Manual Processes</kref> 
-            </def>  
-            <def> 
-              <kref>Objects/Implements Used to Hold/Contain Foodstuffs During Preparation, Cooking, and Serving</kref> 
-            </def>  
-            <def> 
-              <kref>Fixtures Used To Facilitate/Maintain States Created via Tools/Devices/Machines/Manual Processes/Powered Processes</kref> 
-            </def>  
-            <def> 
-              <kref>Furniture</kref> 
-            </def>  
-            <def> 
-              <kref>Building</kref> 
-            </def> 
-          </def> 
-        </def>  
-        <def> 
-          <kref>SPACETIME and MOTION</kref>  
-          <def> 
-            <kref>Spatio-Temporal Dimensions</kref> 
-          </def>  
-          <def> 
-            <kref>Motion And Spatial Position</kref> 
-          </def>  
-          <def> 
-            <kref>Translative Motion Roots</kref> 
-          </def>  
-          <def> 
-            <kref>Spatial Position/Location Roots</kref> 
-          </def>  
-          <def> 
-            <kref>Positionally-Defined Componential Parts Of A Whole</kref> 
-          </def>  
-          <def> 
-            <kref>Additional Roots Related to Spatio-Temporal Motion</kref> 
-          </def>  
-          <def> 
-            <kref>Temporal Concepts</kref> 
-          </def> 
-        </def>  
-        <def> 
-          <kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref>  
-          <def> 
-            <kref>Communication and Social Interaction</kref> 
-          </def>  
-          <def> 
-            <kref>Kinship Terms</kref> 
-          </def>  
-          <def> 
-            <kref>Character Traits &amp; Socio-Psychological States</kref> 
-          </def>  
-          <def> 
-            <kref>Complementary Interpersonal Relationships/Interactions</kref> 
-          </def>  
-          <def> 
-            <kref>Sensory Phenomena</kref>  
-            <def> 
-              <kref>Auditory/Aural Sense</kref>  
-              <def> 
-                <kref>Various Types of Sounds</kref> 
-              </def>  
-              <def> 
-                <kref>General Sound Parameters and Reaction To Sound</kref> 
-              </def>  
-              <def> 
-                <kref>Music</kref>  
-                <def> 
-                  <kref>Musical Instruments</kref> 
-                </def> 
-              </def> 
-            </def>  
-            <def> 
-              <kref>Olfactory Sense</kref> 
-            </def>  
-            <def> 
-              <kref>Gustatory Sense</kref> 
-            </def>  
-            <def> 
-              <kref>Visual Sense</kref> 
-            </def>  
-            <def> 
-              <kref>Tactile Sense</kref> 
-            </def>  
-            <def> 
-              <kref>Affective Sensory States (i.e., Proprioceptive, Interoceptive, and Vestibular-Sensory States)</kref> 
-            </def>  
-            <def> 
-              <kref>Affective Mental/Psychological States</kref> 
-            </def>  
-            <def> 
-              <kref>Affective Unconscious/Semi-Conscious Autonomic States/Acts</kref> 
-            </def>  
-            <def> 
-              <kref>Semi-Conscious Habitual Acts</kref> 
-            </def>  
-            <def> 
-              <kref>Emotional States</kref>  
-              <def> 
-                <kref>Desirable/Positive Emotions</kref> 
-              </def>  
-              <def> 
-                <kref>Emotions Associated With Personal Relationships/Intimacy</kref> 
-              </def>  
-              <def> 
-                <kref>Ambivalent Emotions</kref> 
-              </def>  
-              <def> 
-                <kref>Undesirable/Negative Emotions</kref> 
-              </def> 
-            </def> 
-          </def> 
-        </def>  
-        <def> 
-          <kref>MISCELLANEOUS ENTITIES AND OBJECTS</kref>  
-          <def> 
-            <kref>Clothing</kref> 
-          </def>  
-          <def> 
-            <kref>Weapons</kref> 
-          </def>  
-          <def> 
-            <kref>Games and Sports</kref> 
-          </def> 
-        </def>  
-        <def> 
-          <kref>NATURE AND NATURAL PHENOMENA (Non-Biological)</kref>  
-          <def> 
-            <kref>The Quality Or Property Of Matter</kref> 
-          </def>  
-          <def> 
-            <kref>Measurement of Natural Phenomena</kref> 
-          </def>  
-          <def> 
-            <kref>Physics and Cosmological/Astronomical Phenomena</kref> 
-          </def>  
-          <def> 
-            <kref>Mathematical Concepts</kref>  
-            <def> 
-              <kref>The Basic Number Roots</kref> 
-            </def>  
-            <def> 
-              <kref>Shapes and Forms</kref> 
-            </def>  
-            <def> 
-              <kref>Chemical Elements, Compounds and Substances</kref> 
-            </def> 
-          </def> 
-        </def>  
-        <def> 
-          <kref>NATURAL PHENOMENA (BIOLOGICAL/ZOOLOGICAL)</kref>  
-          <def> 
-            <kref>Food/Eating/Ingestion</kref>  
-            <def> 
-              <kref>Some Common Food Plants</kref> 
-            </def> 
-          </def>  
-          <def> 
-            <kref>The Body</kref>  
-            <def> 
-              <kref>Parts of the Body</kref> 
-            </def>  
-            <def> 
-              <kref>Bodily Fluids, Secretions, Excretia</kref> 
-            </def>  
-            <def> 
-              <kref>Disability/Disease/Sickness/Illness/Malady</kref> 
-            </def>  
-            <def> 
-              <kref>Parasitic/Microbial Diseases</kref> 
-            </def>  
-            <def> 
-              <kref>Non-Genetic Metabolic Disorders</kref> 
-            </def>  
-            <def> 
-              <kref>Genetic Disorders/Diseases</kref> 
-            </def>  
-            <def> 
-              <kref>Autoimmune Diseases/Disorder</kref> 
-            </def>  
-            <def> 
-              <kref>Idiopathic Diseases/Disorders, Non-Genetic Congenital Disorders, or Diseases/Disorders of Unknown/Uncertain Etiology</kref> 
-            </def>  
-            <def> 
-              <kref>Psychological/Behavioral Disorders</kref> 
-            </def>  
-            <def> 
-              <kref>Miscellaneous Roots Related to Illness</kref> 
-            </def> 
-          </def>  
-          <def> 
-            <kref>Biological Life-Forms</kref>  
-            <def> 
-              <kref>Animals</kref>  
-              <def> 
-                <kref>Mammals</kref> 
-              </def>  
-              <def> 
-                <kref>Reptiles</kref> 
-              </def>  
-              <def> 
-                <kref>Amphibians</kref> 
-              </def>  
-              <def> 
-                <kref>Birds</kref> 
-              </def>  
-              <def> 
-                <kref>Fish, Tunicates and Lancelets</kref> 
-              </def>  
-              <def> 
-                <kref>Echinoderms, Hemichordates, and Xenacoelomorphs</kref> 
-              </def>  
-              <def> 
-                <kref>Protostomes (other than Arthropods)</kref> 
-              </def>  
-              <def> 
-                <kref>Porifera, Cteophora, Placozoa, and Cnidaria</kref> 
-              </def>  
-              <def> 
-                <kref>Arthropods (including Arachnids, Crustaceans, Myriapods, and Insects)</kref> 
-              </def> 
-            </def>  
-            <def> 
-              <kref>Plants</kref>  
-              <def> 
-                <kref>Bryophytes</kref> 
-              </def>  
-              <def> 
-                <kref>Tracheophytes</kref> 
-              </def> 
-            </def>  
-            <def> 
-              <kref>Holomycota (Fungi, Yeast and Cristidiscoidea)</kref> 
-            </def>  
-            <def> 
-              <kref>Unicellular Eukaryotes &amp; Multicellular Algae</kref> 
-            </def>  
-            <def> 
-              <kref>Bacteria and Archaea</kref> 
-            </def>  
-            <def> 
-              <kref>Viruses &amp; Viroids</kref> 
-            </def> 
-          </def> 
-        </def> 
-      </def>
-      <categ> 
-        <kref>CONTENTS</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</k>  
-      <def> 
-        <def> 
-          <kref>The Carrier Root</kref> 
-        </def>  
-        <def> 
-          <kref>General Demonstrative Root</kref> 
-        </def>  
-        <def> 
-          <kref>The Copular Root</kref> 
-        </def>  
-        <def> 
-          <kref>Grammatical Terminology</kref> 
-        </def> 
-      </def>
-      <categ> 
-        <kref>CATEGORIZED ROOTS</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>The Carrier Root</k>  
-      <def> 
-        <deftext>see - 
-          <kref idref="cr1">s</kref>-
-        </deftext> 
-      </def>
-      <categ> 
-        <kref>ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>General Demonstrative Root</k>  
-      <def> 
-        <deftext>see - 
-          <kref idref="cr2">t</kref>-
-        </deftext> 
-      </def>
-      <categ> 
-        <kref>ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>The Copular Root</k>  
-      <def> 
-        <deftext>see - 
-          <kref idref="cr1">č</kref>-
-        </deftext> 
-      </def>
-      <categ> 
-        <kref>ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Grammatical Terminology</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>COMMON STATES AND ACTS</k>  
-      <def> 
-        <kref>Tool Use</kref> 
-      </def>
-      <categ> 
-        <kref>CATEGORIZED ROOTS</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Tool Use</k>  
-      <def> 
-        <kref>Acts/Processes Accomplished by Means of Tools/Implements</kref> 
-      </def>  
-      <def> 
-        <kref>Implements/Materials/Substances Used To Maintain Completed States Created via Tools/Devices/Machines/Manual Processes</kref> 
-      </def>  
-      <def> 
-        <kref>Objects/Implements Used to Hold/Contain Foodstuffs During Preparation, Cooking, and Serving</kref> 
-      </def>  
-      <def> 
-        <kref>Fixtures Used To Facilitate/Maintain States Created via Tools/Devices/Machines/Manual Processes/Powered Processes</kref> 
-      </def>  
-      <def> 
-        <kref>Furniture</kref> 
-      </def>  
-      <def> 
-        <kref>Building</kref> 
-      </def>
-      <categ> 
-        <kref>COMMON STATES AND ACTS</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Acts/Processes Accomplished by Means of Tools/Implements</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>Tool Use</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Implements/Materials/Substances Used To Maintain Completed States Created via Tools/Devices/Machines/Manual Processes</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>Tool Use</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Objects/Implements Used to Hold/Contain Foodstuffs During Preparation, Cooking, and Serving</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>Tool Use</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Fixtures Used To Facilitate/Maintain States Created via Tools/Devices/Machines/Manual Processes/Powered Processes</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>Tool Use</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Furniture</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>Tool Use</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Building</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>Tool Use</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>SPACETIME and MOTION</k>  
-      <def> 
-        <def> 
-          <kref>Spatio-Temporal Dimensions</kref> 
-        </def>  
-        <def> 
-          <kref>Motion And Spatial Position</kref> 
-        </def>  
-        <def> 
-          <kref>Translative Motion Roots</kref> 
-        </def>  
-        <def> 
-          <kref>Spatial Position/Location Roots</kref> 
-        </def>  
-        <def> 
-          <kref>Positionally-Defined Componential Parts Of A Whole</kref> 
-        </def>  
-        <def> 
-          <kref>Additional Roots Related to Spatio-Temporal Motion</kref> 
-        </def>  
-        <def> 
-          <kref>Temporal Concepts</kref> 
-        </def> 
-      </def>
-      <categ> 
-        <kref>CATEGORIZED ROOTS</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Spatio-Temporal Dimensions</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>SPACETIME and MOTION</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Motion And Spatial Position</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>SPACETIME and MOTION</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Translative Motion Roots</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>SPACETIME and MOTION</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Spatial Position/Location Roots</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>SPACETIME and MOTION</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Positionally-Defined Componential Parts Of A Whole</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>SPACETIME and MOTION</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Additional Roots Related to Spatio-Temporal Motion</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>SPACETIME and MOTION</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Temporal Concepts</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>SPACETIME and MOTION</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</k>  
-      <def> 
-        <def> 
-          <kref>Communication and Social Interaction</kref> 
-        </def>  
-        <def> 
-          <kref>Kinship Terms</kref> 
-        </def>  
-        <def> 
-          <kref>Character Traits &amp; Socio-Psychological States</kref> 
-        </def>  
-        <def> 
-          <kref>Complementary Interpersonal Relationships/Interactions</kref> 
-        </def>  
-        <def> 
-          <kref>Sensory Phenomena</kref> 
-        </def> 
-      </def>
-      <categ> 
-        <kref>CATEGORIZED ROOTS</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Communication and Social Interaction</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Kinship Terms</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Character Traits &amp; Socio-Psychological States</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Complementary Interpersonal Relationships/Interactions</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Sensory Phenomena</k>  
-      <def> 
-        <def> 
-          <kref>Auditory/Aural Sense</kref> 
-        </def>  
-        <def> 
-          <kref>Olfactory Sense</kref> 
-        </def>  
-        <def> 
-          <kref>Gustatory Sense</kref> 
-        </def>  
-        <def> 
-          <kref>Visual Sense</kref> 
-        </def>  
-        <def> 
-          <kref>Tactile Sense</kref> 
-        </def>  
-        <def> 
-          <kref>Affective Sensory States (i.e., Proprioceptive, Interoceptive, and Vestibular-Sensory States)</kref> 
-        </def>  
-        <def> 
-          <kref>Affective Mental/Psychological States</kref> 
-        </def>  
-        <def> 
-          <kref>Affective Unconscious/Semi-Conscious Autonomic States/Acts</kref> 
-        </def>  
-        <def> 
-          <kref>Semi-Conscious Habitual Acts</kref> 
-        </def>  
-        <def> 
-          <kref>Emotional States</kref> 
-        </def> 
-      </def>
-      <categ> 
-        <kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Auditory/Aural Sense</k>  
-      <def> 
-        <def> 
-          <kref>Various Types of Sounds</kref> 
-        </def>  
-        <def> 
-          <kref>General Sound Parameters and Reaction To Sound</kref> 
-        </def>  
-        <def> 
-          <kref>Music</kref> 
-        </def> 
-      </def>
-      <categ> 
-        <kref>Sensory Phenomena</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Various Types of Sounds</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>Auditory/Aural Sense</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>General Sound Parameters and Reaction To Sound</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>Auditory/Aural Sense</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Music</k>  
-      <def> 
-        <kref>Musical Instruments</kref> 
-      </def>
-      <categ> 
-        <kref>Auditory/Aural Sense</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Musical Instruments</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>Music</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Olfactory Sense</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Gustatory Sense</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Visual Sense</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Tactile Sense</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Affective Sensory States (i.e., Proprioceptive, Interoceptive, and Vestibular-Sensory States)</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Affective Mental/Psychological States</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Affective Unconscious/Semi-Conscious Autonomic States/Acts</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Semi-Conscious Habitual Acts</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Emotional States</k>  
-      <def> 
-        <def> 
-          <kref>Desirable/Positive Emotions</kref> 
-        </def>  
-        <def> 
-          <kref>Emotions Associated With Personal Relationships/Intimacy</kref> 
-        </def>  
-        <def> 
-          <kref>Ambivalent Emotions</kref> 
-        </def>  
-        <def> 
-          <kref>Undesirable/Negative Emotions</kref> 
-        </def> 
-      </def>
-      <categ> 
-        <kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Desirable/Positive Emotions</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>Emotional States</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Emotions Associated With Personal Relationships/Intimacy</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>Emotional States</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Ambivalent Emotions</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Undesirable/Negative Emotions</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>MISCELLANEOUS ENTITIES AND OBJECTS</k>  
-      <def> 
-        <def> 
-          <kref>Clothing</kref> 
-        </def>  
-        <def> 
-          <kref>Weapons</kref> 
-        </def>  
-        <def> 
-          <kref>Games and Sports</kref> 
-        </def> 
-      </def>
-      <categ> 
-        <kref>CATEGORIZED ROOTS</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Clothing</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>MISCELLANEOUS ENTITIES AND OBJECTS</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Weapons</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>MISCELLANEOUS ENTITIES AND OBJECTS</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Games and Sports</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>MISCELLANEOUS ENTITIES AND OBJECTS</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>NATURE AND NATURAL PHENOMENA (Non-Biological)</k>  
-      <def> 
-        <def> 
-          <kref>The Quality Or Property Of Matter</kref> 
-        </def>  
-        <def> 
-          <kref>Measurement of Natural Phenomena</kref> 
-        </def>  
-        <def> 
-          <kref>Physics and Cosmological/Astronomical Phenomena</kref> 
-        </def>  
-        <def> 
-          <kref>Mathematical Concepts</kref> 
-        </def> 
-      </def>
-      <categ> 
-        <kref>CATEGORIZED ROOTS</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>The Quality Or Property Of Matter</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>NATURE AND NATURAL PHENOMENA (Non-Biological)</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Measurement of Natural Phenomena</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>NATURE AND NATURAL PHENOMENA (Non-Biological)</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Physics and Cosmological/Astronomical Phenomena</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>NATURE AND NATURAL PHENOMENA (Non-Biological)</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Mathematical Concepts</k>  
-      <def> 
-        <def> 
-          <kref>The Basic Number Roots</kref> 
-        </def>  
-        <def> 
-          <kref>Shapes and Forms</kref> 
-        </def>  
-        <def> 
-          <kref>Physics and Cosmological/Astronomical Phenomena</kref> 
-        </def>  
-        <def> 
-          <kref>Chemical Elements, Compounds and Substances</kref> 
-        </def> 
-      </def>
-      <categ> 
-        <kref>NATURE AND NATURAL PHENOMENA (Non-Biological)</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>The Basic Number Roots</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>Mathematical Concepts</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Shapes and Forms</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>Mathematical Concepts</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Chemical Elements, Compounds and Substances</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>Mathematical Concepts</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>NATURAL PHENOMENA (BIOLOGICAL/ZOOLOGICAL)</k>  
-      <def> 
-        <def> 
-          <kref>Food/Eating/Ingestion</kref> 
-        </def>  
-        <def> 
-          <kref>The Body</kref> 
-        </def> 
-      </def>
-      <categ> 
-        <kref>CATEGORIZED ROOTS</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Food/Eating/Ingestion</k>  
-      <def> 
-        <kref>Some Common Food Plants</kref> 
-      </def>
-      <categ> 
-        <kref>NATURAL PHENOMENA (BIOLOGICAL/ZOOLOGICAL)</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Some Common Food Plants</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>Food/Eating/Ingestion</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>The Body</k>  
-      <def> 
-        <def> 
-          <kref>Parts of the Body</kref> 
-        </def>  
-        <def> 
-          <kref>Bodily Fluids, Secretions, Excretia</kref> 
-        </def>  
-        <def> 
-          <kref>Disability/Disease/Sickness/Illness/Malady</kref> 
-        </def>  
-        <def> 
-          <kref>Parasitic/Microbial Diseases</kref> 
-        </def>  
-        <def> 
-          <kref>Non-Genetic Metabolic Disorders</kref> 
-        </def>  
-        <def> 
-          <kref>Genetic Disorders/Diseases</kref> 
-        </def>  
-        <def> 
-          <kref>Autoimmune Diseases/Disorder</kref> 
-        </def>  
-        <def> 
-          <kref>Idiopathic Diseases/Disorders, Non-Genetic Congenital Disorders, or Diseases/Disorders of Unknown/Uncertain Etiology</kref> 
-        </def>  
-        <def> 
-          <kref>Psychological/Behavioral Disorders</kref> 
-        </def>  
-        <def> 
-          <kref>Miscellaneous Roots Related to Illness</kref> 
-        </def> 
-      </def>
-      <categ> 
-        <kref>NATURAL PHENOMENA (BIOLOGICAL/ZOOLOGICAL)</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Parts of the Body</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>The Body</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Bodily Fluids, Secretions, Excretia</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>The Body</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Disability/Disease/Sickness/Illness/Malady</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>The Body</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Parasitic/Microbial Diseases</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>The Body</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Non-Genetic Metabolic Disorders</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>The Body</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Genetic Disorders/Diseases</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>The Body</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Autoimmune Diseases/Disorder</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>The Body</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Idiopathic Diseases/Disorders, Non-Genetic Congenital Disorders, or Diseases/Disorders of Unknown/Uncertain Etiology</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>The Body</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Psychological/Behavioral Disorders</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>The Body</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Miscellaneous Roots Related to Illness</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>The Body</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Biological Life-Forms</k>  
-      <def> 
-        <def> 
-          <kref>Animals</kref> 
-        </def>  
-        <def> 
-          <kref>Plants</kref> 
-        </def>  
-        <def> 
-          <kref>Holomycota (Fungi, Yeast and Cristidiscoidea)</kref> 
-        </def>  
-        <def> 
-          <kref>Unicellular Eukaryotes &amp; Multicellular Algae</kref> 
-        </def>  
-        <def> 
-          <kref>Bacteria and Archaea</kref> 
-        </def>  
-        <def> 
-          <kref>Viruses &amp; Viroids</kref> 
-        </def> 
-      </def>
-      <categ> 
-        <kref>CATEGORIZED ROOTS</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Animals</k>  
-      <def> 
-        <def> 
-          <kref>Mammals</kref> 
-        </def>  
-        <def> 
-          <kref>Reptiles</kref> 
-        </def>  
-        <def> 
-          <kref>Amphibians</kref> 
-        </def>  
-        <def> 
-          <kref>Birds</kref> 
-        </def>  
-        <def> 
-          <kref>Fish, Tunicates and Lancelets</kref> 
-        </def>  
-        <def> 
-          <kref>Echinoderms, Hemichordates, and Xenacoelomorphs</kref> 
-        </def>  
-        <def> 
-          <kref>Protostomes (other than Arthropods)</kref> 
-        </def>  
-        <def> 
-          <kref>Porifera, Cteophora, Placozoa, and Cnidaria</kref> 
-        </def>  
-        <def> 
-          <kref>Arthropods (including Arachnids, Crustaceans, Myriapods, and Insects)</kref> 
-        </def> 
-      </def>
-      <categ> 
-        <kref>CATEGORIZED ROOTS</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Mammals</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>Animals</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Reptiles</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>Animals</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Amphibians</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>Animals</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Birds</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>Animals</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Fish, Tunicates and Lancelets</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>Animals</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Echinoderms, Hemichordates, and Xenacoelomorphs</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>Animals</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Protostomes (other than Arthropods)</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>Animals</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Porifera, Cteophora, Placozoa, and Cnidaria</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>Animals</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Arthropods (including Arachnids, Crustaceans, Myriapods, and Insects)</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>Animals</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Bryophytes</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>Plants</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Tracheophytes</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>Plants</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Holomycota (Fungi, Yeast and Cristidiscoidea)</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>Biological Life-Forms</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Unicellular Eukaryotes &amp; Multicellular Algae</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>Biological Life-Forms</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Bacteria and Archaea</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>Biological Life-Forms</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Viruses &amp; Viroids</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>Biological Life-Forms</kref> 
-      </categ> 
-    </ar>  
-    <!-- RADACAL ITEMS -->  
-    <ar> 
-      <k> 
-        <opt>-</opt>s 
-        <opt>-</opt> 
-      </k>  
-      <def> 
-        <def> 
-          <gr> 
-            <abbr>S0</abbr> 
-          </gr>  
-          <deftext>[the “carrier” root]</deftext> 
-        </def>  
-        <def> 
-          <gr> 
-            <abbr>S1</abbr> 
-          </gr>  
-          <def> 
-            <gr> 
-              <abbr>BSC</abbr> 
-            </gr>  
-            <deftext>[carrier stem representing an animate being named by the succeeding foreign or proper name/phrase]</deftext> 
-          </def>  
-          <def> 
-            <gr> 
-              <abbr>CTE</abbr> 
-            </gr>  
-            <deftext>[carrier stem representing the identity of the animate being named by the succeeding foreign or proper name/phrase]</deftext> 
-          </def>  
-          <def> 
-            <gr> 
-              <abbr>CSV</abbr> 
-            </gr>  
-            <deftext>[carrier stem representing the physical presence/body of the animate being named by the succeeding foreign or proper name/phrase]</deftext> 
-          </def>  
-          <def> 
-            <gr> 
-              <abbr>OBJ</abbr> 
-            </gr>  
-            <deftext>that which is impacted/targeted or a patient of the animate being named named by the succeeding foreign or proper name/phrase</deftext> 
-          </def> 
-        </def>  
-        <def> 
-          <gr> 
-            <abbr>S2</abbr> 
-          </gr>  
-          <def> 
-            <gr> 
-              <abbr>BSC</abbr> 
-            </gr>  
-            <deftext>[stem representing inanimate object or abstract entity named by the succeeding foreign or proper name/phrase]</deftext> 
-          </def>  
-          <def> 
-            <gr> 
-              <abbr>CTE</abbr> 
-            </gr>  
-            <deftext>[stem representing the identity of the inanimate object or abstract entity named by the succeeding foreign or proper name/phrase]</deftext> 
-          </def>  
-          <def> 
-            <gr> 
-              <abbr>CSV</abbr> 
-            </gr>  
-            <deftext>[stem representing the physical presence or body of the inanimate entity or tangible manifestation/effect of the abstract entity named by the succeeding foreign or proper name/phrase]</deftext> 
-          </def>  
-          <def> 
-            <gr> 
-              <abbr>OBJ</abbr> 
-            </gr>  
-            <deftext>that which is impacted/targeted or a patient of the inanimate or abstract entity named by the succeeding foreign or proper name/phrase</deftext> 
-          </def> 
-        </def>  
-        <def> 
-          <gr> 
-            <abbr>S3</abbr> 
-          </gr>  
-          <def> 
-            <gr> 
-              <abbr>BSC</abbr> 
-            </gr>  
-            <deftext>[stem representing geographical or geo-demographic place/location named by the succeeding foreign or proper name/phrase]</deftext> 
-          </def>  
-          <def> 
-            <gr> 
-              <abbr>CTE</abbr> 
-            </gr>  
-            <deftext>[stem representing the identity of the geographical or geo-demographic place/location named by the succeeding foreign or proper name/phrase]</deftext> 
-          </def>  
-          <def> 
-            <gr> 
-              <abbr>CSV</abbr> 
-            </gr>  
-            <deftext>[stem representing the physical/tangible praxes and/or tangible infrastructure of the geographical or geo-demographic place/location named by the succeeding foreign or proper name/phrase]</deftext> 
-          </def>  
-          <def> 
-            <gr> 
-              <abbr>OBJ</abbr> 
-            </gr>  
-            <deftext>that which is impacted/targeted or a patient of the geographical or geo-demographic place/location named by the succeeding foreign or proper name/phrase</deftext> 
-          </def> 
-        </def> 
-      </def>
-      <categ> 
-        <kref>The Carrier Root</kref> 
-      </categ> 
-    </ar>  
-    <ar>article 2</ar>  
-    <ar>article 3</ar>  
-    <ar>article 4</ar> ... 
-    <!-- CLASSIFICATION OF AFFIXES BY TOPIC -->  
-    <ar> 
-      <k>CLASSIFIED AFFIXES</k>  
-      <def> 
-        <def> 
-          <kref>Demonstrative, Determinative, and Deictic Affixes</kref> 
-        </def>  
-        <def> 
-          <kref>Sequential/Temporal Affixes</kref> 
-        </def>  
-        <def> 
-          <kref>Spatial, Positional, and Motion Affixes</kref> 
-        </def>  
-        <def> 
-          <kref>Quantifying Affixes</kref> 
-        </def>  
-        <def> 
-          <kref>Qualifying Affixes</kref> 
-        </def>  
-        <def> 
-          <kref>Adverbial Affixes</kref> 
-        </def>  
-        <def> 
-          <kref>Modality Affixes</kref> 
-        </def>  
-        <def> 
-          <kref>Agential/Participant Affixes</kref> 
-        </def>  
-        <def> 
-          <kref>Affixes Relating to Bodily Position</kref> 
-        </def>  
-        <def> 
-          <kref>Instrumentative/Utilitative Affixes</kref> 
-        </def>  
-        <def> 
-          <kref>Configurative Affixes</kref> 
-        </def>  
-        <def> 
-          <kref>Affixes Relating to Meta-Level Qualification</kref> 
-        </def>  
-        <def> 
-          <kref>Affixes Relating to Mathematics and Measurement</kref> 
-        </def>  
-        <def> 
-          <kref>Coordinative and Connective Affixes</kref> 
-        </def>  
-        <def> 
-          <kref>Grammatical Affixes</kref> 
-        </def>  
-        <def> 
-          <kref>Affixes for Biological Genera, Species and Sub-Species Differentiation</kref> 
-        </def>  
-        <def> 
-          <kref>Miscellaneous Affixes</kref> 
-        </def> 
-      </def>
-      <categ> 
-        <kref>CONTENTS</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Demonstrative, Determinative, and Deictic Affixes</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>CLASSIFIED AFFIXES</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Sequential/Temporal Affixes</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>CLASSIFIED AFFIXES</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Spatial, Positional, and Motion Affixes</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>CLASSIFIED AFFIXES</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Quantifying Affixes</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>CLASSIFIED AFFIXES</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Qualifying Affixes</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>CLASSIFIED AFFIXES</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Adverbial Affixes</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>CLASSIFIED AFFIXES</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Modality Affixes</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>CLASSIFIED AFFIXES</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Agential/Participant Affixes</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>CLASSIFIED AFFIXES</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Affixes Relating to Bodily Position</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>CLASSIFIED AFFIXES</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Instrumentative/Utilitative Affixes</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>CLASSIFIED AFFIXES</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Configurative Affixes</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>CLASSIFIED AFFIXES</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Affixes Relating to Meta-Level Qualification</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>CLASSIFIED AFFIXES</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Sensory Affixes</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>CLASSIFIED AFFIXES</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Affixes Relating to Mathematics and Measurement</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>CLASSIFIED AFFIXES</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Coordinative and Connective Affixes</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>CLASSIFIED AFFIXES</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Grammatical Affixes</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>CLASSIFIED AFFIXES</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Affixes for Biological Genera, Species and Sub-Species Differentiation</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>CLASSIFIED AFFIXES</kref> 
-      </categ> 
-    </ar>  
-    <ar> 
-      <k>Miscellaneous Affixes</k>  
-      <def> 
-        <deftext>to be added</deftext> 
-      </def>
-      <categ> 
-        <kref>CLASSIFIED AFFIXES</kref> 
-      </categ> 
-    </ar>  
-    <!-- AFFIXUAL ITEMS -->  
-    <ar> 
-      <k>-t</k>  
-      <k>DCD</k>  
-      <def> 
-        <gr>Gradient Type D1</gr>  
-        <deftext>Deictic Demonstratives</deftext>  
-        <def> 
-          <deftext>this X (at/by/near speaker); the X under discussion; the X at hand; in this manner/way, in the manner at hand, in said manner</deftext> 
-        </def>  
-        <def> 
-          <deftext>that X (at/by/near addressee); the X at/by/near the addressee; in that manner/way, thus</deftext> 
-        </def>  
-        <def> 
-          <deftext>that X yonder (away from both speaker and addressee); in that manner, thus</deftext> 
-        </def>  
-        <def> 
-          <deftext>the previously mentioned X, the X known to speaker and addressee, the contextually specific/relevant/identified X, “the” X; in the manner under discussion or contextually known</deftext> 
-        </def>  
-        <def> 
-          <deftext>[head of relative clause and/or the formative to which a later Obviative PRA refers]</deftext> 
-        </def>  
-        <def> 
-          <deftext>[same as Degree 4 + head of relative clause and/or the formative to which a later Reduplicative Referential refers]</deftext> 
-        </def>  
-        <def> 
-          <deftext>[same as Degree 3 + head of relative clause and/or the formative to which a later Reduplicative Referential refers]</deftext> 
-        </def>  
-        <def> 
-          <deftext>[same as Degree 2 + head of relative clause and/or the formative to which a later Reduplicative Referential refers]</deftext> 
-        </def>  
-        <def> 
-          <deftext>[same as Degree 1 + head of relative clause and/or the formative to which a later Reduplicative Referential refers]</deftext> 
-        </def> 
-      </def>
-      <categ> 
-        <kref>Demonstrative, Determinative, and Deictic Affixes</kref> 
-      </categ> 
-    </ar> 
-  </lexicon> 
+        <!-- COMMON STATES AND ACTS -->
+        <!-- SPACETIME and MOTION -->
+        <!-- PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA -->
+        <!-- MISCELLANEOUS ENTITIES AND OBJECTS -->
+        <!-- NATURE AND NATURAL PHENOMENA (Non-Biological) -->
+        <!-- NATURAL PHENOMENA (BIOLOGICAL/ZOOLOGICAL) -->
+        <ar>article 2</ar>
+        <ar>article 3</ar>
+        <ar>article 4</ar>
+
+        <!-- CLASSIFICATION OF AFFIXES BY TOPIC -->
+        <ar>
+            <k>CLASSIFIED AFFIXES</k>
+            <def>
+                <def>
+                    <kref>Demonstrative, Determinative, and Deictic Affixes</kref>
+                </def>
+                <def>
+                    <kref>Sequential/Temporal Affixes</kref>
+                </def>
+                <def>
+                    <kref>Spatial, Positional, and Motion Affixes</kref>
+                </def>
+                <def>
+                    <kref>Quantifying Affixes</kref>
+                </def>
+                <def>
+                    <kref>Qualifying Affixes</kref>
+                </def>
+                <def>
+                    <kref>Adverbial Affixes</kref>
+                </def>
+                <def>
+                    <kref>Modality Affixes</kref>
+                </def>
+                <def>
+                    <kref>Agential/Participant Affixes</kref>
+                </def>
+                <def>
+                    <kref>Affixes Relating to Bodily Position</kref>
+                </def>
+                <def>
+                    <kref>Instrumentative/Utilitative Affixes</kref>
+                </def>
+                <def>
+                    <kref>Configurative Affixes</kref>
+                </def>
+                <def>
+                    <kref>Affixes Relating to Meta-Level Qualification</kref>
+                </def>
+                <def>
+                    <kref>Affixes Relating to Mathematics and Measurement</kref>
+                </def>
+                <def>
+                    <kref>Coordinative and Connective Affixes</kref>
+                </def>
+                <def>
+                    <kref>Grammatical Affixes</kref>
+                </def>
+                <def>
+                    <kref>Affixes for Biological Genera, Species and Sub-Species Differentiation</kref>
+                </def>
+                <def>
+                    <kref>Miscellaneous Affixes</kref>
+                </def>
+            </def>
+            <categ>
+                <kref>CONTENTS</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Demonstrative, Determinative, and Deictic Affixes</k>
+            <def>
+                <kref>DCD</kref> Deictic Demonstratives<br/>
+                <kref>DX1</kref> Deixis Categories<br/>
+                <kref>DX2</kref> Additional Deixis Categories<br/>
+                <kref>IDF</kref> Identificative<br/>
+                <kref>EXT</kref> Exactness/Comparability of Identity / Identity As a Standard<br/>
+                <kref>AFR</kref> Degree of Assumed Familiarity/Recognition<br/>
+                <kref>FAM</kref> Degree Of Familiarity<br/>
+                <kref>SIM</kref> Degree Of Similarity<br/>
+            </def>
+            <categ>
+                <kref>CLASSIFIED AFFIXES</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Sequential/Temporal Affixes</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>CLASSIFIED AFFIXES</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Spatial, Positional, and Motion Affixes</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>CLASSIFIED AFFIXES</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Quantifying Affixes</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>CLASSIFIED AFFIXES</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Qualifying Affixes</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>CLASSIFIED AFFIXES</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Adverbial Affixes</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>CLASSIFIED AFFIXES</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Modality Affixes</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>CLASSIFIED AFFIXES</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Agential/Participant Affixes</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>CLASSIFIED AFFIXES</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Affixes Relating to Bodily Position</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>CLASSIFIED AFFIXES</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Instrumentative/Utilitative Affixes</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>CLASSIFIED AFFIXES</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Configurative Affixes</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>CLASSIFIED AFFIXES</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Affixes Relating to Meta-Level Qualification</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>CLASSIFIED AFFIXES</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Sensory Affixes</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>CLASSIFIED AFFIXES</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Affixes Relating to Mathematics and Measurement</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>CLASSIFIED AFFIXES</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Coordinative and Connective Affixes</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>CLASSIFIED AFFIXES</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Grammatical Affixes</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>CLASSIFIED AFFIXES</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Affixes for Biological Genera, Species and Sub-Species Differentiation</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>CLASSIFIED AFFIXES</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>Miscellaneous Affixes</k>
+            <def>
+                <deftext>to be added</deftext>
+            </def>
+            <categ>
+                <kref>CLASSIFIED AFFIXES</kref>
+            </categ>
+        </ar>
+        <!-- AFFIXUAL ITEMS -->
+        <!-- Demonstrative, Determinative, and Deictic Affixes -->
+        <ar>
+            <k>
+                <opt>-</opt>
+                t
+            </k>
+            <k>DCD</k>
+            <def>
+                <gr>Gradient Type D1</gr>
+                <deftext>Deictic Demonstratives</deftext>
+                <def>
+                    <deftext>this X (at/by/near speaker); the X under discussion; the X at hand; in this manner/way, in the manner at hand, in said manner</deftext>
+                </def>
+                <def>
+                    <deftext>that X (at/by/near addressee); the X at/by/near the addressee; in that manner/way, thus</deftext>
+                </def>
+                <def>
+                    <deftext>that X yonder (away from both speaker and addressee); in that manner, thus</deftext>
+                </def>
+                <def>
+                    <deftext>the previously mentioned X, the X known to speaker and addressee, the contextually specific/relevant/identified X, “the” X; in the manner under discussion or contextually known</deftext>
+                </def>
+                <def>
+                    <deftext>[head of relative clause and/or the formative to which a later Obviative PRA refers]</deftext>
+                </def>
+                <def>
+                    <deftext>[same as Degree 4 + head of relative clause and/or the formative to which a later Reduplicative Referential refers]</deftext>
+                </def>
+                <def>
+                    <deftext>[same as Degree 3 + head of relative clause and/or the formative to which a later Reduplicative Referential refers]</deftext>
+                </def>
+                <def>
+                    <deftext>[same as Degree 2 + head of relative clause and/or the formative to which a later Reduplicative Referential refers]</deftext>
+                </def>
+                <def>
+                    <deftext>[same as Degree 1 + head of relative clause and/or the formative to which a later Reduplicative Referential refers]</deftext>
+                </def>
+            </def>
+            <def>
+                <sr>
+                    Associated Root: -<kref type="rel">T</kref>-
+                </sr>
+            </def>
+            <categ>
+                <kref>Demonstrative, Determinative, and Deictic Affixes</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                tř
+            </k>
+            <k>DX1</k>
+            <def>
+                <gr>Gradient Type C</gr>
+                <deftext>Deixis Categories</deftext>
+                <def>
+                    <deftext>yonder / way over there somewhere / a long way away (not near anyone) [inaccessible or unobservable]</deftext>
+                </def>
+                <def>
+                    <deftext>over there somewhere (by third party) [inaccessible or unobservable]</deftext>
+                </def>
+                <def>
+                    <deftext>there somewhere (by listener) [inaccessible or observable]</deftext>
+                </def>
+                <def>
+                    <deftext>here somewhere (by speaker] [inaccessible or observable]</deftext>
+                </def>
+                <def>
+                    <deftext>here with us (by speaker and listener and accessible]</deftext>
+                </def>
+                <def>
+                    <deftext>here (by speaker and accessible]</deftext>
+                </def>
+                <def>
+                    <deftext>there [by listener and accessible]</deftext>
+                </def>
+                <def>
+                    <deftext>there (by third party, but accessible to speaker or listener)</deftext>
+                </def>
+                <def>
+                    <deftext>yonder / way over there [not near any party but accessible]</deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Demonstrative, Determinative, and Deictic Affixes</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                stř
+            </k>
+            <k>DX2</k>
+            <def>
+                <gr>Gradient Type C</gr>
+                <deftext>Additional Deixis Categories</deftext>
+                <def>
+                    <deftext>spread out/ everywhere / scattered yonder / all over out there [inaccessible]</deftext>
+                </def>
+                <def>
+                    <deftext>spread out/ everywhere / scattered all about 3rd party / all over the place around 3rd party [inaccessible]</deftext>
+                </def>
+                <def>
+                    <deftext>spread out/ everywhere / scattered all about listener / all over the place around listener [inaccessible]</deftext>
+                </def>
+                <def>
+                    <deftext>spread out/ everywhere / scattered all about speaker / all over the place / here and there [inaccessible]</deftext>
+                </def>
+                <def>
+                    <deftext>spread out/ everywhere / scattered all about speaker and listener [accessible]</deftext>
+                </def>
+                <def>
+                    <deftext>spread out/ everywhere / scattered all about speaker/all over the place / here and there [accessible]</deftext>
+                </def>
+                <def>
+                    <deftext>spread out/ everywhere / scattered all about listener / all over the place around listener [accessible]</deftext>
+                </def>
+                <def>
+                    <deftext>spread out/ everywhere / scattered all about 3rd party / all over the place around 3rd party [accessible]</deftext>
+                </def>
+                <def>
+                    <deftext>spread out/ everywhere / scattered yonder / all over out there [accessible]</deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Demonstrative, Determinative, and Deictic Affixes</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                ňḑ
+            </k>
+            <k>IDF</k>
+            <def>
+                <gr>Gradient Type D1</gr>
+                <deftext>Identificative</deftext>
+                <def>
+                    <deftext>any (of the various / of the number of) X [random selection - NOT quantitative/partitive “any”]; in any manner</deftext>
+                </def>
+                <def>
+                    <deftext>almost any; in almost any (number of) way(s)</deftext>
+                </def>
+                <def>
+                    <deftext>some X or other; in some way or other</deftext>
+                </def>
+                <def>
+                    <deftext>some certain X ; in some certain way [identity unknown]</deftext>
+                </def>
+                <def>
+                    <deftext>this X or that; a certain X or more; in this way or that [identity almost known – choices limited]</deftext>
+                </def>
+                <def>
+                    <deftext>a certain / a particular; in a certain or particular way [identity ascertainable]</deftext>
+                </def>
+                <def>
+                    <deftext>presumably this/that; apparently this X ; in that way presumably [tentatively identified]</deftext>
+                </def>
+                <def>
+                    <deftext>a certain / a particular; in a certain or particular way [identity presumably known to addressee but not to speaker]</deftext>
+                </def>
+                <def>
+                    <deftext>a certain / a particular; in a certain or particular way [identity known to speaker but (potentially) not to addressee]</deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Demonstrative, Determinative, and Deictic Affixes</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                řḑ
+            </k>
+            <k>EXT</k>
+            <def>
+                <gr>Gradient Type A1</gr>
+                <deftext>Exactness/Comparability of Identity / Identity As a Standard</deftext>
+                <def>
+                    <deftext>not comparable to X / unlike X / inexact(ly)</deftext>
+                </def>
+                <def>
+                    <deftext>not quite comparable to X / not nearly exact enough</deftext>
+                </def>
+                <def>
+                    <deftext>nearly or almost that X; nearly or almost so</deftext>
+                </def>
+                <def>
+                    <deftext>just about . . . / for all intents and purposes</deftext>
+                </def>
+                <def>
+                    <deftext>such (a); in such a manner</deftext>
+                </def>
+                <def>
+                    <deftext>comparable / comparably / good enough / well enough / sufficiently exact</deftext>
+                </def>
+                <def>
+                    <deftext>just like that; just so, thus(ly)</deftext>
+                </def>
+                <def>
+                    <deftext>a(n exact) copy/duplicate of X / an exact substitute for X</deftext>
+                </def>
+                <def>
+                    <deftext>the exact X / the very (one); exactly thus / exactly so</deftext>
+                </def>
+            </def>
+            <def>
+                <sr>
+                    Associated Root: -<kref type="rel">ŘḐ</kref>-
+                </sr>
+            </def>
+            <categ>
+                <kref>Demonstrative, Determinative, and Deictic Affixes</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                çř
+            </k>
+            <k>AFR</k>
+            <def>
+                <gr>Gradient Type C</gr>
+                <deftext>Degree of Assumed Familiarity/Recognition</deftext>
+                <def>
+                    <deftext>speaker assumes addressee does not know/recognize the reference</deftext>
+                </def>
+                <def>
+                    <deftext>speaker assumes addressee may know but has forgotten the reference</deftext>
+                </def>
+                <def>
+                    <deftext>speaker assumes addressee knows but has forgotten the reference</deftext>
+                </def>
+                <def>
+                    <deftext>speaker assumes addressee knows but may have forgotten the reference</deftext>
+                </def>
+                <def>
+                    <deftext>speaker assumes addressee knows/recognizes the reference</deftext>
+                </def>
+                <def>
+                    <deftext>unknown whether addressee knows the referent; speaker will elucidate anyway</deftext>
+                </def>
+                <def>
+                    <deftext>unknown whether addressee knows the referent; speaker willing to elucidate if requested</deftext>
+                </def>
+                <def>
+                    <deftext>unknown whether addressee knows the referent; speaker will elucidate only reluctantly if pressed to do so or absolutely necessary</deftext>
+                </def>
+                <def>
+                    <deftext>unknown whether addressee knows the referent; speaker unwilling to elucidate</deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Demonstrative, Determinative, and Deictic Affixes</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                rļ
+            </k>
+            <k>FAM</k>
+            <def>
+                <gr>Gradient Type A1</gr>
+                <deftext>Degree Of Familiarity</deftext>
+                <def>
+                    <deftext>unknowable / alien; unable to even try X-ing</deftext>
+                </def>
+                <def>
+                    <deftext>totally unfamiliar, utterly strange; totally unaccustomed to X-ing</deftext>
+                </def>
+                <def>
+                    <deftext>unfamiliar, strange; unaccustomed to X-ing</deftext>
+                </def>
+                <def>
+                    <deftext>somewhat unfamiliar; somewhat unaccustomed to X-ing</deftext>
+                </def>
+                <def>
+                    <deftext>just becoming familiar, just getting to know; just getting used to X-ing</deftext>
+                </def>
+                <def>
+                    <deftext>somewhat familiar; somewhat accustomed to X-ing</deftext>
+                </def>
+                <def>
+                    <deftext>familiar/known; accustomed to X-ing</deftext>
+                </def>
+                <def>
+                    <deftext>well-known / utterly familiar with / ingrained; inherently accustomed or used to X-ing</deftext>
+                </def>
+                <def>
+                    <deftext>intimate with; intimately involved with / intimately accustomed to</deftext>
+                </def>
+            </def>
+            <categ>
+                <kref>Demonstrative, Determinative, and Deictic Affixes</kref>
+            </categ>
+        </ar>
+        <ar>
+            <k>
+                <opt>-</opt>
+                rx
+            </k>
+            <k>SIM</k>
+            <def>
+                <gr>Gradient Type A</gr>
+                <deftext>Degree Of Similarity</deftext>
+                <def>
+                    <deftext>opposite; as different as possible / at the other extreme</deftext>
+                </def>
+                <def>
+                    <deftext>completely different/dissimilar; in a totally different or dissimilar way</deftext>
+                </def>
+                <def>
+                    <deftext>rather different / barely similar / almost completely different or dissimilar; in an almost completely different way</deftext>
+                </def>
+                <def>
+                    <deftext>other [=different]; in another [=different] way</deftext>
+                </def>
+                <def>
+                    <deftext>somewhat different, only superficially similar; somewhat differently</deftext>
+                </def>
+                <def>
+                    <deftext>(somewhat) similar, only superficially different, sort of like, something like, X-like; similarly</deftext>
+                </def>
+                <def>
+                    <deftext>similar in the ways that count/similar down deep, some sort of X; similarly at deep level</deftext>
+                </def>
+                <def>
+                    <deftext>very similar; very similarly</deftext>
+                </def>
+                <def>
+                    <deftext>[exactly the] same, indistinguishable from; in the [exactly] same way</deftext>
+                </def>
+            </def>
+            <def>
+                <sr>
+                    Associated Root: -<kref type="rel">RX</kref>-
+                </sr>
+            </def>
+            <categ>
+                <kref>Demonstrative, Determinative, and Deictic Affixes</kref>
+            </categ>
+        </ar>
+        <!-- Sequential/Temporal Affixes -->
+        <!-- Spatial, Positional, and Motion Affixes -->
+        <!-- Quantifying Affixes -->
+        <!-- Qualifying Affixes -->
+        <!-- Adverbial Affixes -->
+        <!-- Modality Affixes -->
+        <!-- Agential/Participant Affixes -->
+        <!-- Affixes Relating to Bodily Position -->
+        <!-- Instrumentative/Utilitative Affixes -->
+        <!-- Configurative Affixes -->
+        <!-- Affixes Relating to Meta-Level Qualification -->
+        <!-- Sensory Affixes -->
+        <!-- Affixes Relating to Mathematics and Measurement -->
+        <!-- Coordinative and Connective Affixes -->
+        <!-- Grammatical Affixes -->
+        <!-- Affixes for Biological Genera, Species and Sub-Species Differentiation -->
+        <!-- Miscellaneous Affixes -->
+
+        <!-- Grammatical Terminology -->
+        
+    </lexicon>
 </xdxf>
