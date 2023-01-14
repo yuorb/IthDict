@@ -195,4 +195,14 @@ An article for a normal affix may include the following parts:
         </ar>
 ```
 
+`<co>comment</co>` has `type` attribute which specifies what kind of comment it is: `grammatical`, `usage`, etc.
+
+```
+<ex>
+the text of an example
+<ex_orig>the original phrase of the example</ex_orig>
+<ex_tran>multiple translations:optional</ex_tran>
+</ex>
+```
+
 
