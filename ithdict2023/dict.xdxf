@@ -183,1398 +183,805 @@
 		</ar>
 		<ar>
 			<k>ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</k>
-			<def>
-				<def>
-					<deftext><kref>The Carrier Root</kref></deftext>
+			<def id="R10">
+				<def id="R11">
+					<gr>The Carrier Root</gr>
+					<def>
+						<deftext>see -<kref>S</kref>-</deftext>
+					</def>
 				</def>
-				<def>
-					<deftext><kref>General Demonstrative Root</kref></deftext>
+				<def id="R12">
+					<gr>General Demonstrative Root</gr>
+					<def>
+						<deftext>see -<kref>T</kref>- </deftext>
+					</def>
 				</def>
-				<def>
-					<deftext><kref>The Copular Root</kref></deftext>
+				<def id="R13">
+					<gr>The Copular Root</gr>
+					<def>
+						<deftext>see -<kref>Č</kref>-</deftext>
+					</def>
 				</def>
-				<def>
-					<deftext><kref>Grammatical Terminology</kref></deftext>
+				<def id="R14">
+					<gr>Grammatical Terminology</gr>
+					<def>
+						<deftext>-<kref>MPW</kref>- ‘PHONOLOGICAL COMPONENT OF A SPOKEN LANGUAGE’</deftext>
+					</def>
+					<def>
+						<deftext>-<kref>MPY</kref>- ‘MORPHEME’</deftext>
+					</def>
+					<def>
+						<deftext>-<kref>MPM</kref>- ‘LEXEME / WORD’</deftext>
+					</def>
+					<def>
+						<deftext>-<kref>MPH</kref>- ‘GRAMMATICAL/MORPHOLOGICAL CATEGORY/FORM OF A LANGUAGE’</deftext>
+					</def>
+					<def>
+						<deftext>-<kref>MPÇ</kref>- lexical root</deftext>
+					</def>
+					<def>
+						<deftext>-<kref>MPŘ</kref>- lexical stem</deftext>
+					</def>
+					<def>
+						<deftext>-<kref>MPM</kref>- concatenated root</deftext>
+					</def>
+					<def>
+						<deftext>-<kref>MPN</kref>- concatenated stem</deftext>
+					</def>
+					<def>
+						<deftext>-<kref>MPW</kref>- ‘PHONOLOGICAL COMPONENT OF A SPOKEN LANGUAGE’</deftext>
+					</def>
+					<def>
+						<deftext>-<kref>RMP</kref>- noun case or verbal format</deftext>
+					</def>
+					<def>
+						<deftext>-<kref>RMPW</kref>- case-accessor affix</deftext>
+					</def>
+					<def>
+						<deftext>-<kref>RMPY</kref>- bias category</deftext>
+					</def>
+					<def>
+						<deftext>-<kref>RMPL</kref>- expectation category</deftext>
+					</def>
+					<def>
+						<deftext>-<kref>MŢP</kref>- level category</deftext>
+					</def>
+					<def>
+						<deftext>-<kref>MŢPW</kref>- phase category</deftext>
+					</def>
+					<def>
+						<deftext>-<kref>MŢPY</kref>- valence category</deftext>
+					</def>
+					<def>
+						<deftext>-<kref>MŢPL</kref>- essence category</deftext>
+					</def>
+					<def>
+						<deftext>-<kref>LMP</kref>- V<sub>X</sub>C<sub>S</sub> affix</deftext>
+					</def>
+					<def>
+						<deftext>-<kref>LMPW</kref>- V<sub>X</sub>C<sub>S</sub> affix-type</deftext>
+					</def>
+					<def>
+						<deftext>-<kref>LMPY</kref>- V<sub>X</sub>C<sub>S</sub> affix-degree</deftext>
+					</def>
+					<def>
+						<deftext>-<kref>LMPL</kref>- formative (part of speech)</deftext>
+					</def>
+					<def>
+						<deftext>-<kref>LMPR</kref>- adjunct (part of speech)</deftext>
+					</def>
+					<def>
+						<deftext>-<kref>LMPŘ</kref>- referential (part of speech)</deftext>
+					</def>
+					<def>
+						<deftext>-<kref>RMPŘ</kref>- illocution category</deftext>
+					</def>
+					<def>
+						<deftext>-<kref>RMPÇ</kref>- validation category</deftext>
+					</def>
+					<def>
+						<deftext>-<kref>RMPĻ</kref>- mood category</deftext>
+					</def>
+					<def>
+						<deftext>-<kref>RMPM</kref>- context category</deftext>
+					</def>
+					<def>
+						<deftext>-<kref>RMPN</kref>- aspect category</deftext>
+					</def>
+					<def>
+						<deftext>-<kref>RMPH</kref>- effect category</deftext>
+					</def>
+					<def>
+						<deftext>-<kref>MŢPR</kref>- perspective category</deftext>
+					</def>
+					<def>
+						<deftext>-<kref>MŢPŘ</kref>- extension category</deftext>
+					</def>
+					<def>
+						<deftext>-<kref>MŢPF</kref>- plexity category</deftext>
+					</def>
+					<def>
+						<deftext>-<kref>MŢPŢ</kref>- similarity catetgory</deftext>
+					</def>
+					<def>
+						<deftext>-<kref>MŢPÇ</kref>- separability category</deftext>
+					</def>
+					<def>
+						<deftext>-<kref>MŢPS</kref>- version category</deftext>
+					</def>
+					<def>
+						<deftext>-<kref>MŢPŠ</kref>- function category</deftext>
+					</def>
+					<def>
+						<deftext>-<kref>MŢPH</kref>- specification category</deftext>
+					</def>
 				</def>
 				<categ>
 					<kref>CATEGORIZED ROOTS</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>The Carrier Root</k>
-			<def>
-				<def>
-					<deftext>see -<kref>S</kref>-</deftext>
-				</def>
-				<categ>
-					<kref>ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>General Demonstrative Root</k>
-			<def>
-				<def>
-					<deftext>see -<kref>T</kref>- </deftext>
-				</def>
-				<categ>
-					<kref>ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>The Copular Root</k>
-			<def>
-				<def>
-					<gr>The scope of this root’s usage is narrow. It is used only in contexts requiring ontological or epistemic equivalence/identity. e.g., “I am your father.” It is <b>not to be used</b> in the following circumstances: </gr>
-					<def>
-						<deftext>when “be” means “be named/called”, e.g., “<i>My dog is [named/called] Toto.</i>” <br /> (Use stem meaning “be named; be called; have an appellation”)</deftext>
-					</def>
-					<def>
-						<deftext>when “be” initiates an adjectival phrase, e.g., “<i>Rain is beneficial.</i>” <br /> (Use adjectival case or an appropriate verbal stem, e.g., “to (be of) benefit”)</deftext>
-					</def>
-					<def>
-						<deftext>when “be” indicates a spatio-temporal relation, e.g., “<i>The box is on the table</i>” <br /> (Use stem signifying the specific relation, e.g., “be on the top surface of”)</deftext>
-					</def>
-					<def>
-						<deftext>when “be” means “occur / happen / take place”, e.g., “<i>Wednesday is the best day for shopping.</i>” <br /> (Use stem meaning “occur, take place, happen”)</deftext>
-					</def>
-					<def>
-						<deftext>when “be” means “exist (ontologically)”, e.g., “<i>Such is life</i>”, “<i>I think, therefore I am.</i>” <br /> (Use stem meaning “existent entity; to ontologically exist”)</deftext>
-					</def>
-					<def>
-						<deftext>when “be” indicates exemplary membership in a set, e.g., “<i>A hammer is a tool.</i>” <br /> (Use stem meaning “exemplify; be an example of” or “be a type of”)</deftext>
-					</def>
-					<def>
-						<deftext>when “be” indicates composition, e.g., “<i>Rain is water.</i>” <br /> (Use stem meaning “to consist of”)</deftext>
-					</def>
-				</def>
-				<def>
-					<deftext>see -<kref>Č</kref>-</deftext>
-				</def>
-				<categ>
-					<kref>ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Grammatical Terminology</k>
-			<def>
-				<def>
-					<deftext>-<kref>MPW</kref>- ‘PHONOLOGICAL COMPONENT OF A SPOKEN LANGUAGE’</deftext>
-				</def>
-				<def>
-					<deftext>-<kref>MPY</kref>- ‘MORPHEME’</deftext>
-				</def>
-				<def>
-					<deftext>-<kref>MPM</kref>- ‘LEXEME / WORD’</deftext>
-				</def>
-				<def>
-					<deftext>-<kref>MPH</kref>- ‘GRAMMATICAL/MORPHOLOGICAL CATEGORY/FORM OF A LANGUAGE’</deftext>
-				</def>
-				<def>
-					<deftext>-<kref>MPÇ</kref>- lexical root</deftext>
-				</def>
-				<def>
-					<deftext>-<kref>MPŘ</kref>- lexical stem</deftext>
-				</def>
-				<def>
-					<deftext>-<kref>MPM</kref>- concatenated root</deftext>
-				</def>
-				<def>
-					<deftext>-<kref>MPN</kref>- concatenated stem</deftext>
-				</def>
-				<def>
-					<deftext>-<kref>MPW</kref>- ‘PHONOLOGICAL COMPONENT OF A SPOKEN LANGUAGE’</deftext>
-				</def>
-				<def>
-					<deftext>-<kref>RMP</kref>- noun case or verbal format</deftext>
-				</def>
-				<def>
-					<deftext>-<kref>RMPW</kref>- case-accessor affix</deftext>
-				</def>
-				<def>
-					<deftext>-<kref>RMPY</kref>- bias category</deftext>
-				</def>
-				<def>
-					<deftext>-<kref>RMPL</kref>- expectation category</deftext>
-				</def>
-				<def>
-					<deftext>-<kref>MŢP</kref>- level category</deftext>
-				</def>
-				<def>
-					<deftext>-<kref>MŢPW</kref>- phase category</deftext>
-				</def>
-				<def>
-					<deftext>-<kref>MŢPY</kref>- valence category</deftext>
-				</def>
-				<def>
-					<deftext>-<kref>MŢPL</kref>- essence category</deftext>
-				</def>
-				<def>
-					<deftext>-<kref>LMP</kref>- V<sub>X</sub>C<sub>S</sub> affix</deftext>
-				</def>
-				<def>
-					<deftext>-<kref>LMPW</kref>- V<sub>X</sub>C<sub>S</sub> affix-type</deftext>
-				</def>
-				<def>
-					<deftext>-<kref>LMPY</kref>- V<sub>X</sub>C<sub>S</sub> affix-degree</deftext>
-				</def>
-				<def>
-					<deftext>-<kref>LMPL</kref>- formative (part of speech)</deftext>
-				</def>
-				<def>
-					<deftext>-<kref>LMPR</kref>- adjunct (part of speech)</deftext>
-				</def>
-				<def>
-					<deftext>-<kref>LMPŘ</kref>- referential (part of speech)</deftext>
-				</def>
-				<def>
-					<deftext>-<kref>RMPŘ</kref>- illocution category</deftext>
-				</def>
-				<def>
-					<deftext>-<kref>RMPÇ</kref>- validation category</deftext>
-				</def>
-				<def>
-					<deftext>-<kref>RMPĻ</kref>- mood category</deftext>
-				</def>
-				<def>
-					<deftext>-<kref>RMPM</kref>- context category</deftext>
-				</def>
-				<def>
-					<deftext>-<kref>RMPN</kref>- aspect category</deftext>
-				</def>
-				<def>
-					<deftext>-<kref>RMPH</kref>- effect category</deftext>
-				</def>
-				<def>
-					<deftext>-<kref>MŢPR</kref>- perspective category</deftext>
-				</def>
-				<def>
-					<deftext>-<kref>MŢPŘ</kref>- extension category</deftext>
-				</def>
-				<def>
-					<deftext>-<kref>MŢPF</kref>- plexity category</deftext>
-				</def>
-				<def>
-					<deftext>-<kref>MŢPŢ</kref>- similarity catetgory</deftext>
-				</def>
-				<def>
-					<deftext>-<kref>MŢPÇ</kref>- separability category</deftext>
-				</def>
-				<def>
-					<deftext>-<kref>MŢPS</kref>- version category</deftext>
-				</def>
-				<def>
-					<deftext>-<kref>MŢPŠ</kref>- function category</deftext>
-				</def>
-				<def>
-					<deftext>-<kref>MŢPH</kref>- specification category</deftext>
-				</def>
-				<categ>
-					<kref>ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
 		<ar>
 			<k>COMMON STATES AND ACTS</k>
 			<def>
-				<def>
-					<deftext>
-						<kref>Tool Use</kref></deftext>
+				<def id="R20">
+					<deftext>to be added</deftext>
+				</def>
+				<def id="R21">
+					<gr>Tool Use</gr>
+					<def id="R211">
+						<gr>Acts/Processes Accomplished by Means of Tools/Implements</gr>
+						<def>
+							<def>
+								<deftext>to be added</deftext>
+							</def>
+						</def>
+					</def>
+					<def id="R212">
+						<gr>Tools and Implements/Materials/Substances Used To Maintain Completed States Created via Tools/Devices/Machines/Manual Processes</gr>
+						<def>
+							<def>
+								<deftext>to be added</deftext>
+							</def>
+						</def>
+					</def>
+					<def id="R213">
+						<gr>Objects/Implements Used to Hold/Contain Foodstuffs During Preparation, Cooking, and Serving</gr>
+						<def>
+							<def>
+								<deftext>to be added</deftext>
+							</def>
+						</def>
+					</def>
+					<def id="R214">
+						<gr>Fixtures Used To Facilitate/Maintain States Created via Tools/Devices/Machines/Manual Processes/Powered Processes</gr>
+						<def>
+							<def>
+								<deftext>to be added</deftext>
+							</def>
+						</def>
+					</def>
+					<def id="R215">
+						<gr>Furniture</gr>
+						<def>
+							<def>
+								<deftext>to be added</deftext>
+							</def>
+						</def>
+					</def>
+					<def id="R216">
+						<gr>Building</gr>
+						<def>
+							<def>
+								<deftext>to be added</deftext>
+							</def>
+						</def>
+					</def>
 				</def>
 				<categ>
 					<kref>CATEGORIZED ROOTS</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Tool Use</k>
-			<def>
-				<def>
-					<deftext><kref>Acts/Processes Accomplished by Means of Tools/Implements</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Implements/Materials/Substances Used To Maintain Completed States Created via Tools/Devices/Machines/Manual Processes</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Objects/Implements Used to Hold/Contain Foodstuffs During Preparation, Cooking, and Serving</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Fixtures Used To Facilitate/Maintain States Created via Tools/Devices/Machines/Manual Processes/Powered Processes</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Furniture</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Building</kref>
-					</deftext>
-				</def>
-				<categ>
-					<kref>COMMON STATES AND ACTS</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Acts/Processes Accomplished by Means of Tools/Implements</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>Tool Use</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Implements/Materials/Substances Used To Maintain Completed States Created via Tools/Devices/Machines/Manual Processes</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>Tool Use</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Objects/Implements Used to Hold/Contain Foodstuffs During Preparation, Cooking, and Serving</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>Tool Use</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Fixtures Used To Facilitate/Maintain States Created via Tools/Devices/Machines/Manual Processes/Powered Processes</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>Tool Use</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Furniture</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>Tool Use</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Building</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>Tool Use</kref>
 				</categ>
 			</def>
 		</ar>
 		<ar>
 			<k>SPACETIME and MOTION</k>
 			<def>
-				<def>
-					<deftext><kref>Spatio-Temporal Dimensions</kref>
-					</deftext>
+				<def id="R30">
+					<deftext>to be added</deftext>
 				</def>
-				<def>
-					<deftext><kref>Motion And Spatial Position</kref>
-					</deftext>
+				<def id="R31">
+					<gr>Spatio-Temporal Dimensions</gr>
+					<def>
+						<def>
+							<deftext>to be added</deftext>
+						</def>
+					</def>
 				</def>
-				<def>
-					<deftext><kref>Translative Motion Roots</kref>
-					</deftext>
+				<def id="R32">
+					<gr>Motion And Spatial Position</gr>
+					<def>
+						<def>
+							<deftext>to be added</deftext>
+						</def>
+					</def>
 				</def>
-				<def>
-					<deftext><kref>Spatial Position/Location Roots</kref>
-					</deftext>
+				<def id="R33">
+					<gr>Translative Motion Roots</gr>
+					<def>
+						<def>
+							<deftext>to be added</deftext>
+						</def>
+					</def>
 				</def>
-				<def>
-					<deftext><kref>Positionally-Defined Componential Parts Of A Whole</kref>
-					</deftext>
+				<def id="R34">
+					<gr>Spatial Position/Location Roots</gr>
+					<def>
+						<def>
+							<deftext>to be added</deftext>
+						</def>
+					</def>
 				</def>
-				<def>
-					<deftext><kref>Additional Roots Related to Spatio-Temporal Motion</kref>
-					</deftext>
+				<def id="R35">
+					<gr>Positionally-Defined Componential Parts Of A Whole</gr>
+					<def>
+						<def>
+							<deftext>to be added</deftext>
+						</def>
+					</def>
 				</def>
-				<def>
-					<deftext><kref>Temporal Concepts</kref>
-					</deftext>
+				<def id="R36">
+					<gr>Additional Roots Related to Spatio-Temporal Motion</gr>
+					<def>
+						<def>
+							<deftext>to be added</deftext>
+						</def>
+					</def>
+				</def>
+				<def id="R37">
+					<gr>Temporal Concepts</gr>
+					<def>
+						<def>
+							<deftext>to be added</deftext>
+						</def>
+					</def>
 				</def>
 				<categ>
 					<kref>CATEGORIZED ROOTS</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Spatio-Temporal Dimensions</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>SPACETIME and MOTION</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Motion And Spatial Position</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>SPACETIME and MOTION</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Translative Motion Roots</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>SPACETIME and MOTION</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Spatial Position/Location Roots</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>SPACETIME and MOTION</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Positionally-Defined Componential Parts Of A Whole</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>SPACETIME and MOTION</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Additional Roots Related to Spatio-Temporal Motion</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>SPACETIME and MOTION</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Temporal Concepts</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>SPACETIME and MOTION</kref>
 				</categ>
 			</def>
 		</ar>
 		<ar>
 			<k>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</k>
 			<def>
-				<def>
-					<deftext><kref>Communication and Social Interaction</kref>
-					</deftext>
+				<def id="R40">
+					<deftext>to be added</deftext>
 				</def>
-				<def>
-					<deftext><kref>Kinship Terms</kref>
-					</deftext>
+				<def id="R41">
+					<gr>Communication and Social Interaction</gr>
+					<def>
+						<def>
+							<deftext>to be added</deftext>
+						</def>
+					</def>
 				</def>
-				<def>
-					<deftext><kref>Character Traits &amp; Socio-Psychological States</kref>
-					</deftext>
+				<def id="R42">
+					<gr>Kinship Terms</gr>
+					<def>
+						<def>
+							<deftext>to be added</deftext>
+						</def>
+					</def>
 				</def>
-				<def>
-					<deftext><kref>Complementary Interpersonal Relationships/Interactions</kref>
-					</deftext>
+				<def id="R43">
+					<gr>Character Traits &amp; Socio-Psychological States</gr>
+					<def>
+						<def>
+							<deftext>to be added</deftext>
+						</def>
+					</def>
 				</def>
-				<def>
-					<deftext><kref>Sensory Phenomena</kref>
-					</deftext>
+				<def id="R44">
+					<gr>Complementary Interpersonal Relationships/Interactions</gr>
+					<def>
+						<def>
+							<deftext>to be added</deftext>
+						</def>
+					</def>
+				</def>
+				<def id="R45">
+					<gr>Sensory Phenomena</gr>
+					<def id="R451">
+						<gr>Auditory/Aural Sense</gr>
+						<def id="R4511">
+							<gr>Various Types of Sounds</gr>
+							<def>
+								<def>
+									<deftext>to be added</deftext>
+								</def>
+							</def>
+						</def>
+						<def id="R4512">
+							<gr>General Sound Parameters and Reaction To Sound</gr>
+							<def>
+								<def>
+									<deftext>to be added</deftext>
+								</def>
+							</def>
+						</def>
+						<def id="R4513">
+							<gr>Music</gr>
+							<def id="R45131">
+								<gr>Musical Instruments</gr>
+								<def>
+									<def>
+										<deftext>to be added</deftext>
+									</def>
+								</def>
+							</def>
+						</def>
+					</def>
+					<def id="R452">
+						<gr>Olfactory Sense</gr>
+						<def>
+							<def>
+								<deftext>to be added</deftext>
+							</def>
+						</def>
+					</def>
+					<def id="R453">
+						<gr>Gustatory Sense</gr>
+						<def>
+							<def>
+								<deftext>to be added</deftext>
+							</def>
+						</def>
+					</def>
+					<def id="R454">
+						<gr>Visual Sense</gr>
+						<def>
+							<def>
+								<deftext>to be added</deftext>
+							</def>
+						</def>
+					</def>
+					<def id="R455">
+						<gr>Tactile Sense</gr>
+						<def>
+							<def>
+								<deftext>to be added</deftext>
+							</def>
+						</def>
+					</def>
+					<def id="R456">
+						<gr>Affective Sensory States (i.e., Proprioceptive, Interoceptive, and Vestibular-Sensory States)</gr>
+						<def>
+							<def>
+								<deftext>to be added</deftext>
+							</def>
+						</def>
+					</def>
+					<def id="R457">
+						<gr>Affective Mental/Psychological States</gr>
+						<def>
+							<def>
+								<deftext>to be added</deftext>
+							</def>
+						</def>
+					</def>
+					<def id="R458">
+						<gr>Affective Unconscious/Semi-Conscious Autonomic States/Acts</gr>
+						<def>
+							<def>
+								<deftext>to be added</deftext>
+							</def>
+						</def>
+					</def>
+					<def id="R459">
+						<gr>Semi-Conscious Habitual Acts</gr>
+						<def>
+							<def>
+								<deftext>to be added</deftext>
+							</def>
+						</def>
+					</def>
+					<def id="R4510">
+						<gr>Emotional States</gr>
+						<def id="R45101">
+							<gr>Desirable/Positive Emotions</gr>
+							<def>
+								<def>
+									<deftext>to be added</deftext>
+								</def>
+							</def>
+						</def>
+						<def id="R45102">
+							<gr>Emotions Associated With Personal Relationships/Intimacy</gr>
+							<def>
+								<def>
+									<deftext>to be added</deftext>
+								</def>
+							</def>
+						</def>
+						<def id="R45103">
+							<gr>Ambivalent Emotions</gr>
+							<def>
+								<def>
+									<deftext>to be added</deftext>
+								</def>
+							</def>
+						</def>
+						<def id="R45104">
+							<gr>Undesirable/Negative Emotions</gr>
+							<def>
+								<def>
+									<deftext>to be added</deftext>
+								</def>
+							</def>
+						</def>
+					</def>
 				</def>
 				<categ>
 					<kref>CATEGORIZED ROOTS</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Communication and Social Interaction</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Kinship Terms</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Character Traits &amp; Socio-Psychological States</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Complementary Interpersonal Relationships/Interactions</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Sensory Phenomena</k>
-			<def>
-				<def>
-					<deftext><kref>Auditory/Aural Sense</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Olfactory Sense</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Gustatory Sense</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Visual Sense</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Tactile Sense</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Affective Sensory States (i.e., Proprioceptive, Interoceptive, and Vestibular-Sensory States)</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Affective Mental/Psychological States</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Affective Unconscious/Semi-Conscious Autonomic States/Acts</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Semi-Conscious Habitual Acts</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Emotional States</kref>
-					</deftext>
-				</def>
-				<categ>
-					<kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Auditory/Aural Sense</k>
-			<def>
-				<def>
-					<deftext><kref>Various Types of Sounds</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>General Sound Parameters and Reaction To Sound</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Music</kref>
-					</deftext>
-				</def>
-				<categ>
-					<kref>Sensory Phenomena</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Various Types of Sounds</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>Auditory/Aural Sense</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>General Sound Parameters and Reaction To Sound</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>Auditory/Aural Sense</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Music</k>
-			<def>
-				<def>
-					<deftext><kref>Musical Instruments</kref>
-					</deftext>
-				</def>
-				<categ>
-					<kref>Auditory/Aural Sense</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Musical Instruments</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>Music</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Olfactory Sense</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Gustatory Sense</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Visual Sense</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Tactile Sense</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Affective Sensory States (i.e., Proprioceptive, Interoceptive, and Vestibular-Sensory States)</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Affective Mental/Psychological States</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Affective Unconscious/Semi-Conscious Autonomic States/Acts</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Semi-Conscious Habitual Acts</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Emotional States</k>
-			<def>
-				<def>
-					<deftext><kref>Desirable/Positive Emotions</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Emotions Associated With Personal Relationships/Intimacy</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Ambivalent Emotions</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Undesirable/Negative Emotions</kref>
-					</deftext>
-				</def>
-				<categ>
-					<kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Desirable/Positive Emotions</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>Emotional States</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Emotions Associated With Personal Relationships/Intimacy</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>Emotional States</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Ambivalent Emotions</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Undesirable/Negative Emotions</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA</kref>
 				</categ>
 			</def>
 		</ar>
 		<ar>
 			<k>MISCELLANEOUS ENTITIES AND OBJECTS</k>
 			<def>
-				<def>
-					<deftext><kref>Clothing</kref>
-					</deftext>
+				<def id="R50">
+					<deftext>to be added</deftext>
 				</def>
-				<def>
-					<deftext><kref>Weapons</kref>
-					</deftext>
+				<def id="R51">
+					<gr>Clothing</gr>
+					<def>
+						<def>
+							<deftext>to be added</deftext>
+						</def>
+					</def>
 				</def>
-				<def>
-					<deftext><kref>Games and Sports</kref>
-					</deftext>
+				<def id="R52">
+					<gr>Weapons</gr>
+					<def>
+						<def>
+							<deftext>to be added</deftext>
+						</def>
+					</def>
+				</def>
+				<def id="R53">
+					<gr>Games and Sports</gr>
+					<def>
+						<def>
+							<deftext>to be added</deftext>
+						</def>
+					</def>
 				</def>
 				<categ>
 					<kref>CATEGORIZED ROOTS</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Clothing</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>MISCELLANEOUS ENTITIES AND OBJECTS</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Weapons</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>MISCELLANEOUS ENTITIES AND OBJECTS</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Games and Sports</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>MISCELLANEOUS ENTITIES AND OBJECTS</kref>
 				</categ>
 			</def>
 		</ar>
 		<ar>
 			<k>NATURE AND NATURAL PHENOMENA (Non-Biological)</k>
 			<def>
-				<def>
-					<deftext><kref>The Quality Or Property Of Matter</kref>
-					</deftext>
+				<def id="R60">
+					<deftext>to be added</deftext>
 				</def>
-				<def>
-					<deftext><kref>Measurement of Natural Phenomena</kref>
-					</deftext>
+				<def id="R61">
+					<gr>The Quality Or Property Of Matter</gr>
+					<def>
+						<def>
+							<deftext>to be added</deftext>
+						</def>
+					</def>
 				</def>
-				<def>
-					<deftext><kref>Physics and Cosmological/Astronomical Phenomena</kref>
-					</deftext>
+				<def id="R62">
+					<gr>Measurement of Natural Phenomena</gr>
+					<def>
+						<def>
+							<deftext>to be added</deftext>
+						</def>
+					</def>
 				</def>
-				<def>
-					<deftext><kref>Mathematical Concepts</kref>
-					</deftext>
+				<def id="R63">
+					<gr>Physics and Cosmological/Astronomical Phenomena</gr>
+					<def>
+						<def>
+							<deftext>to be added</deftext>
+						</def>
+					</def>
+				</def>
+				<def id="R64">
+					<gr>Mathematical Concepts</gr>
+					<def id="R641">
+						<gr>The Basic Number Roots</gr>
+						<def>
+							<def>
+								<deftext>to be added</deftext>
+							</def>
+						</def>
+					</def>
+					<def id="R642">
+						<gr>Shapes and Forms</gr>
+						<def>
+							<def>
+								<deftext>to be added</deftext>
+							</def>
+						</def>
+					</def>
+					<def id="R643">
+						<gr>Chemical Elements, Compounds and Substances</gr>
+						<def>
+							<def>
+								<deftext>to be added</deftext>
+							</def>
+						</def>
+					</def>
 				</def>
 				<categ>
 					<kref>CATEGORIZED ROOTS</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>The Quality Or Property Of Matter</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>NATURE AND NATURAL PHENOMENA (Non-Biological)</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Measurement of Natural Phenomena</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>NATURE AND NATURAL PHENOMENA (Non-Biological)</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Physics and Cosmological/Astronomical Phenomena</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>NATURE AND NATURAL PHENOMENA (Non-Biological)</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Mathematical Concepts</k>
-			<def>
-				<def>
-					<deftext><kref>The Basic Number Roots</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Shapes and Forms</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Physics and Cosmological/Astronomical Phenomena</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Chemical Elements, Compounds and Substances</kref>
-					</deftext>
-				</def>
-				<categ>
-					<kref>NATURE AND NATURAL PHENOMENA (Non-Biological)</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>The Basic Number Roots</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>Mathematical Concepts</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Shapes and Forms</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>Mathematical Concepts</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Chemical Elements, Compounds and Substances</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>Mathematical Concepts</kref>
 				</categ>
 			</def>
 		</ar>
 		<ar>
 			<k>NATURAL PHENOMENA (BIOLOGICAL/ZOOLOGICAL)</k>
 			<def>
-				<def>
-					<deftext><kref>Food/Eating/Ingestion</kref>
-					</deftext>
+				<def id="R70">
+					<deftext>to be added</deftext>
 				</def>
-				<def>
-					<deftext><kref>The Body</kref>
-					</deftext>
+				<def id="R71">
+					<gr>Food/Eating/Ingestion</gr>
+					<def id="R711">
+						<gr>Some Common Food Plants</gr>
+						<def>
+							<def>
+								<deftext>to be added</deftext>
+							</def>
+						</def>
+					</def>
 				</def>
-				<def>
-					<deftext><kref>Biological Life-Forms</kref>
-					</deftext>
+				<def id="R72">
+					<gr>The Body</gr>
+					<def id="R721">
+						<gr>Parts of the Body</gr>
+						<def>
+							<def>
+								<deftext>to be added</deftext>
+							</def>
+						</def>
+					</def>
+					<def id="R722">
+						<gr>Bodily Fluids, Secretions, Excretia</gr>
+						<def>
+							<def>
+								<deftext>to be added</deftext>
+							</def>
+						</def>
+					</def>
+					<def id="R723">
+						<gr>Disability/Disease/Sickness/Illness/Malady</gr>
+						<def>
+							<def>
+								<deftext>to be added</deftext>
+							</def>
+						</def>
+					</def>
+					<def id="R724">
+						<gr>Parasitic/Microbial Diseases</gr>
+						<def>
+							<def>
+								<deftext>to be added</deftext>
+							</def>
+						</def>
+					</def>
+					<def id="R725">
+						<gr>Non-Genetic Metabolic Disorders</gr>
+						<def>
+							<def>
+								<deftext>to be added</deftext>
+							</def>
+						</def>
+					</def>
+					<def id="R726">
+						<gr>Genetic Disorders/Diseases</gr>
+						<def>
+							<def>
+								<deftext>to be added</deftext>
+							</def>
+						</def>
+					</def>
+					<def id="R727">
+						<gr>Autoimmune Diseases/Disorder</gr>
+						<def>
+							<def>
+								<deftext>to be added</deftext>
+							</def>
+						</def>
+					</def>
+					<def id="R728">
+						<gr>Idiopathic Diseases/Disorders, Non-Genetic Congenital Disorders, or Diseases/Disorders of Unknown/Uncertain Etiology</gr>
+						<def>
+							<def>
+								<deftext>to be added</deftext>
+							</def>
+						</def>
+					</def>
+					<def id="R729">
+						<gr>Psychological/Behavioral Disorders</gr>
+						<def>
+							<def>
+								<deftext>to be added</deftext>
+							</def>
+						</def>
+					</def>
+					<def id="R7210">
+						<gr>Miscellaneous Roots Related to Illness</gr>
+						<def>
+							<def>
+								<deftext>to be added</deftext>
+							</def>
+						</def>
+					</def>
+				</def>
+				<def id="R73">
+					<gr>Biological Life-Forms</gr>
+					<def id="R730">
+						<def id="R7301">
+							<gr>Preliminary Note on Quasi-Taxonomic Roots/Stems Denoting Biological Life-forms</gr>
+							<deftext>to be added</deftext>
+						</def>
+						<def id="R7302">
+							<gr>Affixes Used with Taxonomic Stems for Genus or Species or Sub-Species Identification</gr>
+							<deftext>to be added</deftext>
+						</def>
+						<def id="R7303">
+							<gr>Affixes for Grouping Biological Life-Form Roots/Stems into Classificatory Schemata/Taxonomies</gr>
+							<deftext>to be added</deftext>
+						</def>
+						<def id="R7304">
+							<gr>Affixes for Describing Extinct Genera</gr>
+							<deftext>to be added</deftext>
+						</def>
+					</def>
+					<def id="R731">
+						<gr>Animals</gr>
+						<def id="R7311">
+							<gr>Mammals</gr>
+							<def>
+								<def>
+									<deftext>to be added</deftext>
+								</def>
+							</def>
+						</def>
+						<def id="R7312">
+							<gr>Reptiles</gr>
+							<def>
+								<def>
+									<deftext>to be added</deftext>
+								</def>
+							</def>
+						</def>
+						<def id="R7313">
+							<gr>Amphibians</gr>
+							<def>
+								<def>
+									<deftext>to be added</deftext>
+								</def>
+							</def>
+						</def>
+						<def id="R7314">
+							<gr>Birds</gr>
+							<def>
+								<def>
+									<deftext>to be added</deftext>
+								</def>
+							</def>
+						</def>
+						<def id="R7315">
+							<gr>Fish, Tunicates and Lancelets</gr>
+							<def>
+								<def>
+									<deftext>to be added</deftext>
+								</def>
+							</def>
+						</def>
+						<def id="R7316">
+							<gr>Echinoderms, Hemichordates, and Xenacoelomorphs</gr>
+							<def>
+								<def>
+									<deftext>to be added</deftext>
+								</def>
+							</def>
+						</def>
+						<def id="R7317">
+							<gr>Protostomes (other than Arthropods)</gr>
+							<def>
+								<def>
+									<deftext>to be added</deftext>
+								</def>
+							</def>
+						</def>
+						<def id="R7318">
+							<gr>Porifera, Cteophora, Placozoa, and Cnidaria</gr>
+							<def>
+								<def>
+									<deftext>to be added</deftext>
+								</def>
+							</def>
+						</def>
+						<def id="R7319">
+							<gr>Arthropods (including Arachnids, Crustaceans, Myriapods, and Insects)</gr>
+							<def>
+								<def>
+									<deftext>to be added</deftext>
+								</def>
+							</def>
+						</def>
+					</def>
+					<def id="R732">
+						<gr>Plants</gr>
+						<def id="R7321">
+							<gr>Bryophytes</gr>
+							<def>
+								<def>
+									<deftext>to be added</deftext>
+								</def>
+							</def>
+						</def>
+						<def id="R7322">
+							<gr>Tracheophytes</gr>
+							<def>
+								<def>
+									<deftext>to be added</deftext>
+								</def>
+							</def>
+						</def>
+					</def>
+					<def id="R733">
+						<gr>Holomycota (Fungi, Yeast and Cristidiscoidea)</gr>
+						<def>
+							<def>
+								<deftext>to be added</deftext>
+							</def>
+						</def>
+					</def>
+					<def id="R734">
+						<gr>Unicellular Eukaryotes &amp; Multicellular Algae</gr>
+						<def>
+							<def>
+								<deftext>to be added</deftext>
+							</def>
+						</def>
+					</def>
+					<def id="R735">
+						<gr>Bacteria and Archaea</gr>
+						<def>
+							<def>
+								<deftext>to be added</deftext>
+							</def>
+						</def>
+					</def>
+					<def id="R736">
+						<gr>Viruses &amp; Viroids</gr>
+						<def>
+							<def>
+								<deftext>to be added</deftext>
+							</def>
+						</def>
+					</def>
 				</def>
 				<categ>
 					<kref>CATEGORIZED ROOTS</kref>
 				</categ>
 			</def>
 		</ar>
-		<ar>
-			<k>Food/Eating/Ingestion</k>
-			<def>
-				<def>
-					<deftext><kref>Some Common Food Plants</kref>
-					</deftext>
-				</def>
-				<categ>
-					<kref>NATURAL PHENOMENA (BIOLOGICAL/ZOOLOGICAL)</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Some Common Food Plants</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>Food/Eating/Ingestion</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>The Body</k>
-			<def>
-				<def>
-					<deftext><kref>Parts of the Body</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Bodily Fluids, Secretions, Excretia</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Disability/Disease/Sickness/Illness/Malady</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Parasitic/Microbial Diseases</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Non-Genetic Metabolic Disorders</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Genetic Disorders/Diseases</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Autoimmune Diseases/Disorder</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Idiopathic Diseases/Disorders</kref>, <kref>Non-Genetic Congenital Disorders</kref>, or <kref>Diseases/Disorders of Unknown/Uncertain Etiology</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Psychological/Behavioral Disorders</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Miscellaneous Roots Related to Illness</kref>
-					</deftext>
-				</def>
-				<categ>
-					<kref>NATURAL PHENOMENA (BIOLOGICAL/ZOOLOGICAL)</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Parts of the Body</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>The Body</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Bodily Fluids, Secretions, Excretia</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>The Body</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Disability/Disease/Sickness/Illness/Malady</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>The Body</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Parasitic/Microbial Diseases</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>The Body</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Non-Genetic Metabolic Disorders</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>The Body</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Genetic Disorders/Diseases</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>The Body</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Autoimmune Diseases/Disorder</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>The Body</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Idiopathic Diseases/Disorders</k>
-			<k>Non-Genetic Congenital Disorders</k>
-			<k>Diseases/Disorders of Unknown/Uncertain Etiology</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>The Body</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Psychological/Behavioral Disorders</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>The Body</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Miscellaneous Roots Related to Illness</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>The Body</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Biological Life-Forms</k>
-			<def>
-				<def>
-					<deftext><kref>Animals</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Plants</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Holomycota (Fungi, Yeast and Cristidiscoidea)</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Unicellular Eukaryotes &amp; Multicellular Algae</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Bacteria and Archaea</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Viruses &amp; Viroids</kref>
-					</deftext>
-				</def>
-				<categ>
-					<kref>NATURAL PHENOMENA (BIOLOGICAL/ZOOLOGICAL)</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Animals</k>
-			<def>
-				<def>
-					<deftext><kref>Mammals</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Reptiles</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Amphibians</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Birds</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Fish, Tunicates and Lancelets</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Echinoderms, Hemichordates, and Xenacoelomorphs</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Protostomes (other than Arthropods)</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Porifera, Cteophora, Placozoa, and Cnidaria</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Arthropods (including Arachnids, Crustaceans, Myriapods, and Insects)</kref>
-					</deftext>
-				</def>
-				<categ>
-					<kref>Biological Life-Forms</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Mammals</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>Animals</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Reptiles</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>Animals</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Amphibians</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>Animals</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Birds</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>Animals</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Fish, Tunicates and Lancelets</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>Animals</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Echinoderms, Hemichordates, and Xenacoelomorphs</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>Animals</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Protostomes (other than Arthropods)</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>Animals</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Porifera, Cteophora, Placozoa, and Cnidaria</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>Animals</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Arthropods (including Arachnids, Crustaceans, Myriapods, and Insects)</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>Animals</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Plants</k>
-			<def>
-				<def>
-					<deftext><kref>Bryophytes</kref>
-					</deftext>
-				</def>
-				<def>
-					<deftext><kref>Tracheophytes</kref>
-					</deftext>
-				</def>
-				<categ>
-					<kref>Biological Life-Forms</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Bryophytes</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>Plants</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Tracheophytes</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>Plants</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Holomycota (Fungi, Yeast and Cristidiscoidea)</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>Biological Life-Forms</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Unicellular Eukaryotes &amp; Multicellular Algae</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>Biological Life-Forms</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Bacteria and Archaea</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>Biological Life-Forms</kref>
-				</categ>
-			</def>
-		</ar>
-		<ar>
-			<k>Viruses &amp; Viroids</k>
-			<def>
-				<def>
-					<deftext>to be added</deftext>
-				</def>
-				<categ>
-					<kref>Biological Life-Forms</kref>
-				</categ>
-			</def>
-		</ar>
+
 		<!-- RADACAL ITEMS -->
 		<!-- ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS -->
 		<ar>
 			<k><opt>-</opt>S<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>[the “carrier” root]</b></gr>
+					<gr><abbr>S0</abbr> <b>[the “carrier” root]</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -1623,7 +1030,7 @@
 					</def>
 				</def>
 				<categ>
-					<kref>The Carrier Root</kref>
+					<kref idref="R11">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -1631,7 +1038,7 @@
 			<k><opt>-</opt>T<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>[General Demonstrative Root]</b></gr>
+					<gr><abbr>S0</abbr> <b>[General Demonstrative Root]</b></gr>
 					<def>
 						<deftext><abbr>BSC</abbr> (to be) ‘this / the one at-hand / the one in question’ referring to entities, situations, abstract notions, etc. (depending on the C<sub>A</sub> complex);<br />
                             <abbr>STA</abbr> : to be this/what is under discussion <br />
@@ -1667,7 +1074,7 @@
 					<deftext>Associated Affix: <kref type="rel">DCD</kref></deftext>
 				</def>
 				<categ>
-					<kref>General Demonstrative Root</kref>
+					<kref idref="R12">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -1675,7 +1082,7 @@
 			<k><opt>-</opt>Č<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>‘BE (i.e., copular identification only) / EQUIVALENCE / IDENTIFICATION’</b></gr>
+					<gr><abbr>S0</abbr> <b>‘BE (i.e., copular identification only) / EQUIVALENCE / IDENTIFICATION’</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -1723,8 +1130,32 @@
 						<deftext><abbr>OBJ</abbr> (to be )what X is epistemologically synonymous, tantamount, or convertible to (as opposed to something else), X’s convertibility to</deftext>
 					</def>
 				</def>
+				<def>
+					<gr>The scope of this root’s usage is narrow. It is used only in contexts requiring ontological or epistemic equivalence/identity. e.g., “I am your father.” It is <b>not to be used</b> in the following circumstances: </gr>
+					<def>
+						<deftext>when “be” means “be named/called”, e.g., “<i>My dog is [named/called] Toto.</i>” <br /> (Use stem meaning “be named; be called; have an appellation”)</deftext>
+					</def>
+					<def>
+						<deftext>when “be” initiates an adjectival phrase, e.g., “<i>Rain is beneficial.</i>” <br /> (Use adjectival case or an appropriate verbal stem, e.g., “to (be of) benefit”)</deftext>
+					</def>
+					<def>
+						<deftext>when “be” indicates a spatio-temporal relation, e.g., “<i>The box is on the table</i>” <br /> (Use stem signifying the specific relation, e.g., “be on the top surface of”)</deftext>
+					</def>
+					<def>
+						<deftext>when “be” means “occur / happen / take place”, e.g., “<i>Wednesday is the best day for shopping.</i>” <br /> (Use stem meaning “occur, take place, happen”)</deftext>
+					</def>
+					<def>
+						<deftext>when “be” means “exist (ontologically)”, e.g., “<i>Such is life</i>”, “<i>I think, therefore I am.</i>” <br /> (Use stem meaning “existent entity; to ontologically exist”)</deftext>
+					</def>
+					<def>
+						<deftext>when “be” indicates exemplary membership in a set, e.g., “<i>A hammer is a tool.</i>” <br /> (Use stem meaning “exemplify; be an example of” or “be a type of”)</deftext>
+					</def>
+					<def>
+						<deftext>when “be” indicates composition, e.g., “<i>Rain is water.</i>” <br /> (Use stem meaning “to consist of”)</deftext>
+					</def>
+				</def>
 				<categ>
-					<kref>The Copular Root</kref>
+					<kref idref="R13">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -1732,7 +1163,7 @@
 			<k><opt>-</opt>MPW<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>‘PHONOLOGICAL COMPONENT OF A SPOKEN LANGUAGE’</b></gr>
+					<gr><abbr>S0</abbr> <b>‘PHONOLOGICAL COMPONENT OF A SPOKEN LANGUAGE’</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -1768,7 +1199,7 @@
 					</def>
 				</def>
 				<categ>
-					<kref>Grammatical Terminology</kref>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -1776,7 +1207,7 @@
 			<k><opt>-</opt>MPY<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>‘MORPHEME’</b></gr>
+					<gr><abbr>S0</abbr> <b>‘MORPHEME’</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -1784,7 +1215,7 @@
 					<deftext></deftext>
 				</def>
 				<categ>
-					<kref>Grammatical Terminology</kref>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -1792,7 +1223,7 @@
 			<k><opt>-</opt>MPŘ<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>‘LEXEME / WORD’</b></gr>
+					<gr><abbr>S0</abbr> <b>‘LEXEME / WORD’</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -1800,7 +1231,7 @@
 					<deftext></deftext>
 				</def>
 				<categ>
-					<kref>Grammatical Terminology</kref>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -1808,7 +1239,7 @@
 			<k><opt>-</opt>MPH<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>‘GRAMMATICAL/MORPHOLOGICAL CATEGORY/FORM OF A LANGUAGE’</b></gr>
+					<gr><abbr>S0</abbr> <b>‘GRAMMATICAL/MORPHOLOGICAL CATEGORY/FORM OF A LANGUAGE’</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -1943,7 +1374,7 @@
 					</def>
 				</def>
 				<categ>
-					<kref>Grammatical Terminology</kref>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -1951,7 +1382,7 @@
 			<k><opt>-</opt>MPÇ<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>lexical root</b></gr>
+					<gr><abbr>S0</abbr> <b>lexical root</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -1959,7 +1390,7 @@
 					<deftext></deftext>
 				</def>
 				<categ>
-					<kref>Grammatical Terminology</kref>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -1967,7 +1398,7 @@
 			<k><opt>-</opt>MPĻ<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>lexical stem</b></gr>
+					<gr><abbr>S0</abbr> <b>lexical stem</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -1975,7 +1406,7 @@
 					<deftext></deftext>
 				</def>
 				<categ>
-					<kref>Grammatical Terminology</kref>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -1983,7 +1414,7 @@
 			<k><opt>-</opt>MPM<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>concatenated root</b></gr>
+					<gr><abbr>S0</abbr> <b>concatenated root</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -1991,7 +1422,7 @@
 					<deftext></deftext>
 				</def>
 				<categ>
-					<kref>Grammatical Terminology</kref>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -1999,7 +1430,7 @@
 			<k><opt>-</opt>MPN<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>concatenated stem</b></gr>
+					<gr><abbr>S0</abbr> <b>concatenated stem</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -2007,7 +1438,7 @@
 					<deftext></deftext>
 				</def>
 				<categ>
-					<kref>Grammatical Terminology</kref>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -2015,7 +1446,7 @@
 			<k><opt>-</opt>RMP<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>noun case or verbal format</b></gr>
+					<gr><abbr>S0</abbr> <b>noun case or verbal format</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -2023,7 +1454,7 @@
 					<deftext></deftext>
 				</def>
 				<categ>
-					<kref>Grammatical Terminology</kref>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -2031,7 +1462,7 @@
 			<k><opt>-</opt>RMPW<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>case-accessor affix</b></gr>
+					<gr><abbr>S0</abbr> <b>case-accessor affix</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -2039,7 +1470,7 @@
 					<deftext></deftext>
 				</def>
 				<categ>
-					<kref>Grammatical Terminology</kref>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -2047,7 +1478,7 @@
 			<k><opt>-</opt>RMPY<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>bias category</b></gr>
+					<gr><abbr>S0</abbr> <b>bias category</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -2055,7 +1486,7 @@
 					<deftext></deftext>
 				</def>
 				<categ>
-					<kref>Grammatical Terminology</kref>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -2063,7 +1494,7 @@
 			<k><opt>-</opt>RMPL<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>expectation category</b></gr>
+					<gr><abbr>S0</abbr> <b>expectation category</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -2071,7 +1502,7 @@
 					<deftext></deftext>
 				</def>
 				<categ>
-					<kref>Grammatical Terminology</kref>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -2079,7 +1510,7 @@
 			<k><opt>-</opt>MŢP<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>level category</b></gr>
+					<gr><abbr>S0</abbr> <b>level category</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -2087,7 +1518,7 @@
 					<deftext></deftext>
 				</def>
 				<categ>
-					<kref>Grammatical Terminology</kref>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -2095,7 +1526,7 @@
 			<k><opt>-</opt>MŢPW<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>phase category</b></gr>
+					<gr><abbr>S0</abbr> <b>phase category</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -2103,7 +1534,7 @@
 					<deftext></deftext>
 				</def>
 				<categ>
-					<kref>Grammatical Terminology</kref>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -2111,7 +1542,7 @@
 			<k><opt>-</opt>MŢPY<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>valence category</b></gr>
+					<gr><abbr>S0</abbr> <b>valence category</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -2119,7 +1550,7 @@
 					<deftext></deftext>
 				</def>
 				<categ>
-					<kref>Grammatical Terminology</kref>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -2127,7 +1558,7 @@
 			<k><opt>-</opt>MŢPL<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>essence category</b></gr>
+					<gr><abbr>S0</abbr> <b>essence category</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -2135,7 +1566,7 @@
 					<deftext></deftext>
 				</def>
 				<categ>
-					<kref>Grammatical Terminology</kref>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -2143,7 +1574,7 @@
 			<k><opt>-</opt>LMP<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>V<sub>X</sub>C<sub>S</sub> affix</b></gr>
+					<gr><abbr>S0</abbr> <b>V<sub>X</sub>C<sub>S</sub> affix</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -2151,7 +1582,7 @@
 					<deftext></deftext>
 				</def>
 				<categ>
-					<kref>Grammatical Terminology</kref>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -2159,7 +1590,7 @@
 			<k><opt>-</opt>LMPW<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>V<sub>X</sub>C<sub>S</sub> affix-type</b></gr>
+					<gr><abbr>S0</abbr> <b>V<sub>X</sub>C<sub>S</sub> affix-type</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -2167,7 +1598,7 @@
 					<deftext></deftext>
 				</def>
 				<categ>
-					<kref>Grammatical Terminology</kref>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -2175,7 +1606,7 @@
 			<k><opt>-</opt>LMPY<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>V<sub>X</sub>C<sub>S</sub> affix-degree</b></gr>
+					<gr><abbr>S0</abbr> <b>V<sub>X</sub>C<sub>S</sub> affix-degree</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -2183,7 +1614,7 @@
 					<deftext></deftext>
 				</def>
 				<categ>
-					<kref>Grammatical Terminology</kref>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -2191,7 +1622,7 @@
 			<k><opt>-</opt>LMPL<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>formative (part of speech)</b></gr>
+					<gr><abbr>S0</abbr> <b>formative (part of speech)</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -2199,7 +1630,7 @@
 					<deftext></deftext>
 				</def>
 				<categ>
-					<kref>Grammatical Terminology</kref>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -2207,7 +1638,7 @@
 			<k><opt>-</opt>LMPR<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>adjunct (part of speech)</b></gr>
+					<gr><abbr>S0</abbr> <b>adjunct (part of speech)</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -2215,7 +1646,7 @@
 					<deftext></deftext>
 				</def>
 				<categ>
-					<kref>Grammatical Terminology</kref>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -2223,7 +1654,7 @@
 			<k><opt>-</opt>LMPŘ<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>referential (part of speech)</b></gr>
+					<gr><abbr>S0</abbr> <b>referential (part of speech)</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -2231,7 +1662,7 @@
 					<deftext></deftext>
 				</def>
 				<categ>
-					<kref>Grammatical Terminology</kref>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -2239,7 +1670,7 @@
 			<k><opt>-</opt>RMPŘ<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>illocution category</b></gr>
+					<gr><abbr>S0</abbr> <b>illocution category</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -2247,7 +1678,7 @@
 					<deftext></deftext>
 				</def>
 				<categ>
-					<kref>Grammatical Terminology</kref>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -2255,7 +1686,7 @@
 			<k><opt>-</opt>RMPÇ<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>validation category</b></gr>
+					<gr><abbr>S0</abbr> <b>validation category</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -2263,7 +1694,7 @@
 					<deftext></deftext>
 				</def>
 				<categ>
-					<kref>Grammatical Terminology</kref>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -2271,7 +1702,7 @@
 			<k><opt>-</opt>RMPĻ<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>mood category</b></gr>
+					<gr><abbr>S0</abbr> <b>mood category</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -2279,7 +1710,7 @@
 					<deftext></deftext>
 				</def>
 				<categ>
-					<kref>Grammatical Terminology</kref>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -2287,7 +1718,7 @@
 			<k><opt>-</opt>RMPM<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>context category</b></gr>
+					<gr><abbr>S0</abbr> <b>context category</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -2295,7 +1726,7 @@
 					<deftext></deftext>
 				</def>
 				<categ>
-					<kref>Grammatical Terminology</kref>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -2303,7 +1734,7 @@
 			<k><opt>-</opt>RMPN<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>aspect category</b></gr>
+					<gr><abbr>S0</abbr> <b>aspect category</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -2311,7 +1742,7 @@
 					<deftext></deftext>
 				</def>
 				<categ>
-					<kref>Grammatical Terminology</kref>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -2319,7 +1750,7 @@
 			<k><opt>-</opt>RMPH<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>effect category</b></gr>
+					<gr><abbr>S0</abbr> <b>effect category</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -2327,7 +1758,7 @@
 					<deftext></deftext>
 				</def>
 				<categ>
-					<kref>Grammatical Terminology</kref>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -2335,7 +1766,7 @@
 			<k><opt>-</opt>MŢPR<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>perspective category</b></gr>
+					<gr><abbr>S0</abbr> <b>perspective category</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -2343,7 +1774,7 @@
 					<deftext></deftext>
 				</def>
 				<categ>
-					<kref>Grammatical Terminology</kref>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -2351,7 +1782,7 @@
 			<k><opt>-</opt>MŢPŘ<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>extension category</b></gr>
+					<gr><abbr>S0</abbr> <b>extension category</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -2359,7 +1790,7 @@
 					<deftext></deftext>
 				</def>
 				<categ>
-					<kref>Grammatical Terminology</kref>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -2367,7 +1798,7 @@
 			<k><opt>-</opt>MŢPF<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>plexity category</b></gr>
+					<gr><abbr>S0</abbr> <b>plexity category</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -2375,7 +1806,7 @@
 					<deftext></deftext>
 				</def>
 				<categ>
-					<kref>Grammatical Terminology</kref>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -2383,7 +1814,7 @@
 			<k><opt>-</opt>MŢPŢ<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>similarity catetgory</b></gr>
+					<gr><abbr>S0</abbr> <b>similarity catetgory</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -2391,7 +1822,7 @@
 					<deftext></deftext>
 				</def>
 				<categ>
-					<kref>Grammatical Terminology</kref>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -2399,7 +1830,7 @@
 			<k><opt>-</opt>MŢPÇ<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>separability category</b></gr>
+					<gr><abbr>S0</abbr> <b>separability category</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -2407,7 +1838,7 @@
 					<deftext></deftext>
 				</def>
 				<categ>
-					<kref>Grammatical Terminology</kref>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -2415,7 +1846,7 @@
 			<k><opt>-</opt>MŢPS<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>version category</b></gr>
+					<gr><abbr>S0</abbr> <b>version category</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -2423,7 +1854,7 @@
 					<deftext></deftext>
 				</def>
 				<categ>
-					<kref>Grammatical Terminology</kref>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -2431,7 +1862,7 @@
 			<k><opt>-</opt>MŢPŠ<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>function category</b></gr>
+					<gr><abbr>S0</abbr> <b>function category</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -2439,7 +1870,7 @@
 					<deftext></deftext>
 				</def>
 				<categ>
-					<kref>Grammatical Terminology</kref>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -2447,7 +1878,7 @@
 			<k><opt>-</opt>MŢPH<opt>-</opt></k>
 			<def>
 				<def>
-					<gr><abbr>S0</abbr><b>specification category</b></gr>
+					<gr><abbr>S0</abbr> <b>specification category</b></gr>
 					<deftext></deftext>
 				</def>
 				<def>
@@ -2455,7 +1886,7 @@
 					<deftext></deftext>
 				</def>
 				<categ>
-					<kref>Grammatical Terminology</kref>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
 				</categ>
 			</def>
 		</ar>
@@ -2750,7 +2181,7 @@
 			<k>DCD</k>
 			<def>
 				<def>
-					<gr><abbr>Gradient Type D1</abbr><b>Deictic Demonstratives</b></gr>
+					<gr><abbr>Gradient Type D1</abbr> <b>Deictic Demonstratives</b></gr>
 					<def>
 						<deftext><abbr>D1</abbr> this X (at/by/near speaker); the X under discussion; the X at hand; in this manner/way, in the manner at hand, in said manner</deftext>
 					</def>
@@ -2792,7 +2223,7 @@
 			<k>DX1</k>
 			<def>
 				<def>
-					<gr><abbr>Gradient Type C</abbr><b>Deixis Categories</b></gr>
+					<gr><abbr>Gradient Type C</abbr> <b>Deixis Categories</b></gr>
 					<def>
 						<deftext><abbr>D1</abbr> yonder / way over there somewhere / a long way away (not near anyone) [inaccessible or unobservable]</deftext>
 					</def>
@@ -2831,7 +2262,7 @@
 			<k>DX2</k>
 			<def>
 				<def>
-					<gr><abbr>Gradient Type C</abbr><b>Additional Deixis Categories</b></gr>
+					<gr><abbr>Gradient Type C</abbr> <b>Additional Deixis Categories</b></gr>
 					<def>
 						<deftext><abbr>D1</abbr> spread out/ everywhere / scattered yonder / all over out there [inaccessible]</deftext>
 					</def>
@@ -2870,7 +2301,7 @@
 			<k>IDF</k>
 			<def>
 				<def>
-					<gr><abbr>Gradient Type D1</abbr><b>Identificative</b></gr>
+					<gr><abbr>Gradient Type D1</abbr> <b>Identificative</b></gr>
 					<def>
 						<deftext><abbr>D1</abbr> any (of the various / of the number of) X [random selection - NOT quantitative/partitive “any”]; in any manner</deftext>
 					</def>
@@ -2909,7 +2340,7 @@
 			<k>EXT</k>
 			<def>
 				<def>
-					<gr><abbr>Gradient Type A1</abbr><b>Exactness/Comparability of Identity / Identity As a Standard</b></gr>
+					<gr><abbr>Gradient Type A1</abbr> <b>Exactness/Comparability of Identity / Identity As a Standard</b></gr>
 					<def>
 						<deftext><abbr>D1</abbr> not comparable to X / unlike X / inexact(ly)</deftext>
 					</def>
@@ -2951,7 +2382,7 @@
 			<k>AFR</k>
 			<def>
 				<def>
-					<gr><abbr>Gradient Type C</abbr><b>Degree of Assumed Familiarity/Recognition</b></gr>
+					<gr><abbr>Gradient Type C</abbr> <b>Degree of Assumed Familiarity/Recognition</b></gr>
 					<def>
 						<deftext><abbr>D1</abbr> speaker assumes addressee does not know/recognize the reference</deftext>
 					</def>
@@ -2990,7 +2421,7 @@
 			<k>FAM</k>
 			<def>
 				<def>
-					<gr><abbr>Gradient Type A1</abbr><b>Degree Of Familiarity</b></gr>
+					<gr><abbr>Gradient Type A1</abbr> <b>Degree Of Familiarity</b></gr>
 					<def>
 						<deftext><abbr>D1</abbr> unknowable / alien; unable to even try X-ing</deftext>
 					</def>
@@ -3029,7 +2460,7 @@
 			<k>SIM</k>
 			<def>
 				<def>
-					<gr><abbr>Gradient Type A1</abbr><b>Degree Of Similarity</b></gr>
+					<gr><abbr>Gradient Type A1</abbr> <b>Degree Of Similarity</b></gr>
 					<def>
 						<deftext><abbr>D1</abbr> opposite; as different as possible / at the other extreme</deftext>
 					</def>
