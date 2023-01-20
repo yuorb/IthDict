@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdxf SYSTEM "https://github.com/soshial/xdxf_makedict/raw/master/format_standard/xdxf_strict.dtd">
+<xdxf revision="34">
+    <meta_info>
+        <languages>
+            <from xml:lang="art-Latn-n-ithkuil-v-iv" />
+            <to xml:lang="en" />
+        </languages>
+        <title>New Ithkuil Dictionary (ITH-ENG)</title>
+        <full_title>New Ithkuil Lexical Roots, Affixes, and Morphemes (Ithkuil-English)</full_title>
+        <description>A compilation of New Ithkuil Lexical Roots, Affixes, and Morphemes that have been created by John Q.</description>
+        <authors>
+            <author role="programmer">Lucifer Caelius Delicatus</author>
+        </authors>
+        <file_ver>0.0.3</file_ver>
+        <creation_date>12-01-2023</creation_date>
+        <last_edited_date>now</last_edited_date>
+        <dict_src_url>http://ithkuil.net</dict_src_url>
+        <abbreviations>
+            <abbr_def type="grm">
+                <abbr_k>S0</abbr_k>
+                <abbr_v>Stem 0</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>S1</abbr_k>
+                <abbr_v>Stem 1</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>S2</abbr_k>
+                <abbr_v>Stem 2</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>S3</abbr_k>
+                <abbr_v>Stem 3</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>BSC</abbr_k>
+                <abbr_v>BASIC Specification</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>CTE</abbr_k>
+                <abbr_v>CONTENTIAL Specification</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>CSV</abbr_k>
+                <abbr_v>CONSTITUTIVE Specification</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>OBJ</abbr_k>
+                <abbr_v>OBJECTIVE Specification</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>PRC</abbr_k>
+                <abbr_v>PROCESSUAL Version</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>CPT</abbr_k>
+                <abbr_v>COMPLETIVE Version</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>STA</abbr_k>
+                <abbr_v>STATIVE Function</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>DYN</abbr_k>
+                <abbr_v>DYNAMIC Function</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>Gradient Type 0</abbr_k>
+                <abbr_v>No gradient pattern.</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>Gradient Type A1</abbr_k>
+                <abbr_v>A bivalent zero-to-one gradient. Degree 1 signifies one extreme of a gradient spectrum/range of meaning (whether minimal or maximal) while Degree 9 signifies the other extreme (whether minimal or maximal). Degrees 2 through 8 cumulatively add (or subtract) an amount of the concept associated with the affix.</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>Gradient Type A2</abbr_k>
+                <abbr_v>A bivalent “zero-to-one” spectrum-like gradient like Type A1 where Degrees 1 and 9 convey sufficiency connotations of “too little X” and “too much X”.</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>Gradient Type B</abbr_k>
+                <abbr_v>A “three-by-three” gradient pattern. Degrees 1 through 3 signify a spectrum or range involving one sub-parameter, Degrees 4 through 6 signify the same spectrum/range under a different sub-parameter, and Degrees 7 through 9 signify the same spectrum/range under a third sub-parameter.</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>Gradient Type C</abbr_k>
+                <abbr_v>A “one-by-two” or “oscillating” gradient. Degree 1 represents one extreme of a spectrum/range which increases/decreases to the other extreme of the spectrum/range usually represented by Degree 4, while Degrees 6 through 9 cycle back through the same values but with a different sub-parameter operating orthogonally to Degrees 1 through 4. Degree 5 usually represents a neutral or meta-level value associated with the semantic concept of the affix.</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>Gradient Type D1</abbr_k>
+                <abbr_v>A trivalent “-1 to 0 to +1” gradient. Degrees 1 and 9 represent opposite (or complementary) extremes of a spectrum/range while Degree 5 (sometimes Degree 4 or 6) represents a “mid-point” signifying a standard, normal, commonplace, neutral, zero, or baseline value.</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>Gradient Type D2</abbr_k>
+                <abbr_v>A trivalent “-1 to 0 to +1” gradient like Type D1 where Degrees 1 and 9 convey sufficiency connotations of “too little X” and “too much X”, where the operating sufficiency parameter is excessivesness (or the lack thereof).</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>D0</abbr_k>
+                <abbr_v>Degree 0</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>D1</abbr_k>
+                <abbr_v>Degree 1</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>D2</abbr_k>
+                <abbr_v>Degree 2</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>D3</abbr_k>
+                <abbr_v>Degree 3</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>D4</abbr_k>
+                <abbr_v>Degree 4</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>D5</abbr_k>
+                <abbr_v>Degree 5</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>D6</abbr_k>
+                <abbr_v>Degree 6</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>D7</abbr_k>
+                <abbr_v>Degree 7</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>D8</abbr_k>
+                <abbr_v>Degree 8</abbr_v>
+            </abbr_def>
+            <abbr_def type="grm">
+                <abbr_k>D9</abbr_k>
+                <abbr_v>Degree 9</abbr_v>
+            </abbr_def>
+        </abbreviations>
+    </meta_info>
+    <lexicon>
+        <!-- CONTENTS -->
+        <ar>
+            <k>CONTENTS</k>
+            <def>
+                <def>
+                    <deftext><kref>CATEGORIZED ROOTS</kref></deftext>
+                </def>
+                <def>
+                    <deftext><kref>CLASSIFIED AFFIXES</kref></deftext>
+                </def>
+                <def>
+                    <deftext><kref>GRAMMATICAL MORPHEMES</kref></deftext>
+                </def>
+            </def>
+        </ar>
+        <!-- CLASSIFICATION OF AFFIXES BY TOPIC -->
+        <ar>
+            <k>CLASSIFIED AFFIXES</k>
+            <def>
+                <def>
+                    <deftext><kref>Demonstrative, Determinative, and Deictic Affixes</kref></deftext>
+                </def>
+                <def>
+                    <deftext><kref>Sequential/Temporal Affixes</kref></deftext>
+                </def>
+                <def>
+                    <deftext><kref>Spatial, Positional, and Motion Affixes</kref></deftext>
+                </def>
+                <def>
+                    <deftext><kref>Quantifying Affixes</kref></deftext>
+                </def>
+                <def>
+                    <deftext><kref>Qualifying Affixes</kref></deftext>
+                </def>
+                <def>
+                    <deftext><kref>Adverbial Affixes</kref></deftext>
+                </def>
+                <def>
+                    <deftext><kref>Modality Affixes</kref></deftext>
+                </def>
+                <def>
+                    <deftext><kref>Affixes Relating to Bodily Position</kref></deftext>
+                </def>
+                <def>
+                    <deftext><kref>Instrumentative/Utilitative Affixes</kref></deftext>
+                </def>
+                <def>
+                    <deftext><kref>Configurative Affixes</kref></deftext>
+                </def>
+                <def>
+                    <deftext><kref>Affixes Relating to Meta-Level Qualification</kref></deftext>
+                </def>
+                <def>
+                    <deftext><kref>Affixes Relating to Mathematics and Measurement</kref></deftext>
+                </def>
+                <def>
+                    <deftext><kref>Coordinative and Connective Affixes</kref></deftext>
+                </def>
+                <def>
+                    <deftext><kref>Grammatical Affixes</kref></deftext>
+                </def>
+                <def>
+                    <deftext><kref>Affixes for Biological Genera, Species and Sub-Species Differentiation</kref></deftext>
+                </def>
+                <def>
+                    <deftext><kref>Miscellaneous Affixes</kref></deftext>
+                </def>
+                <categ>
+                    <kref>CONTENTS</kref>
+                </categ>
+            </def>
+        </ar>
+        <ar>
+            <k>Demonstrative, Determinative, and Deictic Affixes</k>
+            <def>
+                <def>
+                    <deftext><kref>DCD</kref> Deictic Demonstratives</deftext>
+                </def>
+                <def>
+                    <deftext><kref>DX1</kref> Deixis Categories</deftext>
+                </def>
+                <def>
+                    <deftext><kref>DX2</kref> Additional Deixis Categories</deftext>
+                </def>
+                <def>
+                    <deftext><kref>IDF</kref> Identificative</deftext>
+                </def>
+                <def>
+                    <deftext><kref>EXT</kref> Exactness/Comparability of Identity / Identity As a Standard</deftext>
+                </def>
+                <def>
+                    <deftext><kref>AFR</kref> Degree of Assumed Familiarity/Recognition</deftext>
+                </def>
+                <def>
+                    <deftext><kref>FAM</kref> Degree Of Familiarity</deftext>
+                </def>
+                <def>
+                    <deftext><kref>SIM</kref> Degree Of Similarity</deftext>
+                </def>
+                <categ>
+                    <kref>CLASSIFIED AFFIXES</kref>
+                </categ>
+            </def>
+        </ar>
+        <ar>
+            <k>Sequential/Temporal Affixes</k>
+            <def>
+                <def>
+                    <deftext><kref>XXX</kref> to be added</deftext>
+                </def>
+                <categ>
+                    <kref>CLASSIFIED AFFIXES</kref>
+                </categ>
+            </def>
+        </ar>
+        <ar>
+            <k>Spatial, Positional, and Motion Affixes</k>
+            <def>
+                <def>
+                    <deftext><kref>XXX</kref> to be added</deftext>
+                </def>
+                <categ>
+                    <kref>CLASSIFIED AFFIXES</kref>
+                </categ>
+            </def>
+        </ar>
+        <ar>
+            <k>Quantifying Affixes</k>
+            <def>
+                <def>
+                    <deftext><kref>XXX</kref> to be added</deftext>
+                </def>
+                <categ>
+                    <kref>CLASSIFIED AFFIXES</kref>
+                </categ>
+            </def>
+        </ar>
+        <ar>
+            <k>Qualifying Affixes</k>
+            <def>
+                <def>
+                    <deftext><kref>XXX</kref> to be added</deftext>
+                </def>
+                <categ>
+                    <kref>CLASSIFIED AFFIXES</kref>
+                </categ>
+            </def>
+        </ar>
+        <ar>
+            <k>Adverbial Affixes</k>
+            <def>
+                <def>
+                    <deftext><kref>XXX</kref> to be added</deftext>
+                </def>
+                <categ>
+                    <kref>CLASSIFIED AFFIXES</kref>
+                </categ>
+            </def>
+        </ar>
+        <ar>
+            <k>Modality Affixes</k>
+            <def>
+                <def>
+                    <deftext><kref>XXX</kref> to be added</deftext>
+                </def>
+                <categ>
+                    <kref>CLASSIFIED AFFIXES</kref>
+                </categ>
+            </def>
+        </ar>
+        <ar>
+            <k>Agential/Participant Affixes</k>
+            <def>
+                <def>
+                    <deftext><kref>XXX</kref> to be added</deftext>
+                </def>
+                <categ>
+                    <kref>CLASSIFIED AFFIXES</kref>
+                </categ>
+            </def>
+        </ar>
+        <ar>
+            <k>Affixes Relating to Bodily Position</k>
+            <def>
+                <def>
+                    <deftext><kref>XXX</kref> to be added</deftext>
+                </def>
+                <categ>
+                    <kref>CLASSIFIED AFFIXES</kref>
+                </categ>
+            </def>
+        </ar>
+        <ar>
+            <k>Instrumentative/Utilitative Affixes</k>
+            <def>
+                <def>
+                    <deftext><kref>XXX</kref> to be added</deftext>
+                </def>
+                <categ>
+                    <kref>CLASSIFIED AFFIXES</kref>
+                </categ>
+            </def>
+        </ar>
+        <ar>
+            <k>Configurative Affixes</k>
+            <def>
+                <def>
+                    <deftext><kref>XXX</kref> to be added</deftext>
+                </def>
+                <categ>
+                    <kref>CLASSIFIED AFFIXES</kref>
+                </categ>
+            </def>
+        </ar>
+        <ar>
+            <k>Affixes Relating to Meta-Level Qualification</k>
+            <def>
+                <def>
+                    <deftext><kref>XXX</kref> to be added</deftext>
+                </def>
+                <categ>
+                    <kref>CLASSIFIED AFFIXES</kref>
+                </categ>
+            </def>
+        </ar>
+        <ar>
+            <k>Sensory Affixes</k>
+            <def>
+                <def>
+                    <deftext><kref>XXX</kref> to be added</deftext>
+                </def>
+                <categ>
+                    <kref>CLASSIFIED AFFIXES</kref>
+                </categ>
+            </def>
+        </ar>
+        <ar>
+            <k>Affixes Relating to Mathematics and Measurement</k>
+            <def>
+                <def>
+                    <deftext><kref>XXX</kref> to be added</deftext>
+                </def>
+                <categ>
+                    <kref>CLASSIFIED AFFIXES</kref>
+                </categ>
+            </def>
+        </ar>
+        <ar>
+            <k>Coordinative and Connective Affixes</k>
+            <def>
+                <def>
+                    <deftext><kref>XXX</kref> to be added</deftext>
+                </def>
+                <categ>
+                    <kref>CLASSIFIED AFFIXES</kref>
+                </categ>
+            </def>
+        </ar>
+        <ar>
+            <k>Grammatical Affixes</k>
+            <def>
+                <def>
+                    <deftext><kref>XXX</kref> to be added</deftext>
+                </def>
+                <categ>
+                    <kref>CLASSIFIED AFFIXES</kref>
+                </categ>
+            </def>
+        </ar>
+        <ar>
+            <k>Affixes for Biological Genera, Species and Sub-Species Differentiation</k>
+            <def>
+                <def>
+                    <deftext><kref>XXX</kref> to be added</deftext>
+                </def>
+                <categ>
+                    <kref>CLASSIFIED AFFIXES</kref>
+                </categ>
+            </def>
+        </ar>
+        <ar>
+            <k>Miscellaneous Affixes</k>
+            <def>
+                <def>
+                    <deftext><kref>XXX</kref> to be added</deftext>
+                </def>
+                <categ>
+                    <kref>CLASSIFIED AFFIXES</kref>
+                </categ>
+            </def>
+        </ar>
+        <!-- AFFIXUAL ITEMS -->
+        <!-- Demonstrative, Determinative, and Deictic Affixes -->
+        <ar>
+            <k><opt>-</opt>t</k>
+            <k>DCD</k>
+            <def>
+                <def>
+                    <gr><abbr>Gradient Type D1</abbr> <b>Deictic Demonstratives</b></gr>
+                    <def>
+                        <deftext><abbr>D1</abbr> this X (at/by/near speaker); the X under discussion; the X at hand; in this manner/way, in the manner at hand, in said manner</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D2</abbr> that X (at/by/near addressee); the X at/by/near the addressee; in that manner/way, thus</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D3</abbr> that X yonder (away from both speaker and addressee); in that manner, thus</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D4</abbr> the previously mentioned X, the X known to speaker and addressee, the contextually specific/relevant/identified X, “the” X; in the manner under discussion or contextually known</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D5</abbr> [head of relative clause and/or the formative to which a later Reduplicative Referential refers]</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D6</abbr> [same as Degree 4 + head of relative clause and/or the formative to which a later Reduplicative Referential refers]</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D7</abbr> [same as Degree 3 + head of relative clause and/or the formative to which a later Reduplicative Referential refers]</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D8</abbr> [same as Degree 2 + head of relative clause and/or the formative to which a later Reduplicative Referential refers]</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D9</abbr> [same as Degree 1 + head of relative clause and/or the formative to which a later Reduplicative Referential refers]</deftext>
+                    </def>
+                </def>
+                <def>
+                    <deftext>Associated Root: -<kref type="rel">T</kref>-</deftext>
+                </def>
+                <categ>
+                    <kref>Demonstrative, Determinative, and Deictic Affixes</kref>
+                </categ>
+            </def>
+        </ar>
+        <ar>
+            <k><opt>-</opt>tř</k>
+            <k>DX1</k>
+            <def>
+                <def>
+                    <gr><abbr>Gradient Type C</abbr> <b>Deixis Categories</b></gr>
+                    <def>
+                        <deftext><abbr>D1</abbr> yonder / way over there somewhere / a long way away (not near anyone) [inaccessible or unobservable]</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D2</abbr> over there somewhere (by third party) [inaccessible or unobservable]</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D3</abbr> there somewhere (by listener) [inaccessible or observable]</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D4</abbr> here somewhere (by speaker] [inaccessible or observable]</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D5</abbr> here with us (by speaker and listener and accessible]</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D6</abbr> here (by speaker and accessible]</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D7</abbr> there [by listener and accessible]</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D8</abbr> there (by third party, but accessible to speaker or listener)</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D9</abbr> yonder / way over there [not near any party but accessible]</deftext>
+                    </def>
+                </def>
+                <categ>
+                    <kref>Demonstrative, Determinative, and Deictic Affixes</kref>
+                </categ>
+            </def>
+        </ar>
+        <ar>
+            <k><opt>-</opt>stř</k>
+            <k>DX2</k>
+            <def>
+                <def>
+                    <gr><abbr>Gradient Type C</abbr> <b>Additional Deixis Categories</b></gr>
+                    <def>
+                        <deftext><abbr>D1</abbr> spread out/ everywhere / scattered yonder / all over out there [inaccessible]</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D2</abbr> spread out/ everywhere / scattered all about 3rd party / all over the place around 3rd party [inaccessible]</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D3</abbr> spread out/ everywhere / scattered all about listener / all over the place around listener [inaccessible]</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D4</abbr> spread out/ everywhere / scattered all about speaker / all over the place / here and there [inaccessible]</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D5</abbr> spread out/ everywhere / scattered all about speaker and listener [accessible]</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D6</abbr> spread out/ everywhere / scattered all about speaker/all over the place / here and there [accessible]</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D7</abbr> spread out/ everywhere / scattered all about listener / all over the place around listener [accessible]</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D8</abbr> spread out/ everywhere / scattered all about 3rd party / all over the place around 3rd party [accessible]</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D9</abbr> spread out/ everywhere / scattered yonder / all over out there [accessible]</deftext>
+                    </def>
+                </def>
+                <categ>
+                    <kref>Demonstrative, Determinative, and Deictic Affixes</kref>
+                </categ>
+            </def>
+        </ar>
+        <ar>
+            <k><opt>-</opt>ňḑ</k>
+            <k>IDF</k>
+            <def>
+                <def>
+                    <gr><abbr>Gradient Type D1</abbr> <b>Identificative</b></gr>
+                    <def>
+                        <deftext><abbr>D1</abbr> any (of the various / of the number of) X [random selection - NOT quantitative/partitive “any”]; in any manner</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D2</abbr> almost any; in almost any (number of) way(s)</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D3</abbr> some X or other; in some way or other</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D4</abbr> some certain X ; in some certain way [identity unknown]</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D5</abbr> this X or that; a certain X or more; in this way or that [identity almost known – choices limited]</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D6</abbr> a certain / a particular; in a certain or particular way [identity ascertainable]</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D7</abbr> presumably this/that; apparently this X ; in that way presumably [tentatively identified]</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D8</abbr> a certain / a particular; in a certain or particular way [identity presumably known to addressee but not to speaker]</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D9</abbr> a certain / a particular; in a certain or particular way [identity known to speaker but (potentially) not to addressee]</deftext>
+                    </def>
+                </def>
+                <categ>
+                    <kref>Demonstrative, Determinative, and Deictic Affixes</kref>
+                </categ>
+            </def>
+        </ar>
+        <ar>
+            <k><opt>-</opt>řḑ</k>
+            <k>EXT</k>
+            <def>
+                <def>
+                    <gr><abbr>Gradient Type A1</abbr> <b>Exactness/Comparability of Identity / Identity As a Standard</b></gr>
+                    <def>
+                        <deftext><abbr>D1</abbr> not comparable to X / unlike X / inexact(ly)</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D2</abbr> not quite comparable to X / not nearly exact enough</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D3</abbr> nearly or almost that X; nearly or almost so</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D4</abbr> just about . . . / for all intents and purposes</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D5</abbr> such (a); in such a manner</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D6</abbr> comparable / comparably / good enough / well enough / sufficiently exact</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D7</abbr> just like that; just so, thus(ly)</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D8</abbr> a(n exact) copy/duplicate of X / an exact substitute for X</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D9</abbr> the exact X / the very (one); exactly thus / exactly so</deftext>
+                    </def>
+                </def>
+                <def>
+                    <deftext>Associated Root: -<kref type="rel">ŘḐ</kref>-</deftext>
+                </def>
+                <categ>
+                    <kref>Demonstrative, Determinative, and Deictic Affixes</kref>
+                </categ>
+            </def>
+        </ar>
+        <ar>
+            <k><opt>-</opt>çř</k>
+            <k>AFR</k>
+            <def>
+                <def>
+                    <gr><abbr>Gradient Type C</abbr> <b>Degree of Assumed Familiarity/Recognition</b></gr>
+                    <def>
+                        <deftext><abbr>D1</abbr> speaker assumes addressee does not know/recognize the reference</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D2</abbr> speaker assumes addressee may know but has forgotten the reference</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D3</abbr> speaker assumes addressee knows but has forgotten the reference</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D4</abbr> speaker assumes addressee knows but may have forgotten the reference</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D5</abbr> speaker assumes addressee knows/recognizes the reference</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D6</abbr> unknown whether addressee knows the referent; speaker will elucidate anyway</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D7</abbr> unknown whether addressee knows the referent; speaker willing to elucidate if requested</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D8</abbr> unknown whether addressee knows the referent; speaker will elucidate only reluctantly if pressed to do so or absolutely necessary</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D9</abbr> unknown whether addressee knows the referent; speaker unwilling to elucidate</deftext>
+                    </def>
+                </def>
+                <categ>
+                    <kref>Demonstrative, Determinative, and Deictic Affixes</kref>
+                </categ>
+            </def>
+        </ar>
+        <ar>
+            <k><opt>-</opt>rļ</k>
+            <k>FAM</k>
+            <def>
+                <def>
+                    <gr><abbr>Gradient Type A1</abbr> <b>Degree Of Familiarity</b></gr>
+                    <def>
+                        <deftext><abbr>D1</abbr> unknowable / alien; unable to even try X-ing</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D2</abbr> unfamiliar, strange; unaccustomed to X-ing</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D3</abbr> rather different / barely similar / almost completely different or dissimilar; in an almost completely different way</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D4</abbr> somewhat unfamiliar; somewhat unaccustomed to X-ing</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D5</abbr> just becoming familiar, just getting to know; just getting used to X-ing</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D6</abbr> somewhat familiar; somewhat accustomed to X-ing</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D7</abbr> familiar/known; accustomed to X-ing</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D8</abbr> well-known / utterly familiar with / ingrained; inherently accustomed or used to X-ing</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D9</abbr> intimate with; intimately involved with / intimately accustomed to</deftext>
+                    </def>
+                </def>
+                <categ>
+                    <kref>Demonstrative, Determinative, and Deictic Affixes</kref>
+                </categ>
+            </def>
+        </ar>
+        <ar>
+            <k><opt>-</opt>rx</k>
+            <k>SIM</k>
+            <def>
+                <def>
+                    <gr><abbr>Gradient Type A1</abbr> <b>Degree Of Similarity</b></gr>
+                    <def>
+                        <deftext><abbr>D1</abbr> opposite; as different as possible / at the other extreme</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D2</abbr> completely different/dissimilar; in a totally different or dissimilar way</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D3</abbr> rather different / barely similar / almost completely different or dissimilar; in an almost completely different way</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D4</abbr> other [=different]; in another [=different] way</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D5</abbr> somewhat different, only superficially similar; somewhat differently</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D6</abbr> (somewhat) similar, only superficially different, sort of like, something like, X-like; similarly</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D7</abbr> similar in the ways that count/similar down deep, some sort of X; similarly at deep level</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D8</abbr> very similar; very similarly</deftext>
+                    </def>
+                    <def>
+                        <deftext><abbr>D9</abbr> [exactly the] same, indistinguishable from; in the [exactly] same way</deftext>
+                    </def>
+                </def>
+                <def>
+                    <deftext>Associated Root: -<kref type="rel">RX</kref>-</deftext>
+                </def>
+                <categ>
+                    <kref>Demonstrative, Determinative, and Deictic Affixes</kref>
+                </categ>
+            </def>
+        </ar>
+
+        <!-- Sequential/Temporal Affixes -->
+        <!-- Spatial, Positional, and Motion Affixes -->
+        <!-- Quantifying Affixes -->
+        <!-- Qualifying Affixes -->
+        <!-- Adverbial Affixes -->
+        <!-- Modality Affixes -->
+        <!-- Agential/Participant Affixes -->
+        <!-- Affixes Relating to Bodily Position -->
+        <!-- Instrumentative/Utilitative Affixes -->
+        <!-- Configurative Affixes -->
+        <!-- Affixes Relating to Meta-Level Qualification -->
+        <!-- Sensory Affixes -->
+        <!-- Affixes Relating to Mathematics and Measurement -->
+        <!-- Coordinative and Connective Affixes -->
+        <!-- Grammatical Affixes -->
+        <!-- Affixes for Biological Genera, Species and Sub-Species Differentiation -->
+        <!-- Miscellaneous Affixes -->
+
+        <!-- Grammatical Terminology -->
+
+
+    </lexicon>
+</xdxf>

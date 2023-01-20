@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xdxf SYSTEM "https://github.com/soshial/xdxf_makedict/raw/master/format_standard/xdxf_strict.dtd">
-<xdxf format="logical" revision="34">
+<xdxf revision="34">
 	<meta_info>
 		<languages>
 			<from xml:lang="art-Latn-n-ithkuil-v-iv" />
@@ -3448,7 +3448,7 @@
 						<def>
 							<deftext>-<kref>ŠP</kref>- COLOR</deftext>
 						</def>
-						<def id="R4541">
+						<def>
 							<gr>Primary Color Roots/Stems</gr>
 							<def>
 								<deftext>-<kref>GY</kref>- REDDISH</deftext>
@@ -7539,38 +7539,918 @@
 
 		<!-- RADACAL ITEMS -->
 		<!-- ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS -->
-		<!-- COMMON STATES AND ACTS -->
-		<!-- SPACETIME and MOTION -->
-		<!-- PSYCHOLOGICAL AND SOCIOLOGICAL PHENOMENA -->
-		<!-- MISCELLANEOUS ENTITIES AND OBJECTS -->
-		<!-- NATURE AND NATURAL PHENOMENA (Non-Biological) -->
-		<!-- NATURAL PHENOMENA (BIOLOGICAL/ZOOLOGICAL) -->
-
-		<!-- CLASSIFICATION OF AFFIXES BY TOPIC -->
-
-		<!-- AFFIXUAL ITEMS -->
-		<!-- Demonstrative, Determinative, and Deictic Affixes -->
-
-		<!-- Sequential/Temporal Affixes -->
-		<!-- Spatial, Positional, and Motion Affixes -->
-		<!-- Quantifying Affixes -->
-		<!-- Qualifying Affixes -->
-		<!-- Adverbial Affixes -->
-		<!-- Modality Affixes -->
-		<!-- Agential/Participant Affixes -->
-		<!-- Affixes Relating to Bodily Position -->
-		<!-- Instrumentative/Utilitative Affixes -->
-		<!-- Configurative Affixes -->
-		<!-- Affixes Relating to Meta-Level Qualification -->
-		<!-- Sensory Affixes -->
-		<!-- Affixes Relating to Mathematics and Measurement -->
-		<!-- Coordinative and Connective Affixes -->
-		<!-- Grammatical Affixes -->
-		<!-- Affixes for Biological Genera, Species and Sub-Species Differentiation -->
-		<!-- Miscellaneous Affixes -->
-
-		<!-- Grammatical Terminology -->
-
-
+		<ar>
+			<k><opt>-</opt>S<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>[the “carrier” root]</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<gr><abbr>S1</abbr></gr>
+					<def>
+						<deftext><abbr>BSC</abbr> [carrier stem representing an animate being named by the succeeding foreign or proper name/phrase]</deftext>
+					</def>
+					<def>
+						<deftext><abbr>CTE</abbr> [carrier stem representing the identity of the animate being named by the succeeding foreign or proper name/phrase]</deftext>
+					</def>
+					<def>
+						<deftext><abbr>CSV</abbr> [carrier stem representing the physical presence/body of the animate being named by the succeeding foreign or proper name/phrase]</deftext>
+					</def>
+					<def>
+						<deftext><abbr>OBJ</abbr> that which is impacted/targeted or a patient of the animate being named named by the succeeding foreign or proper name/phrase</deftext>
+					</def>
+				</def>
+				<def>
+					<gr><abbr>S2</abbr></gr>
+					<def>
+						<deftext><abbr>BSC</abbr> [stem representing inanimate object or abstract entity named by the succeeding foreign or proper name/phrase]</deftext>
+					</def>
+					<def>
+						<deftext><abbr>CTE</abbr> [stem representing the identity of the inanimate object or abstract entity named by the succeeding foreign or proper name/phrase]</deftext>
+					</def>
+					<def>
+						<deftext><abbr>CSV</abbr> [stem representing the physical presence or body of the inanimate entity or tangible manifestation/effect of the abstract entity named by the succeeding foreign or proper name/phrase]</deftext>
+					</def>
+					<def>
+						<deftext><abbr>OBJ</abbr> that which is impacted/targeted or a patient of the inanimate or abstract entity named by the succeeding foreign or proper name/phrase</deftext>
+					</def>
+				</def>
+				<def>
+					<gr><abbr>S3</abbr></gr>
+					<def>
+						<deftext><abbr>BSC</abbr> [stem representing geographical or geo-demographic place/location named by the succeeding foreign or proper name/phrase]</deftext>
+					</def>
+					<def>
+						<deftext><abbr>CTE</abbr> [stem representing the identity of the geographical or geo-demographic place/location named by the succeeding foreign or proper name/phrase]</deftext>
+					</def>
+					<def>
+						<deftext><abbr>CSV</abbr> [stem representing the physical/tangible praxes and/or tangible infrastructure of the geographical or geo-demographic place/location named by the succeeding foreign or proper name/phrase]</deftext>
+					</def>
+					<def>
+						<deftext><abbr>OBJ</abbr> that which is impacted/targeted or a patient of the geographical or geo-demographic place/location named by the succeeding foreign or proper name/phrase</deftext>
+					</def>
+				</def>
+				<categ>
+					<kref idref="R11">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>T<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>[General Demonstrative Root]</b></gr>
+					<def>
+						<deftext><abbr>BSC</abbr> (to be) ‘this / the one at-hand / the one in question’ referring to entities, situations, abstract notions, etc. (depending on the C<sub>A</sub> complex);<br />
+                            <abbr>STA</abbr> : to be this/what is under discussion <br />
+                            <abbr>DYN</abbr> : to do this/what is under discussion</deftext>
+					</def>
+					<def>
+						<deftext><abbr>CTE</abbr> (to be) that which is the essence or essential point or meaning of this/what is at-hand</deftext>
+					</def>
+					<def>
+						<deftext><abbr>CSV</abbr> (to be) that which is the form/structure or physical manifestation of this/what is at-hand</deftext>
+					</def>
+					<def>
+						<deftext><abbr>OBJ</abbr> (to be) the object/entity/situation/idea, etc. being referred to by this/what is under discussion or at-hand</deftext>
+					</def>
+				</def>
+				<def>
+					<gr><abbr>S1</abbr></gr>
+					<deftext>this (one) near, at, by, or associated w/ speaker</deftext>
+				</def>
+				<def>
+					<gr><abbr>S2</abbr></gr>
+					<deftext>that (one), near, at, by or associated w/ addressee</deftext>
+				</def>
+				<def>
+					<gr><abbr>S3</abbr></gr>
+					<deftext>that (one yonder), not near, at, by or associated with either speaker or addressee</deftext>
+				</def>
+				<def>
+					<gr>Using cases, the above root provides translations for phrases such as “thus”/”in this/that manner”, “there”/”in that place/location”, “Yes”/”It is that”, “No”/”It is not that”, “some / some of that”, etc.</gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<deftext>Associated Affix: <kref type="rel">DCD</kref></deftext>
+				</def>
+				<categ>
+					<kref idref="R12">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>Č<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>‘BE (i.e., copular identification only) / EQUIVALENCE / IDENTIFICATION’</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<gr><abbr>S1</abbr></gr>
+					<def>
+						<deftext><abbr>BSC</abbr> (to be ontologically the) self-same entity (as) (i.e., [to be] simply another name for the self-same entity)</deftext>
+					</def>
+					<def>
+						<deftext><abbr>CTE</abbr> (to be ontologically the) self-same entity (as) in terms of essence, sense of identity, behavior, personality, mind, etc.</deftext>
+					</def>
+					<def>
+						<deftext><abbr>CSV</abbr> (to be ontologically) the self-same entity (as) in terms of appearance, physical manifestation or construction</deftext>
+					</def>
+					<def>
+						<deftext><abbr>OBJ</abbr> what X ontologically is (as opposed to being something else), X’s natural identity, X’s existence as X; to be X as itself (as opposed to something else)</deftext>
+					</def>
+				</def>
+				<def>
+					<gr><abbr>S2</abbr></gr>
+					<def>
+						<deftext><abbr>BSC</abbr> to be epistemologically equivalent to or (functionally) identified/identifiable as; be (functionally) the same as; be equal to</deftext>
+					</def>
+					<def>
+						<deftext><abbr>CTE</abbr> to be epistemologically equivalent to or (functionally) identif(ied/-iable) as in terms of essence, sense of identity, behavior, personality, mind, etc.</deftext>
+					</def>
+					<def>
+						<deftext><abbr>CSV</abbr> to be epistemologically equivalent to or (functionally) identif(ied/-iable) as in terms of appearance, physical manifestation or construction</deftext>
+					</def>
+					<def>
+						<deftext><abbr>OBJ</abbr> what X is epistemologically equivalent to (as opposed to something else), X’s natural identity, X’s existence as X; to be X as itself (as opposed to something else)</deftext>
+					</def>
+				</def>
+				<def>
+					<gr><abbr>S3</abbr></gr>
+					<def>
+						<deftext><abbr>BSC</abbr> to be epistemologically synonymous/tantamount/convertible to</deftext>
+					</def>
+					<def>
+						<deftext><abbr>CTE</abbr> to be epistemologically synonymous/tantamount/convertible in terms of essence, sense of identity, behavior, personality, mind, etc.</deftext>
+					</def>
+					<def>
+						<deftext><abbr>CSV</abbr> to be epistemologically synonymous/tantamount/convertible to in terms of appearance or outward physical manifestation</deftext>
+					</def>
+					<def>
+						<deftext><abbr>OBJ</abbr> (to be )what X is epistemologically synonymous, tantamount, or convertible to (as opposed to something else), X’s convertibility to</deftext>
+					</def>
+				</def>
+				<def>
+					<gr>The scope of this root’s usage is narrow. It is used only in contexts requiring ontological or epistemic equivalence/identity. e.g., “I am your father.” It is <b>not to be used</b> in the following circumstances: </gr>
+					<def>
+						<deftext>when “be” means “be named/called”, e.g., “<i>My dog is [named/called] Toto.</i>” <br /> (Use stem meaning “be named; be called; have an appellation”)</deftext>
+					</def>
+					<def>
+						<deftext>when “be” initiates an adjectival phrase, e.g., “<i>Rain is beneficial.</i>” <br /> (Use adjectival case or an appropriate verbal stem, e.g., “to (be of) benefit”)</deftext>
+					</def>
+					<def>
+						<deftext>when “be” indicates a spatio-temporal relation, e.g., “<i>The box is on the table</i>” <br /> (Use stem signifying the specific relation, e.g., “be on the top surface of”)</deftext>
+					</def>
+					<def>
+						<deftext>when “be” means “occur / happen / take place”, e.g., “<i>Wednesday is the best day for shopping.</i>” <br /> (Use stem meaning “occur, take place, happen”)</deftext>
+					</def>
+					<def>
+						<deftext>when “be” means “exist (ontologically)”, e.g., “<i>Such is life</i>”, “<i>I think, therefore I am.</i>” <br /> (Use stem meaning “existent entity; to ontologically exist”)</deftext>
+					</def>
+					<def>
+						<deftext>when “be” indicates exemplary membership in a set, e.g., “<i>A hammer is a tool.</i>” <br /> (Use stem meaning “exemplify; be an example of” or “be a type of”)</deftext>
+					</def>
+					<def>
+						<deftext>when “be” indicates composition, e.g., “<i>Rain is water.</i>” <br /> (Use stem meaning “to consist of”)</deftext>
+					</def>
+				</def>
+				<categ>
+					<kref idref="R13">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>MPW<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>‘PHONOLOGICAL COMPONENT OF A SPOKEN LANGUAGE’</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<gr><abbr>S1</abbr></gr>
+					<def>
+						<deftext><abbr>BSC</abbr> (to be) a phoneme [i.e., the smallest meaningful/salient sonic unit, whether consonantal or vocalic, pronounceable/articulable by the human vocal apparatus, that is cognitively distinct from other such sonic units in a particular human language as heard/distinguished by its native speakers]</deftext>
+					</def>
+					<def>
+						<deftext><abbr>CTE</abbr> (to be) a state/process of hearing/understanding/identifying a spoken phoneme (or graphic/written representation thereof)</deftext>
+					</def>
+					<def>
+						<deftext><abbr>CSV</abbr> (to be) an act of pronouncing/articulating a phoneme; to pronounce/articulate a phoneme (or producing a written representation thereof)</deftext>
+					</def>
+					<def>
+						<deftext><abbr>OBJ</abbr> (to be) the particular place and manner of oral/vocal articulation of a particular phoneme</deftext>
+					</def>
+				</def>
+				<def>
+					<gr><abbr>S2</abbr></gr>
+					<deftext>(to be) a phone [i.e., a sound pronounceable/articulable by the human vocal apparatus, regardless of whether it functions meaningfully as part of a phonology in a human language]</deftext>
+				</def>
+				<def>
+					<gr><abbr>S3</abbr></gr>
+					<deftext>(to be) an allophone [i.e., a particular sonic variation on a archetypal phone identified by native speakers of a language as being a phoneme in that language, the variation being predictable based on the structure of the phonetic environment in which the sound occurs]</deftext>
+				</def>
+				<def>
+					<gr>The “-emic”, “-etic”, “allo-” disinction of the three stems of the above root, along with its Specification pattern, apply to the following roots as well:</gr>
+					<def>
+						<deftext>-<kref type="rel">MPY</kref>- ‘MORPHEME’ </deftext>
+					</def>
+					<def>
+						<deftext>-<kref type="rel">MPŘ</kref>- ‘LEXEME / WORD’ </deftext>
+					</def>
+				</def>
+				<categ>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>MPY<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>‘MORPHEME’</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<co>The stems follow the same Specification pattern of the root -<kref type="rel">MPW</kref>-</co>
+					<deftext></deftext>
+				</def>
+				<categ>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>MPŘ<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>‘LEXEME / WORD’</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<co>The stems follow the same Specification pattern of the root -<kref type="rel">MPW</kref>-</co>
+					<deftext></deftext>
+				</def>
+				<categ>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>MPH<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>‘GRAMMATICAL/MORPHOLOGICAL CATEGORY/FORM OF A LANGUAGE’</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<gr><abbr>S1</abbr></gr>
+					<def>
+						<deftext><abbr>BSC</abbr> (to be) a grammatical/morphological category in a spoken/written language</deftext>
+					</def>
+					<def>
+						<deftext><abbr>CTE</abbr> (to be) a state/process of hearing/understanding/identifying a grammatical/morphological category in a spoken/written language</deftext>
+					</def>
+					<def>
+						<deftext><abbr>CSV</abbr> (to be) an act of using/speaking/writing a grammatical/morphological category in a spoken/written language</deftext>
+					</def>
+					<def>
+						<deftext><abbr>OBJ</abbr> (to be) the particular phonological form of a grammatical/morphological category in a spoken/written language</deftext>
+					</def>
+				</def>
+				<def>
+					<gr><abbr>S2</abbr></gr>
+					<deftext>(to be) the function/purpose/meaning/signification of a particular grammatical/morphological category in a spoken/written language</deftext>
+				</def>
+				<def>
+					<gr><abbr>S3</abbr></gr>
+					<deftext>(to be) an allomorphic/alternative way of expressing a grammatical/morphological category in a spoken/written language</deftext>
+				</def>
+				<def>
+					<gr>The following stems for Ithkuil grammatical categories follow the same Specification pattern of the root above:</gr>
+					<def>
+						<deftext>-<kref type="hpn">MPÇ</kref>- lexical root </deftext>
+					</def>
+					<def>
+						<deftext>-<kref type="hpn">MPĻ</kref>- lexical stem </deftext>
+					</def>
+					<def>
+						<deftext>-<kref type="hpn">MPM</kref>- concatenated root </deftext>
+					</def>
+					<def>
+						<deftext>-<kref type="hpn">MPN</kref>- concatenated stem </deftext>
+					</def>
+					<def>
+						<deftext>-<kref type="hpn">RMP</kref>- noun case or verbal format </deftext>
+					</def>
+					<def>
+						<deftext>-<kref type="hpn">RMPW</kref>- case-accessor affix </deftext>
+					</def>
+					<def>
+						<deftext>-<kref type="hpn">RMPY</kref>- bias category </deftext>
+					</def>
+					<def>
+						<deftext>-<kref type="hpn">RMPL</kref>- expectation category </deftext>
+					</def>
+					<def>
+						<deftext>-<kref type="hpn">MŢP</kref>- level category </deftext>
+					</def>
+					<def>
+						<deftext>-<kref type="hpn">MŢPW</kref>- phase category </deftext>
+					</def>
+					<def>
+						<deftext>-<kref type="hpn">MŢPY</kref>- valence category </deftext>
+					</def>
+					<def>
+						<deftext>-<kref type="hpn">MŢPL</kref>- essence category </deftext>
+					</def>
+					<def>
+						<deftext>-<kref type="hpn">LMP</kref>- V<sub>X</sub>C<sub>S</sub> affix </deftext>
+					</def>
+					<def>
+						<deftext>-<kref type="hpn">LMPW</kref>- V<sub>X</sub>C<sub>S</sub> affix-type </deftext>
+					</def>
+					<def>
+						<deftext>-<kref type="hpn">LMPY</kref>- V<sub>X</sub>C<sub>S</sub> affix-degree </deftext>
+					</def>
+					<def>
+						<deftext>-<kref type="hpn">LMPL</kref>- formative (part of speech) </deftext>
+					</def>
+					<def>
+						<deftext>-<kref type="hpn">LMPR</kref>- adjunct (part of speech) </deftext>
+					</def>
+					<def>
+						<deftext>-<kref type="hpn">LMPŘ</kref>- referential (part of speech) </deftext>
+					</def>
+					<def>
+						<deftext>-<kref type="hpn">RMPŘ</kref>- illocution category </deftext>
+					</def>
+					<def>
+						<deftext>-<kref type="hpn">RMPÇ</kref>- validation category </deftext>
+					</def>
+					<def>
+						<deftext>-<kref type="hpn">RMPĻ</kref>- mood category </deftext>
+					</def>
+					<def>
+						<deftext>-<kref type="hpn">RMPM</kref>- context category </deftext>
+					</def>
+					<def>
+						<deftext>-<kref type="hpn">RMPN</kref>- aspect category </deftext>
+					</def>
+					<def>
+						<deftext>-<kref type="hpn">RMPH</kref>- effect category </deftext>
+					</def>
+					<def>
+						<deftext>-<kref type="hpn">MŢPR</kref>- perspective category </deftext>
+					</def>
+					<def>
+						<deftext>-<kref type="hpn">MŢPŘ</kref>- extension category </deftext>
+					</def>
+					<def>
+						<deftext>-<kref type="hpn">MŢPF</kref>- plexity category </deftext>
+					</def>
+					<def>
+						<deftext>-<kref type="hpn">MŢPŢ</kref>- similarity catetgory </deftext>
+					</def>
+					<def>
+						<deftext>-<kref type="hpn">MŢPÇ</kref>- separability category </deftext>
+					</def>
+					<def>
+						<deftext>-<kref type="hpn">MŢPS</kref>- version category </deftext>
+					</def>
+					<def>
+						<deftext>-<kref type="hpn">MŢPŠ</kref>- function category </deftext>
+					</def>
+					<def>
+						<deftext>-<kref type="hpn">MŢPH</kref>- specification category </deftext>
+					</def>
+				</def>
+				<def>
+					<gr>To name a particular grammatical sub-category (e.g., comitative case), use the appropriate root/stem above in conjunction with one of the following rules:</gr>
+					<def>
+						<deftext>To name a noun case or verbal format, use the stem -- above in conjunction with the specialized C<sub>S</sub>-root (see Sec. 4.2 of the Design Document) of the Type-2 case-accessor affix for the case in question. For example, the COMITATIVE case would be named <i><b>warmpa ëizyi’ve</b> ‘grammatical case/format associated with that which accompanies’ </i>. </deftext>
+					</def>
+					<def>
+						<deftext>For categories other than noun cases or verbal formats, use the appropriate root/stem from the list above in conjunction with one of the following stems as appropriate, where that stem in turn manifests (i.e., is declined into) the particular morphological category: -<kref>PS</kref>- Stem 1: ‘to happen/occur’; -<kref>PS</kref>- Stem 2: ‘to be/manifest’. For example, the Ithkuil term for the subjunctive mood would be <i><b>warmpļa hre psi’ve</b> ‘grammatical mood associated with what may happen’ </i>. </deftext>
+					</def>
+				</def>
+				<categ>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>MPÇ<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>lexical root</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<co>The stems follow the same Specification pattern of the root -<kref type="hpr">MPH</kref>-</co>
+					<deftext></deftext>
+				</def>
+				<categ>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>MPĻ<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>lexical stem</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<co>The stems follow the same Specification pattern of the root -<kref type="hpr">MPH</kref>-</co>
+					<deftext></deftext>
+				</def>
+				<categ>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>MPM<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>concatenated root</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<co>The stems follow the same Specification pattern of the root -<kref type="hpr">MPH</kref>-</co>
+					<deftext></deftext>
+				</def>
+				<categ>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>MPN<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>concatenated stem</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<co>The stems follow the same Specification pattern of the root -<kref type="hpr">MPH</kref>-</co>
+					<deftext></deftext>
+				</def>
+				<categ>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>RMP<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>noun case or verbal format</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<co>The stems follow the same Specification pattern of the root -<kref type="hpr">MPH</kref>-</co>
+					<deftext></deftext>
+				</def>
+				<categ>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>RMPW<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>case-accessor affix</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<co>The stems follow the same Specification pattern of the root -<kref type="hpr">MPH</kref>-</co>
+					<deftext></deftext>
+				</def>
+				<categ>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>RMPY<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>bias category</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<co>The stems follow the same Specification pattern of the root -<kref type="hpr">MPH</kref>-</co>
+					<deftext></deftext>
+				</def>
+				<categ>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>RMPL<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>expectation category</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<co>The stems follow the same Specification pattern of the root -<kref type="hpr">MPH</kref>-</co>
+					<deftext></deftext>
+				</def>
+				<categ>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>MŢP<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>level category</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<co>The stems follow the same Specification pattern of the root -<kref type="hpr">MPH</kref>-</co>
+					<deftext></deftext>
+				</def>
+				<categ>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>MŢPW<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>phase category</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<co>The stems follow the same Specification pattern of the root -<kref type="hpr">MPH</kref>-</co>
+					<deftext></deftext>
+				</def>
+				<categ>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>MŢPY<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>valence category</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<co>The stems follow the same Specification pattern of the root -<kref type="hpr">MPH</kref>-</co>
+					<deftext></deftext>
+				</def>
+				<categ>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>MŢPL<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>essence category</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<co>The stems follow the same Specification pattern of the root -<kref type="hpr">MPH</kref>-</co>
+					<deftext></deftext>
+				</def>
+				<categ>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>LMP<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>V<sub>X</sub>C<sub>S</sub> affix</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<co>The stems follow the same Specification pattern of the root -<kref type="hpr">MPH</kref>-</co>
+					<deftext></deftext>
+				</def>
+				<categ>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>LMPW<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>V<sub>X</sub>C<sub>S</sub> affix-type</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<co>The stems follow the same Specification pattern of the root -<kref type="hpr">MPH</kref>-</co>
+					<deftext></deftext>
+				</def>
+				<categ>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>LMPY<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>V<sub>X</sub>C<sub>S</sub> affix-degree</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<co>The stems follow the same Specification pattern of the root -<kref type="hpr">MPH</kref>-</co>
+					<deftext></deftext>
+				</def>
+				<categ>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>LMPL<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>formative (part of speech)</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<co>The stems follow the same Specification pattern of the root -<kref type="hpr">MPH</kref>-</co>
+					<deftext></deftext>
+				</def>
+				<categ>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>LMPR<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>adjunct (part of speech)</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<co>The stems follow the same Specification pattern of the root -<kref type="hpr">MPH</kref>-</co>
+					<deftext></deftext>
+				</def>
+				<categ>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>LMPŘ<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>referential (part of speech)</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<co>The stems follow the same Specification pattern of the root -<kref type="hpr">MPH</kref>-</co>
+					<deftext></deftext>
+				</def>
+				<categ>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>RMPŘ<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>illocution category</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<co>The stems follow the same Specification pattern of the root -<kref type="hpr">MPH</kref>-</co>
+					<deftext></deftext>
+				</def>
+				<categ>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>RMPÇ<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>validation category</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<co>The stems follow the same Specification pattern of the root -<kref type="hpr">MPH</kref>-</co>
+					<deftext></deftext>
+				</def>
+				<categ>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>RMPĻ<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>mood category</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<co>The stems follow the same Specification pattern of the root -<kref type="hpr">MPH</kref>-</co>
+					<deftext></deftext>
+				</def>
+				<categ>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>RMPM<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>context category</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<co>The stems follow the same Specification pattern of the root -<kref type="hpr">MPH</kref>-</co>
+					<deftext></deftext>
+				</def>
+				<categ>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>RMPN<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>aspect category</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<co>The stems follow the same Specification pattern of the root -<kref type="hpr">MPH</kref>-</co>
+					<deftext></deftext>
+				</def>
+				<categ>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>RMPH<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>effect category</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<co>The stems follow the same Specification pattern of the root -<kref type="hpr">MPH</kref>-</co>
+					<deftext></deftext>
+				</def>
+				<categ>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>MŢPR<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>perspective category</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<co>The stems follow the same Specification pattern of the root -<kref type="hpr">MPH</kref>-</co>
+					<deftext></deftext>
+				</def>
+				<categ>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>MŢPŘ<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>extension category</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<co>The stems follow the same Specification pattern of the root -<kref type="hpr">MPH</kref>-</co>
+					<deftext></deftext>
+				</def>
+				<categ>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>MŢPF<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>plexity category</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<co>The stems follow the same Specification pattern of the root -<kref type="hpr">MPH</kref>-</co>
+					<deftext></deftext>
+				</def>
+				<categ>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>MŢPŢ<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>similarity catetgory</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<co>The stems follow the same Specification pattern of the root -<kref type="hpr">MPH</kref>-</co>
+					<deftext></deftext>
+				</def>
+				<categ>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>MŢPÇ<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>separability category</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<co>The stems follow the same Specification pattern of the root -<kref type="hpr">MPH</kref>-</co>
+					<deftext></deftext>
+				</def>
+				<categ>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>MŢPS<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>version category</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<co>The stems follow the same Specification pattern of the root -<kref type="hpr">MPH</kref>-</co>
+					<deftext></deftext>
+				</def>
+				<categ>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>MŢPŠ<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>function category</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<co>The stems follow the same Specification pattern of the root -<kref type="hpr">MPH</kref>-</co>
+					<deftext></deftext>
+				</def>
+				<categ>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
+		<ar>
+			<k><opt>-</opt>MŢPH<opt>-</opt></k>
+			<def>
+				<def>
+					<gr><abbr>S0</abbr> <b>specification category</b></gr>
+					<deftext></deftext>
+				</def>
+				<def>
+					<co>The stems follow the same Specification pattern of the root -<kref type="hpr">MPH</kref>-</co>
+					<deftext></deftext>
+				</def>
+				<categ>
+					<kref idref="R14">ROOTS ASSOCIATED WITH ITHKUIL GRAMMATICAL FUNCTIONS</kref>
+				</categ>
+			</def>
+		</ar>
 	</lexicon>
 </xdxf>
